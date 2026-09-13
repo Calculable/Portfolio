@@ -1,22 +1,28 @@
 ---
-import { Image, getImage } from 'astro:assets';
+import { getImage } from 'astro:assets';
 import PortfolioLayout from '../layouts/PortfolioLayout.astro';
 import { dateAdded, newestFirst, titleFromFilename } from '../lib/photo-order.js';
 const imports = import.meta.glob('../assets/portfolio/**/*.{jpg,jpeg,png,webp,avif,JPG,JPEG,PNG,WEBP,AVIF}', { eager: true, import: 'default' });
 const photos = await Promise.all(Object.entries(imports).map(async ([path, source]) => {
   const file = path.replace('../', 'src/');
   const full = await getImage({ src: source, width: Math.min(source.width, 2500), format: 'webp', quality: 90 });
-  return { file, source, full: full.src, title: titleFromFilename(file), added: dateAdded(file) };
+  const widths = [...new Set([480, 800, 1200, 1800].map(width => Math.min(width, source.width)))];
+  const variants = await Promise.all(widths.map(width => getImage({ src: source, width, format: 'webp', quality: 85 })));
+  const thumbnail = variants[Math.min(1, variants.length - 1)].src;
+  const srcset = variants.map((image, i) => `${image.src} ${widths[i]}w`).join(', ');
+  return { thumbnail, srcset, file, source, full: full.src, title: titleFromFilename(file), added: dateAdded(file) };
 }));
 photos.sort(newestFirst);
 ---
 <PortfolioLayout image={photos[0]?.full} imageAlt={photos[0]?.title} imageCount={photos.length}>
   <main id="gallery" class="gallery-main">
     <h1 class="sr-only">Fotoarchiv von Jan Huber</h1>
+    <noscript><style>.gallery-thumbnail[data-src] { display: none !important; }</style></noscript>
     <div class="photo-grid">
       {photos.map((photo, index) => (
         <a class="photo" href={photo.full} data-photo data-index={index} aria-label={`${photo.title} – vergrössern`}>
-          <Image src={photo.source} alt={photo.title} widths={[480, 800, 1200, 1800].filter(width => width <= photo.source.width)} sizes="(max-width: 640px) 90vw, 44vw" format="webp" quality={85} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />
+          <img class="gallery-thumbnail" src={index < 2 ? photo.thumbnail : 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'} srcset={index < 2 ? photo.srcset : undefined} data-src={index >= 2 ? photo.thumbnail : undefined} data-srcset={index >= 2 ? photo.srcset : undefined} alt={photo.title} width={photo.source.width} height={photo.source.height} sizes="(max-width: 640px) 90vw, 44vw" decoding="async" />
+          {index >= 2 && <noscript><img src={photo.thumbnail} srcset={photo.srcset} sizes="(max-width: 640px) 90vw, 44vw" alt={photo.title} width={photo.source.width} height={photo.source.height} loading="lazy" decoding="async" /></noscript>}
         </a>
       ))}
     </div>

@@ -101,3 +101,10 @@ strukturierte CollectionPage/ImageGallery-Daten und Bild-Alternativtexte sind
 enthalten. Die neue Seite behält `noindex` in `src/layouts/PortfolioLayout.astro`.
 Für die spätere Freigabe auch den Tag auf der Startseite entfernen.
 Die Datenschutz-Verknüpfung ist vorerst ein inaktiver Platzhalter.
+
+Justified Gallery ist auf Version 3.8.1 fixiert. Die Integration übergibt die
+Bildabmessungen direkt als Layout-Daten, damit die Bibliothek nicht alle grossen
+Fallback-Bilder vorlädt. Der Browser wählt über `srcset` die passende Bildgrösse. Nach der Layout-Berechnung
+lädt ein IntersectionObserver weitere Bilder erst in der Nähe des sichtbaren Bereichs.
+Ohne JavaScript greift die Galerie auf native Lazy-Loading-Bilder zurück.
+Bei einem Bibliotheks-Update diesen Integrationspunkt erneut prüfen.
