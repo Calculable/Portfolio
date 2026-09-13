@@ -39,7 +39,6 @@ html.gallery-open { overflow: hidden; }
 .lightbox-stage { display: flex; align-items: center; gap: 1rem; flex: 1; min-height: 0; }
 .lightbox-stage figure { flex: 1; min-width: 0; margin: 0; display: flex; flex-direction: column; align-items: center; }
 #large-photo { display: block; max-width: 100%; max-height: calc(100dvh - 180px); object-fit: contain; touch-action: pan-y; }
-#photo-caption { padding-top: 1rem; color: #ddd; font-size: 0.85rem; text-align: center; }
 .lightbox-hint { text-align: center; color: #aaa; font-size: 0.75rem; }
 @media (min-width: 1800px) { .photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3vw; } }
 @media (max-width: 640px) {

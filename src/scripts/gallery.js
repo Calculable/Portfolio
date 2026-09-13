@@ -1,7 +1,6 @@
 const links = [...document.querySelectorAll('[data-photo]')];
 const dialog = document.querySelector('#lightbox');
 const image = document.querySelector('#large-photo');
-const caption = document.querySelector('#photo-caption');
 const counter = document.querySelector('#photo-counter');
 let current = 0;
 let opener;
@@ -13,7 +12,6 @@ function show(index) {
   const alt = link.querySelector('img').alt;
   image.src = link.href;
   image.alt = alt;
-  caption.textContent = alt;
   counter.textContent = `${current + 1} / ${links.length}`;
 }
 

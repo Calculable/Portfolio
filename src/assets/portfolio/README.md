@@ -11,8 +11,8 @@ nicht; Git-erkennbare Umbenennungen behalten das Datum ebenfalls.
 Uncommittete Bilder verwenden in der lokalen Vorschau ihr Dateidatum.
 
 Sprechende Dateinamen verwenden, zum Beispiel `Sonnenaufgang-am-See.jpg`:
-Daraus entstehen automatisch Bildbeschreibung, Alternativtext und Carousel-
-Beschriftung. Bindestriche und Unterstriche werden zu Leerzeichen.
+Daraus entstehen automatisch Alternativtexte für Screenreader. Sichtbare
+Bildbeschreibungen werden nicht angezeigt. Bindestriche und Unterstriche werden zu Leerzeichen.
 
 Die 42 übernommenen Bilder haben Nummern, damit sie innerhalb ihres gemeinsamen
 Import-Commits die Reihenfolge der bisherigen Webseite behalten. Bei neuen
