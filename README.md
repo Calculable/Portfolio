@@ -44,3 +44,21 @@ git push
 ```
 
 Deployment-Anleitung: https://docs.astro.build/en/guides/deploy/github/
+
+## Kontaktformular (Basin)
+
+Das HTML-Formular sendet Name, E-Mail und Nachricht per POST an
+`https://usebasin.com/f/ff509d632e80`. Es funktioniert ohne JavaScript.
+Nach erfolgreichem Versand zeigt Basin seine Standard-Bestätigungsseite.
+
+- Dashboard: https://usebasin.com/app/forms/75327/submissions
+- Benachrichtigungen: https://usebasin.com/app/forms/75327/notification_email_settings/edit
+- Der Empfänger wird ausschließlich in Basin verwaltet. Den Bestätigungslink in Basins Verifizierungs-E-Mail anklicken, um E-Mail-Benachrichtigungen zu aktivieren.
+- `site_source` enthält `https://calculable.github.io/Portfolio/`.
+- `form_source` enthält `portfolio-contact`.
+
+Bei weiteren Webseiten/Formularen die versteckten Werte in `src/pages/index.astro`
+entsprechend anpassen. Sie werden mit jeder Anfrage gespeichert. Versteckte
+Felder sind öffentlich einsehbar und vom Absender veränderbar; sie dienen nur
+der Zuordnung, nicht als Sicherheitsnachweis. Der öffentliche Basin-Endpunkt
+benötigt keinen geheimen API-Schlüssel im Frontend.

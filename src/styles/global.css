@@ -17,4 +17,14 @@ button span { margin-left: 1.5rem; }
 button:hover { background: #435239; }
 button:focus-visible { outline: 3px solid #627345; outline-offset: 4px; }
 .greeting { min-height: 1.5em; color: #435239; }
+.contact { margin-top: 4rem; max-width: 38rem; }
+.contact h2 { font-size: 2rem; letter-spacing: -0.035em; margin-bottom: 0.75rem; }
+.contact > p { color: #5c6257; line-height: 1.6; }
+.contact form { display: grid; gap: 0.65rem; margin-top: 2rem; }
+.contact label { font-weight: 600; }
+.contact input:not([type="hidden"]), .contact textarea { width: 100%; min-width: 0; margin-bottom: 0.75rem; padding: 0.85rem 1rem; border: 1px solid #969e8d; border-radius: 0.4rem; color: inherit; background: #fff; font: inherit; }
+.contact textarea { resize: vertical; min-height: 9rem; }
+.contact input:focus-visible, .contact textarea:focus-visible { outline: 3px solid #627345; outline-offset: 2px; }
+.contact button { justify-self: start; margin-top: 0.5rem; }
+.form-note { margin: 0; font-size: 0.85rem; line-height: 1.6; color: #5c6257; }
 footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid #d5d8cd; color: #656b60; font-size: 0.85rem; }
