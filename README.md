@@ -1,5 +1,15 @@
 # Portfolio
 
+## Suchmaschinen während der Entwicklung
+
+Die Startseite enthält `<meta name="robots" content="noindex" />` im HTML-Kopf.
+Damit werden Suchmaschinen, die diese Anweisung unterstützen, angewiesen, die
+Seite nicht zu indexieren. Zum öffentlichen Suchmaschinen-Start diesen Tag in
+`src/pages/index.astro` entfernen; bei zusätzlichen Seiten ebenfalls `noindex`
+setzen, solange das Portfolio noch nicht indexiert werden soll.
+Keine Crawling-Sperre in `robots.txt` hinzufügen: Suchmaschinen müssen die Seite
+abrufen können, um `noindex` zu sehen. Die Webseite bleibt per Direktlink erreichbar.
+
 Eine einfache Hello-World-Webseite mit Astro, HTML, CSS und Vanilla JavaScript.
 
 Live: https://calculable.github.io/Portfolio/
