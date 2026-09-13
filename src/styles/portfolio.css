@@ -16,9 +16,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid #9d9d9d; outline-offs
 .contact-link { color: #242424; background: #dededc; padding: 1rem 1.8rem; border-radius: 3rem; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
 .contact-link:hover { background: #fff; }
 .gallery-main { padding: 4vw; }
-.photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5vw; align-items: start; }
+.photo-grid:not(.justified-gallery) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5vw; align-items: start; }
 .photo { display: block; overflow: hidden; background: #f1f1ef; cursor: zoom-in; }
-.photo-wide { grid-column: 1 / -1; }
+.photo-grid.justified-gallery { display: block; }
+.photo-grid.justified-gallery > a:focus-visible { outline-offset: -4px; }
 .photo img { display: block; width: 100%; height: auto; transition: opacity 180ms ease; }
 .photo:hover img { opacity: 0.92; }
 .site-footer { display: flex; justify-content: center; gap: 2rem; padding: 5rem 4vw; font-size: 0.9rem; }
@@ -40,7 +41,7 @@ html.gallery-open { overflow: hidden; }
 .lightbox-stage figure { flex: 1; min-width: 0; margin: 0; display: flex; flex-direction: column; align-items: center; }
 #large-photo { display: block; max-width: 100%; max-height: calc(100dvh - 180px); object-fit: contain; touch-action: pan-y; }
 .lightbox-hint { text-align: center; color: #aaa; font-size: 0.75rem; }
-@media (min-width: 1800px) { .photo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3vw; } }
+@media (min-width: 1800px) { .photo-grid:not(.justified-gallery) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3vw; } }
 @media (max-width: 640px) {
   .site-header { flex-wrap: wrap; gap: 1.2rem; padding: 1.4rem 5vw; min-height: 0; }
   .wordmark { font-size: 1.1rem; }
@@ -48,7 +49,7 @@ html.gallery-open { overflow: hidden; }
   .header-actions { width: 100%; gap: 1.3rem; }
   .contact-link { margin-left: auto; padding: 0.75rem 1.4rem; }
   .gallery-main { padding: 6vw 5vw; }
-  .photo-grid { grid-template-columns: minmax(0, 1fr); gap: 6vw; }
+  .photo-grid:not(.justified-gallery) { grid-template-columns: minmax(0, 1fr); gap: 6vw; }
   .site-footer { flex-direction: column; align-items: center; gap: 1.2rem; padding: 3rem 5vw; }
   .lightbox-stage { gap: 0; position: relative; }
   .lightbox-stage .icon-button { position: absolute; z-index: 1; bottom: 0; background: #303030; }

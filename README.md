@@ -88,8 +88,11 @@ nach Dateinamen. Der Deployment-Workflow lädt dafür die vollständige Git-Hist
 Die Erstübernahme enthält alle 42 Fotos von https://www.jan-huber.ch/portfolio;
 die ursprüngliche Webseite wird nicht verändert und nicht für Bildaufrufe benötigt.
 
-Die Galerie verwendet CSS Grid, optimierte responsive Bilder und ein natives
-Dialogfenster mit Vanilla JavaScript. Klick, Pfeiltasten und horizontales Wischen
+Die Galerie verwendet Justified Gallery (mit gebündeltem jQuery), optimierte
+responsive Bilder und ein natives
+Dialogfenster mit Vanilla JavaScript. Die Zeilen passen sich automatisch der
+verfügbaren Breite an; Bildbeschreibungen bleiben ausgeblendet. Ohne JavaScript
+bleibt ein einfaches CSS Grid sichtbar. Klick, Pfeiltasten und horizontales Wischen
 wechseln die Fotos; Escape schliesst das Fenster. Ohne JavaScript öffnet ein
 Bildlink das grosse Bild direkt. Header und Footer sind eigene Astro-Komponenten.
 
