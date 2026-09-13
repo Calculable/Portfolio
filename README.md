@@ -72,3 +72,29 @@ entsprechend anpassen. Sie werden mit jeder Anfrage gespeichert. Versteckte
 Felder sind öffentlich einsehbar und vom Absender veränderbar; sie dienen nur
 der Zuordnung, nicht als Sicherheitsnachweis. Der öffentliche Basin-Endpunkt
 benötigt keinen geheimen API-Schlüssel im Frontend.
+
+## Fotoarchiv unter /portfolio/
+
+Live: https://calculable.github.io/Portfolio/portfolio/
+
+GitHub Pages stellt das Repository unter `/Portfolio/` bereit. Die neue Route
+`/portfolio/` liegt darunter. Mit einer eigenen Domain kann dieser Repository-
+Präfix später entfallen.
+
+Bilder einfach in `src/assets/portfolio/` ablegen, committen und pushen.
+Details und unterstützte Formate stehen in der README in diesem Bilderordner.
+Die Sortierung erfolgt absteigend nach dem ersten Git-Commit, bei Gleichstand
+nach Dateinamen. Der Deployment-Workflow lädt dafür die vollständige Git-Historie.
+Die Erstübernahme enthält alle 42 Fotos von https://www.jan-huber.ch/portfolio;
+die ursprüngliche Webseite wird nicht verändert und nicht für Bildaufrufe benötigt.
+
+Die Galerie verwendet CSS Grid, optimierte responsive Bilder und ein natives
+Dialogfenster mit Vanilla JavaScript. Klick, Pfeiltasten und horizontales Wischen
+wechseln die Fotos; Escape schliesst das Fenster. Ohne JavaScript öffnet ein
+Bildlink das grosse Bild direkt. Header und Footer sind eigene Astro-Komponenten.
+
+SEO: Titel, Beschreibung, Canonical-URL, Open Graph, Twitter-Vorschau,
+strukturierte CollectionPage/ImageGallery-Daten und Bild-Alternativtexte sind
+enthalten. Die neue Seite behält `noindex` in `src/layouts/PortfolioLayout.astro`.
+Für die spätere Freigabe auch den Tag auf der Startseite entfernen.
+Die Datenschutz-Verknüpfung ist vorerst ein inaktiver Platzhalter.

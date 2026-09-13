@@ -1,0 +1,38 @@
+---
+import { Image, getImage } from 'astro:assets';
+import PortfolioLayout from '../layouts/PortfolioLayout.astro';
+import { dateAdded, newestFirst, titleFromFilename } from '../lib/photo-order.js';
+const imports = import.meta.glob('../assets/portfolio/**/*.{jpg,jpeg,png,webp,avif,JPG,JPEG,PNG,WEBP,AVIF}', { eager: true, import: 'default' });
+const photos = await Promise.all(Object.entries(imports).map(async ([path, source]) => {
+  const file = path.replace('../', 'src/');
+  const full = await getImage({ src: source, width: Math.min(source.width, 2500), format: 'webp', quality: 90 });
+  return { file, source, full: full.src, title: titleFromFilename(file), added: dateAdded(file), wide: source.width / source.height > 2 };
+}));
+photos.sort(newestFirst);
+---
+<PortfolioLayout image={photos[0]?.full} imageAlt={photos[0]?.title} imageCount={photos.length}>
+  <main id="gallery" class="gallery-main">
+    <h1 class="sr-only">Fotoarchiv von Jan Huber</h1>
+    <div class="photo-grid">
+      {photos.map((photo, index) => (
+        <a class:list={['photo', { 'photo-wide': photo.wide }]} href={photo.full} data-photo data-index={index} aria-label={`${photo.title} – vergrössern`}>
+          <Image src={photo.source} alt={photo.title} widths={[480, 800, 1200, 1800].filter(width => width <= photo.source.width)} sizes={photo.wide ? '92vw' : '(max-width: 640px) 92vw, (min-width: 1800px) 29vw, 44vw'} format="webp" quality={85} loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />
+        </a>
+      ))}
+    </div>
+    {photos.length === 0 && <p class="empty-gallery">Neue Fotografien folgen bald.</p>}
+  </main>
+  <dialog class="lightbox" aria-label="Fotoansicht" id="lightbox">
+    <div class="lightbox-toolbar">
+      <p id="photo-counter" role="status" aria-live="polite"></p>
+      <button type="button" class="icon-button" id="close-lightbox" aria-label="Fotoansicht schliessen" autofocus>×</button>
+    </div>
+    <div class="lightbox-stage">
+      <button type="button" class="icon-button previous" id="previous-photo" aria-label="Vorheriges Foto">‹</button>
+      <figure><img id="large-photo" alt="" /><figcaption id="photo-caption"></figcaption></figure>
+      <button type="button" class="icon-button next" id="next-photo" aria-label="Nächstes Foto">›</button>
+    </div>
+    <p class="lightbox-hint">← → Blättern <span aria-hidden="true">·</span> Esc Schliessen</p>
+  </dialog>
+  <script>import '../scripts/gallery.js';</script>
+</PortfolioLayout>

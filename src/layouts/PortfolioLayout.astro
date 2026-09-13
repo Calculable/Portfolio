@@ -1,0 +1,41 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/portfolio.css';
+const { image, imageAlt, imageCount } = Astro.props;
+const title = 'Fotoarchiv — Jan Huber';
+const description = 'Fotografie von Jan Huber: Landschaften, Berge, Natur und besondere Lichtstimmungen. Entdecke das Fotoarchiv in einer Galerie.';
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const socialImage = image ? new URL(image, Astro.site).href : undefined;
+const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonical, inLanguage: 'de-CH', author: { '@type': 'Person', name: 'Jan Huber' }, ...(socialImage && { image: socialImage }), mainEntity: { '@type': 'ImageGallery', name: 'Fotoarchiv', numberOfItems: imageCount } };
+---
+<!doctype html>
+<html lang="de-CH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Jan Huber" />
+    <!-- Keep noindex until the new portfolio is ready for search engines. -->
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jan Huber" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="de_CH" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <><meta property="og:image" content={socialImage} /><meta property="og:image:alt" content={imageAlt} /><meta name="twitter:image" content={socialImage} /><meta name="twitter:image:alt" content={imageAlt} /></>}
+    <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#gallery">Zum Inhalt springen</a>
+    <SiteHeader />
+    <slot />
+    <SiteFooter />
+  </body>
+</html>
