@@ -1,18 +1,14 @@
 # Portfolio
 
-## Suchmaschinen während der Entwicklung
+## Veröffentlichung und Domain
 
-Alle Seiten behalten während der Migration `noindex`. Der Tag steht in
-`src/layouts/PageLayout.astro` und `src/layouts/PortfolioLayout.astro`.
-Erst beim ausdrücklich freigegebenen Suchmaschinen-Start entfernen. Keine
-Crawling-Sperre ergänzen: Suchmaschinen müssen `noindex` lesen können.
+Die Astro-Webseite läuft auf GitHub Pages unter https://www.jan-huber.ch/.
+Der Domainumzug und die Suchmaschinen-Freigabe wurden am 14.09.2026 autorisiert.
+`noindex` wurde entfernt; `robots.txt` verweist auf die Sitemap.
+`astro.config.mjs` verwendet die Originaldomain und den Basispfad `/`.
 
-Die Astro-Webseite enthält die von Squarespace übernommenen öffentlichen Inhalte.
-**Die Migration wird nach Freigabe vom 14.09.2026 auf GitHub Pages veröffentlicht.
-Der Domainumzug und die Suchmaschinen-Freigabe bleiben separat.**
-Anforderungen, Seiten-Checkliste, Entscheidungen und Prüfungen: [MIGRATION.md](MIGRATION.md).
-
-Bisher veröffentlichte Version: https://calculable.github.io/Portfolio/
+Anforderungen und Historie: [MIGRATION.md](MIGRATION.md).
+DNS-Änderungen, Prüfungen und Rückfallplan: [DOMAIN-MOVE.md](DOMAIN-MOVE.md).
 
 ## Lokal starten
 
@@ -23,7 +19,7 @@ npm ci
 npm run dev
 ```
 
-Öffne die im Terminal angezeigte lokale Adresse mit dem Pfad `/Portfolio/`.
+Öffne die im Terminal angezeigte lokale Adresse mit dem Pfad `/`.
 
 ## Build und Vorschau
 
@@ -76,7 +72,7 @@ Link „Software“ auf der Startseite scrollt dorthin. Neue Sprungmarken nur f�
 tatsächlich verwendete Links anlegen.
 
 Gemeinsam erzeugt das Layout Canonical-URL, Open-Graph-Seitenadresse/Seitenname
-und den vorläufigen `noindex`-Tag. Open Graph liefert auch die Titel, Beschreibung
+auf der Originaldomain. Open Graph liefert auch die Titel, Beschreibung
 und Bilder für Twitter/X; nur `twitter:card` wird separat angegeben. Strukturierte
 Artikeldaten bleiben bei Fotoorten erhalten; allgemeine WebSite-Daten stehen nur
 auf der Startseite.
@@ -160,11 +156,10 @@ benötigt keinen geheimen API-Schlüssel im Frontend.
 
 ## Fotoarchiv unter /portfolio/
 
-Live: https://calculable.github.io/Portfolio/portfolio/
+Live: https://www.jan-huber.ch/portfolio/
 
-GitHub Pages stellt das Repository unter `/Portfolio/` bereit. Die neue Route
-`/portfolio/` liegt darunter. Mit einer eigenen Domain kann dieser Repository-
-Präfix später entfallen.
+Das Fotoarchiv ist unter `/portfolio/` erreichbar. Der temporäre Repository-
+Präfix `/Portfolio` entfällt auf der eigenen Domain.
 
 Bilder einfach in `src/assets/portfolio/` ablegen, committen und pushen.
 Details und unterstützte Formate stehen in der README in diesem Bilderordner.
@@ -183,8 +178,7 @@ Bildlink das grosse Bild direkt. Header und Footer sind eigene Astro-Komponenten
 
 SEO: Titel, Beschreibung, Canonical-URL, Open Graph, Twitter-Vorschau,
 strukturierte CollectionPage/ImageGallery-Daten und Bild-Alternativtexte sind
-enthalten. Die neue Seite behält `noindex` in `src/layouts/PortfolioLayout.astro`.
-Für die spätere Freigabe auch den Tag in `PageLayout.astro` entfernen.
+enthalten. Die Seiten sind für Suchmaschinen freigegeben.
 Die Datenschutz-Verknüpfung führt zur übertragenen Datenschutzerklärung.
 
 Justified Gallery ist auf Version 3.8.1 fixiert. Die Integration übergibt die
@@ -205,15 +199,14 @@ Es wird nur in Produktions-Builds und nur auf dem Host aus `astro.config.mjs`
 (`site`) geladen. Lokale Entwicklungs- und Build-Vorschauen laden das externe
 Skript nicht. Auch bei `navigator.doNotTrack === '1'` wird es nicht geladen.
 Keine zusätzlichen Klick-, Formular- oder Download-Ereignisse sind eingerichtet.
-Die Canonical-URLs dienen GoatCounter zur Zuordnung der Seiten; der aktuelle
-`/Portfolio`-Präfix bleibt zunächst in den Statistikpfaden.
+Die Canonical-URLs dienen GoatCounter zur Zuordnung der Seiten; seit dem Domainumzug
+entfällt der `/Portfolio`-Präfix bei neuen Seitenaufrufen.
 
-Beim Domainumzug `site` in der Astro-Konfiguration und „Your site“ in GoatCounter
-aktualisieren. Die Statistik verwendet danach die neuen Seitenpfade. Die
+`site` in der Astro-Konfiguration und „Your site“ in GoatCounter verwenden
+https://www.jan-huber.ch. Die
 Datenschutzerklärung beschreibt den Dienst und muss bei Änderungen seiner
 Datenerfassung entsprechend angepasst werden.
 
 Einrichtung und Content-Cleanup wurden am 14.09.2026 zur Veröffentlichung
-freigegeben. Auf der veröffentlichten Website werden Seitenaufrufe erfasst. Die E-Mail-Bestätigung im
-GoatCounter-Konto steht noch aus. Die Dashboard-Einstellung bleibt privat;
+freigegeben. Auf der veröffentlichten Website werden Seitenaufrufe erfasst. Der Benutzer hat GoatCounter und Formularzustellung vor dem Domainumzug bestätigt. Die Dashboard-Einstellung bleibt privat;
 Speicherung einzelner Seitenaufrufe bleibt deaktiviert.

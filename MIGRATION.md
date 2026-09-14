@@ -248,3 +248,12 @@ Final SEO comparison: 1,358 original metadata fields checked against built HTML;
 ## Follow-up release authorized (2026-09-14)
 - User requested push and deploy of the content organization, SEO/anchor cleanup and GoatCounter integration. Earlier local-only notes describe pre-release checkpoints.
 - Final production build/link audit passes for 79 pages. Domain and noindex remain unchanged.
+
+## Domain launch authorized (2026-09-14)
+- User confirmed form delivery, GoatCounter and Vimeo, then explicitly authorized moving the domain while preserving URLs.
+- Deployed fc4526b via successful Actions run 34820294887. Astro site is https://www.jan-huber.ch with base /; production noindex removed and robots.txt added. All existing content route fields remain unchanged.
+- Verified domain ownership with GitHub, configured www.jan-huber.ch as the Pages custom domain, and changed only the five web DNS records at Hosttech. Registration, nameservers, DNSSEC, mail and other verification records retained. Squarespace remains available for rollback.
+- GoatCounter site link updated to https://www.jan-huber.ch; account verification and receipt were confirmed by user.
+- Local build/audit: 79 pages, zero errors. All 79 routes served successfully from GitHub origin over HTTP; public DNS resolvers now return GitHub records. HTTPS provisioning still pending at this checkpoint.
+- See DOMAIN-MOVE.md for exact DNS records, rollback information and remaining verification. Earlier preview/noindex/domain deferral notes are historical and superseded by this launch.
+- Certificate subsequently issued and Enforce HTTPS enabled. All 142 original/generated HTTPS URL variants pass; apex and old GitHub Pages addresses preserve paths in redirects. Residual browser DNS/HTTP edge caches still propagating; recorded in DOMAIN-MOVE.md.
