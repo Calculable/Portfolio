@@ -1,0 +1,75 @@
+<script>
+  // Adapted from the original comparison snippet supplied with this page.
+  // Native range controls replace its jQuery / jQuery Mobile drag handlers.
+  class ImageComparison extends HTMLElement {
+    connectedCallback() {
+      if (this.dataset.ready) return;
+      const input = this.querySelector('input');
+      const label = this.querySelector('label');
+      const stage = this.querySelector<HTMLElement>('.comparison-images');
+      const labels = this.querySelector<HTMLElement>('.comparison-labels');
+      if (!input || !label || !stage || !labels) return;
+      this.dataset.ready = 'true';
+      input.value = '70';
+      label.hidden = false;
+      stage.append(labels, label);
+      const update = () => {
+        this.style.setProperty('--split', `${input.value}%`);
+        const width = stage.clientWidth;
+        const split = Number(input.value) / 100 * width;
+        const before = labels.children[0] as HTMLElement;
+        const after = labels.children[1] as HTMLElement;
+        before.classList.toggle('is-hidden', split < before.offsetWidth + 16);
+        after.classList.toggle('is-hidden', width - split < after.offsetWidth + 16);
+      };
+      input.addEventListener('input', () => {
+        this.classList.add('interacted');
+        update();
+      });
+      update();
+      const resize = new ResizeObserver(update);
+      resize.observe(stage);
+      const reveal = new IntersectionObserver((entries) => {
+        if (entries.some(entry => entry.isIntersecting)) {
+          this.classList.add('is-visible');
+          reveal.disconnect();
+        }
+      }, { threshold: 0.2 });
+      reveal.observe(this);
+      this.cleanup = () => { resize.disconnect(); reveal.disconnect(); };
+    }
+    cleanup?: () => void;
+    disconnectedCallback() { this.cleanup?.(); delete this.dataset.ready; }
+  }
+  if (!customElements.get('image-comparison')) customElements.define('image-comparison', ImageComparison);
+</script>
+<style is:global>
+  image-comparison { display: block; margin: 1.5rem auto 4rem; max-width: 900px; }
+  image-comparison .comparison-images { display: flex; flex-direction: row-reverse; gap: 1rem; }
+  image-comparison .comparison-images img { display: block; width: 50%; height: auto; object-fit: contain; margin: 0; border-radius: 0; }
+  image-comparison[data-ready] .comparison-images { display: grid; position: relative; overflow: hidden; border-radius: 12px; isolation: isolate; }
+  image-comparison[data-ready] .comparison-images img { grid-area: 1 / 1; width: 100%; height: 100%; max-height: 65vh; object-fit: contain; }
+  image-comparison[data-ready] .comparison-images img + img { clip-path: inset(0 calc(100% - var(--split)) 0 0); }
+  image-comparison.is-visible:not(.interacted) .comparison-images img + img { animation: comparison-reveal .7s both; }
+  @keyframes comparison-reveal { 0% { clip-path: inset(0 100% 0 0); } 60% { clip-path: inset(0 25% 0 0); } 100% { clip-path: inset(0 30% 0 0); } }
+  image-comparison .comparison-labels { display: flex; justify-content: space-between; gap: 1rem; margin: .6rem 0; color: #777; font-size: .85rem; }
+  image-comparison[data-ready] .comparison-labels { position: absolute; inset: auto 0 0; margin: 0; padding: 1rem; color: white; pointer-events: none; z-index: 1; text-shadow: 0 1px 4px #000; }
+  image-comparison[data-ready] .comparison-labels span { background: #0006; padding: .3rem .5rem; border-radius: 4px; transition: opacity .2s; }
+  image-comparison .is-hidden { visibility: hidden; }
+  image-comparison[data-ready] label { position: absolute; inset: 0; color: transparent; font-size: 0; }
+  image-comparison[data-ready] input[type='range'] { appearance: none; -webkit-appearance: none; position: absolute; top: 50%; left: -22px; width: calc(100% + 44px); height: 44px; transform: translateY(-50%); padding: 0; margin: 0; border: 0; border-radius: 0; background: transparent; cursor: ew-resize; touch-action: pan-y; opacity: 0; }
+  image-comparison.is-visible input[type='range'] { opacity: 1; transition: opacity .3s .7s; }
+  image-comparison input[type='range']::-webkit-slider-runnable-track { background: transparent; height: 44px; }
+  image-comparison input[type='range']::-moz-range-track { background: transparent; height: 44px; }
+  image-comparison input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #ededed url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M13 21 8 16l5-5m6 0 5 5-5 5'/%3E%3C/svg%3E") center/32px no-repeat; box-shadow: 0 0 0 6px #0003, 0 0 10px #0009, inset 0 1px #ffffff4d; cursor: ew-resize; }
+  image-comparison input[type='range']::-moz-range-thumb { width: 44px; height: 44px; border: 0; border-radius: 50%; background: #ededed url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M13 21 8 16l5-5m6 0 5 5-5 5'/%3E%3C/svg%3E") center/32px no-repeat; box-shadow: 0 0 0 6px #0003, 0 0 10px #0009; cursor: ew-resize; }
+  image-comparison input:active::-webkit-slider-thumb { background-color: #b7b7b7; }
+  image-comparison input:active::-moz-range-thumb { background-color: #b7b7b7; }
+  image-comparison input:focus-visible { outline: none; }
+  image-comparison input:focus-visible::-webkit-slider-thumb { outline: 3px solid white; outline-offset: 6px; }
+  image-comparison input:focus-visible::-moz-range-thumb { outline: 3px solid white; outline-offset: 6px; }
+  @media (prefers-reduced-motion: reduce) {
+    image-comparison.is-visible:not(.interacted) .comparison-images img + img { animation: none; }
+    image-comparison.is-visible input[type='range'] { transition: none; }
+  }
+</style>

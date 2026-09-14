@@ -1,4 +1,5 @@
 ---
+import ImageComparison from '../components/ImageComparison.astro';
 import ProjectList from '../components/ProjectList.astro';
 import { formatContentImages } from '../lib/content-images.js';
 import ProjectHeader from '../components/ProjectHeader.astro';
@@ -50,6 +51,7 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
       ) : <Fragment set:html={content} />}
       {page.path === '/' && <ProjectList />}
     </main>
+    {page.imageComparisons && <ImageComparison />}
     <SiteFooter />
     <Analytics />
   </body>

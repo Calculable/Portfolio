@@ -257,3 +257,20 @@ Final SEO comparison: 1,358 original metadata fields checked against built HTML;
 - Local build/audit: 79 pages, zero errors. All 79 routes served successfully from GitHub origin over HTTP; public DNS resolvers now return GitHub records. HTTPS provisioning still pending at this checkpoint.
 - See DOMAIN-MOVE.md for exact DNS records, rollback information and remaining verification. Earlier preview/noindex/domain deferral notes are historical and superseded by this launch.
 - Certificate subsequently issued and Enforce HTTPS enabled. All 142 original/generated HTTPS URL variants pass; apex and old GitHub Pages addresses preserve paths in redirects. Residual browser DNS/HTTP edge caches still propagating; recorded in DOMAIN-MOVE.md.
+
+## Pfäffikon – Historisch (2026-09-14)
+- [x] User explicitly requested this additional page; original URL /historische-bilder-pfaffikon-zh retained.
+- [x] Original text, nine image pairs, dates, source/licence links and SEO imported. All 19 images (including header) stored in public/media/pfaeffikon-historisch.
+- [x] Existing homepage card activated and obsolete offline label removed.
+- Technical decision: lightweight custom element with native range input and CSS clipping replaces the old comparison widget. Supports keyboard and touch; without JavaScript both images remain visible side by side. No third-party runtime or new dependency. Text remains Markdown; comparison pairs use small HTML blocks because they are interactive.
+- Branch content/pfaeffikon-historisch. Existing unrelated SiteHeader.astro and portfolio.css edits left untouched.
+- [x] Local build: 80 pages; link/media/anchor audit: zero errors. Nine sliders initialized; keyboard Home/End/Arrow controls verified, mobile viewport has no horizontal overflow.
+- [x] User approved merge and deployment of the Pfäffikon page and restored comparison slider.
+
+### Original comparison-slider styling restored
+- Adapted the user's supplied Squarespace snippet: circular 44px arrow handle with shadow, labels over the images, 70% starting position and a bounce reveal when scrolled into view. Labels hide when their image side becomes too narrow.
+- Retained the native range control for keyboard/touch interaction instead of loading jQuery 2.1.1 and jQuery Mobile from external CDNs. Omitted the snippet's global rewrite of every link to rel=external, which served the old mobile framework. Images remain local. Reduced-motion preferences disable the opening animation.
+- Browser verified photo overlay, handle, labels, click and keyboard changes; production build and 80-page link audit pass. Still local, not published.
+
+### Pfäffikon release authorization
+- User requested “merge and deploy”. Final production build and link/media/anchor audit pass for 80 pages; remote main has no divergent commits. Earlier local-only notes describe review checkpoints.
