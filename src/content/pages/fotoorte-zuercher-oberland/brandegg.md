@@ -5,28 +5,8 @@
   "path": "/fotoorte-zuercher-oberland/brandegg",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Brandegg — Jan Huber"
-    },
-    {
-      "property": "og:latitude",
-      "content": "40.7207559"
-    },
-    {
-      "property": "og:longitude",
-      "content": "-74.0007613"
-    },
-    {
-      "property": "og:locality",
-      "content": ""
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/brandegg"
     },
     {
       "property": "og:type",
@@ -49,77 +29,11 @@
       "content": "1125"
     },
     {
-      "itemprop": "name",
-      "content": "Brandegg — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/brandegg"
-    },
-    {
-      "itemprop": "description",
-      "content": "Mit 1243 Meter über Meer ist die Brandegg die höchste Erhebung, die komplett im Kanton Zürich steht. (Über das Schnebelhorn als höchster Gipfel im Kanton verläuft die Grenze zum Kanton St. Gallen)"
-    },
-    {
-      "itemprop": "thumbnailUrl",
-      "content": "/media/3a4f371d65-img_1012.jpg"
-    },
-    {
-      "itemprop": "image",
-      "content": "/media/3a4f371d65-img_1012.jpg"
-    },
-    {
-      "itemprop": "author",
-      "content": "Jan Huber"
-    },
-    {
-      "itemprop": "datePublished",
-      "content": "2021-03-08T09:38:00+0100"
-    },
-    {
-      "itemprop": "dateModified",
-      "content": "2021-03-10T21:18:24+0100"
-    },
-    {
-      "itemprop": "headline",
-      "content": "Brandegg"
-    },
-    {
-      "itemprop": "publisher",
-      "content": "Jan Huber"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Brandegg — Jan Huber"
-    },
-    {
-      "name": "twitter:image",
-      "content": "/media/3a4f371d65-img_1012.jpg"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/brandegg"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Mit 1243 Meter über Meer ist die Brandegg die höchste Erhebung, die komplett im Kanton Zürich steht. (Über das Schnebelhorn als höchster Gipfel im Kanton verläuft die Grenze zum Kanton St. Gallen)"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    },
     {
       "name": "Brandegg — Jan Huber",
       "url": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/brandegg",
@@ -145,10 +59,7 @@
 }
 ---
 
-<span id="page-section-5ff34939dac66e1e162b4e60"></span>
-
 # Brandegg
-
 
 Mit 1243 Meter über Meer ist die Brandegg die höchste Erhebung, die komplett im Kanton Zürich steht. (Über das Schnebelhorn als höchster Gipfel im Kanton verläuft die Grenze zum Kanton St. Gallen)
 
@@ -157,29 +68,20 @@ Mit 1243 Meter über Meer ist die Brandegg die höchste Erhebung, die komplett i
 
 Die Brandegg liegt zwischen Gibswil im Westen und der Vorder Töss im Osten und kann über mehrere Grate erreicht werden. Die Brandegg ist zudem die Wasserscheide zwischen Töss und Jona.
 
-<figure class="content-figure">
-<img src="/media/d0769f4ded-img_1012.jpg" alt="" width="2500" height="1875" loading="lazy" decoding="async">
-<figcaption><p>Auf dem Gipfel lichtet sich der Wald, was einen Rundumblick auf die umliegende Landschaft ermöglicht.</p></figcaption>
-</figure>
+![](</media/d0769f4ded-img_1012.jpg>)
 
-<figure class="content-figure">
-<img src="/media/617b78f3c5-img_1013.jpg" alt="" width="2500" height="578" loading="lazy" decoding="async">
-<figcaption><p>Panorama-Aufnahme der Aussicht auf der Brandegg</p></figcaption>
-</figure>
+*Auf dem Gipfel lichtet sich der Wald, was einen Rundumblick auf die umliegende Landschaft ermöglicht.*
 
-<figure class="content-figure">
-<img src="/media/3f9eb96fdb-img_0995.jpg" alt="" width="2500" height="1981" loading="lazy" decoding="async">
-<figcaption><p>Ein Weg durch den Wald führt direkt zur Brandegg</p></figcaption>
-</figure>
+![](</media/617b78f3c5-img_1013.jpg>)
 
-<figure class="content-figure">
-<img src="/media/53b5e3e383-img_0984.jpg" alt="" width="2500" height="1875" loading="lazy" decoding="async">
+*Panorama-Aufnahme der Aussicht auf der Brandegg*
 
-</figure>
+![](</media/3f9eb96fdb-img_0995.jpg>)
 
-<figure class="content-figure">
-<img src="/media/1ff477fe6a-img_9798.jpg" alt="" width="2500" height="1667" loading="lazy" decoding="async">
+*Ein Weg durch den Wald führt direkt zur Brandegg*
 
-</figure>
+![](</media/53b5e3e383-img_0984.jpg>)
+
+![](</media/1ff477fe6a-img_9798.jpg>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/bachtel">Zurück: Bachtel</a><a href="/fotoorte-zuercher-oberland/einzelner-baum-bei-adetswil">Weiter: Einzelner Baum bei Adetswil</a></nav>

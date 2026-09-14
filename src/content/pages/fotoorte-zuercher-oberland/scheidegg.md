@@ -5,28 +5,8 @@
   "path": "/fotoorte-zuercher-oberland/scheidegg",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Scheidegg — Jan Huber"
-    },
-    {
-      "property": "og:latitude",
-      "content": "40.7207559"
-    },
-    {
-      "property": "og:longitude",
-      "content": "-74.0007613"
-    },
-    {
-      "property": "og:locality",
-      "content": ""
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/scheidegg"
     },
     {
       "property": "og:type",
@@ -49,77 +29,11 @@
       "content": "1148"
     },
     {
-      "itemprop": "name",
-      "content": "Scheidegg — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/scheidegg"
-    },
-    {
-      "itemprop": "description",
-      "content": "Auf der Alp Scheidegg auf 1246 Meer über Meer hat man Aussicht auf Bachtel, Rigi und Pilates. Der höchste Punkt liegt zwischen der Brandegg und dem Hüttchopf. Die Alp kann bequem mit dem Auto erreicht werden und es ist eine Parkmöglichkeit vorhanden. Für Wanderungen zu Fuss kann man beispielsweise ü"
-    },
-    {
-      "itemprop": "thumbnailUrl",
-      "content": "/media/4dd902be40-img_0962.jpg"
-    },
-    {
-      "itemprop": "image",
-      "content": "/media/4dd902be40-img_0962.jpg"
-    },
-    {
-      "itemprop": "author",
-      "content": "Jan Huber"
-    },
-    {
-      "itemprop": "datePublished",
-      "content": "2021-02-15T17:04:00+0100"
-    },
-    {
-      "itemprop": "dateModified",
-      "content": "2021-03-10T21:23:56+0100"
-    },
-    {
-      "itemprop": "headline",
-      "content": "Scheidegg"
-    },
-    {
-      "itemprop": "publisher",
-      "content": "Jan Huber"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Scheidegg — Jan Huber"
-    },
-    {
-      "name": "twitter:image",
-      "content": "/media/4dd902be40-img_0962.jpg"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/scheidegg"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Auf der Alp Scheidegg auf 1246 Meer über Meer hat man Aussicht auf Bachtel, Rigi und Pilates. Der höchste Punkt liegt zwischen der Brandegg und dem Hüttchopf. Die Alp kann bequem mit dem Auto erreicht werden und es ist eine Parkmöglichkeit vorhanden. Für Wanderungen zu Fuss kann man beispielsweise ü"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    },
     {
       "name": "Scheidegg — Jan Huber",
       "url": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/scheidegg",
@@ -145,10 +59,7 @@
 }
 ---
 
-<span id="page-section-5ff34939dac66e1e162b4e60"></span>
-
 # Scheidegg
-
 
 Auf der Alp Scheidegg auf 1246 Meer über Meer hat man Aussicht auf Bachtel, Rigi und Pilates. Der höchste Punkt liegt zwischen der Brandegg und dem Hüttchopf. Die Alp kann bequem mit dem Auto erreicht werden und es ist eine Parkmöglichkeit vorhanden. Für Wanderungen zu Fuss kann man beispielsweise über den Josenberg zur Alp gelangen.
 
@@ -157,29 +68,20 @@ Auf der Alp Scheidegg auf 1246 Meer über Meer hat man Aussicht auf Bachtel, Rig
 
 Die Scheidegg ist bekannt als Ausflugsziel für Paraglider und Modellflieger, im Winter kann auch die Schlittelbahn verwendet werden.
 
-<figure class="content-figure">
-<img src="/media/c95313ea6e-img_0925.jpg" alt="" width="2500" height="1960" loading="lazy" decoding="async">
+![](</media/c95313ea6e-img_0925.jpg>)
 
-</figure>
+![](</media/2e2d220453-img_0938.jpg>)
 
-<figure class="content-figure">
-<img src="/media/2e2d220453-img_0938.jpg" alt="" width="2500" height="1875" loading="lazy" decoding="async">
-<figcaption><p>Die letzten Höhenmeter bis zur Scheidegg</p></figcaption>
-</figure>
+*Die letzten Höhenmeter bis zur Scheidegg*
 
-<figure class="content-figure">
-<img src="/media/c03f6ebf8c-img_0942.jpg" alt="" width="2500" height="1816" loading="lazy" decoding="async">
-<figcaption><p>…und der Blick zurück</p></figcaption>
-</figure>
+![](</media/c03f6ebf8c-img_0942.jpg>)
 
-<figure class="content-figure">
-<img src="/media/d1e68b5663-img_0962.jpg" alt="" width="2500" height="1914" loading="lazy" decoding="async">
-<figcaption><p>Aussicht von der Scheidegg</p></figcaption>
-</figure>
+*…und der Blick zurück*
 
-<figure class="content-figure">
-<img src="/media/9cd146f062-img_0968.jpg" alt="" width="2500" height="1862" loading="lazy" decoding="async">
+![](</media/d1e68b5663-img_0962.jpg>)
 
-</figure>
+*Aussicht von der Scheidegg*
+
+![](</media/9cd146f062-img_0968.jpg>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/sagenraintobel">Zurück: Sagenrain (Tobel)</a><a href="/fotoorte-zuercher-oberland/schnebelhorn">Weiter: Schnebelhorn</a></nav>

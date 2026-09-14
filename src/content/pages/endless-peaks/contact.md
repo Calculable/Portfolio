@@ -5,60 +5,22 @@
   "path": "/endless-peaks/contact",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Contact — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/endless-peaks/contact"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Contact — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/endless-peaks/contact"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Contact — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/endless-peaks/contact"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
-    }
-  ],
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
     }
   ],
   "lang": "en",
   "canonicalPath": "/endless-peaks/contact"
 }
 ---
-
-<span id="page-section-69710b7adaa28b3b8b6e497c"></span>
 
 # Endless Peaks:<br>Contact and Support
 

@@ -5,60 +5,22 @@
   "path": "/memosaurus/privacy-policy",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/memosaurus/privacy-policy"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/memosaurus/privacy-policy"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/memosaurus/privacy-policy"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
-    }
-  ],
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
     }
   ],
   "lang": "en",
   "canonicalPath": "/memosaurus/privacy-policy"
 }
 ---
-
-<span id="page-section-6404362369188b20b909b228"></span>
 
 # Memosaurus - App: <br>Privacy Policy
 

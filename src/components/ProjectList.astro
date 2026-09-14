@@ -5,7 +5,7 @@ const local = (url) => url?.startsWith('/') ? `${base}${url}` : url;
 ---
 <section id="page-section-625aab9ff90d7a4b52b57ace" aria-label="Projekte" class="project-list">
   {projects.map((project) => (
-    <article class="project-card" id={project.anchor}>
+    <article class="project-card">
       <div class="project-artwork">
       {project.url ? <a class="project-image" href={local(project.url)} aria-label={project.title}><img src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" /></a> : <img class="project-image" src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" />}
       </div>

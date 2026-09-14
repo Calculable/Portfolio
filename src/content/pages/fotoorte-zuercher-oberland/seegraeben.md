@@ -5,28 +5,8 @@
   "path": "/fotoorte-zuercher-oberland/seegraeben",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Seegräben — Jan Huber"
-    },
-    {
-      "property": "og:latitude",
-      "content": "40.7207559"
-    },
-    {
-      "property": "og:longitude",
-      "content": "-74.0007613"
-    },
-    {
-      "property": "og:locality",
-      "content": ""
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/seegraeben"
     },
     {
       "property": "og:type",
@@ -49,77 +29,11 @@
       "content": "1064"
     },
     {
-      "itemprop": "name",
-      "content": "Seegräben — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/seegraeben"
-    },
-    {
-      "itemprop": "description",
-      "content": "Seegräben ist ein kleines Dorf im Bezirk Hinwil. Viele Besucher kennen den Ort aufgrund der Jucker Farm - ein Erlebnisbauernhof direkt am Pfäffikersee."
-    },
-    {
-      "itemprop": "thumbnailUrl",
-      "content": "/media/ab497e1f55-img_2163.jpg"
-    },
-    {
-      "itemprop": "image",
-      "content": "/media/ab497e1f55-img_2163.jpg"
-    },
-    {
-      "itemprop": "author",
-      "content": "Jan Huber"
-    },
-    {
-      "itemprop": "datePublished",
-      "content": "2021-02-11T07:26:00+0100"
-    },
-    {
-      "itemprop": "dateModified",
-      "content": "2021-03-10T21:25:55+0100"
-    },
-    {
-      "itemprop": "headline",
-      "content": "Seegräben"
-    },
-    {
-      "itemprop": "publisher",
-      "content": "Jan Huber"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Seegräben — Jan Huber"
-    },
-    {
-      "name": "twitter:image",
-      "content": "/media/ab497e1f55-img_2163.jpg"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/seegraeben"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Seegräben ist ein kleines Dorf im Bezirk Hinwil. Viele Besucher kennen den Ort aufgrund der Jucker Farm - ein Erlebnisbauernhof direkt am Pfäffikersee."
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    },
     {
       "name": "Seegräben — Jan Huber",
       "url": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/seegraeben",
@@ -145,10 +59,7 @@
 }
 ---
 
-<span id="page-section-5ff34939dac66e1e162b4e60"></span>
-
 # Seegräben
-
 
 Seegräben ist ein kleines Dorf im Bezirk Hinwil. Viele Besucher kennen den Ort aufgrund der Jucker Farm - ein Erlebnisbauernhof direkt am Pfäffikersee.
 
@@ -157,44 +68,36 @@ Seegräben ist ein kleines Dorf im Bezirk Hinwil. Viele Besucher kennen den Ort 
 
 Neben der Juckerfarm kann in der Nähe von Seegräben auch das Sauriermuseum Aathal oder die Stein-Ausstellung Sieber+Sieber besucht werden.
 
-<figure class="content-figure">
-<img src="/media/150ad298be-img_2163.jpg" alt="" width="2500" height="1774" loading="lazy" decoding="async">
-<figcaption><p>Das malerische Seegräben im Morgenlicht. Im Vordergrund befindet sich der Schilfgürtel des Pfäffikersees. Seegräben liegt am Seeufer und bietet einen Blick auf die geschützten Riedgebite rund um den See.</p></figcaption>
-</figure>
+![](</media/150ad298be-img_2163.jpg>)
 
-<figure class="content-figure">
-<img src="/media/815f1a5b88-img_9232.jpg" alt="" width="2500" height="1888" loading="lazy" decoding="async">
-<figcaption><p>Seegräben im Winter</p></figcaption>
-</figure>
+*Das malerische Seegräben im Morgenlicht. Im Vordergrund befindet sich der Schilfgürtel des Pfäffikersees. Seegräben liegt am Seeufer und bietet einen Blick auf die geschützten Riedgebite rund um den See.*
 
-<figure class="content-figure">
-<img src="/media/672a187663-img_7932.jpg" alt="" width="2500" height="1675" loading="lazy" decoding="async">
-<figcaption><p>Blick von Seegräben auf den Pfäffikersee</p></figcaption>
-</figure>
+![](</media/815f1a5b88-img_9232.jpg>)
 
-<figure class="content-figure">
-<img src="/media/1caa489121-img_7947.jpg" alt="" width="2500" height="1618" loading="lazy" decoding="async">
-<figcaption><p>…und die Landschaft direkt dahinter</p></figcaption>
-</figure>
+*Seegräben im Winter*
 
-<figure class="content-figure">
-<img src="/media/a5fbd0b9ba-img_1228.jpg" alt="" width="2500" height="1667" loading="lazy" decoding="async">
-<figcaption><p>Ein Schild zeigt den Weg zur Jucker Farm Seegräben</p></figcaption>
-</figure>
+![](</media/672a187663-img_7932.jpg>)
 
-<figure class="content-figure">
-<img src="/media/9e3e23b597-img_3266.jpg" alt="" width="2500" height="1853" loading="lazy" decoding="async">
-<figcaption><p>Auf dem Erlebnisbauernhof wird Obst und Gemüse angepflanzt und es gibt Unterhaltungsangebote für Famillien: Eine Burg aus Strohballen, einen “Geisslipark“ sowie einen Obst-Irrgarten. Je nach Jahreszeit gibt es auch Beeren und Früchte zum selber-pflücken.</p></figcaption>
-</figure>
+*Blick von Seegräben auf den Pfäffikersee*
 
-<figure class="content-figure">
-<img src="/media/6241f977f9-img_7502.jpg" alt="" width="2500" height="1875" loading="lazy" decoding="async">
-<figcaption><p>Im Hofladen werden die Produkte zum Verkauf angeboten. Im Herbst gibt es unzählige Sorten von Kürbissen sowie Kürbis-Skulpturen in einer Ausstellung zu betrachten.</p></figcaption>
-</figure>
+![](</media/1caa489121-img_7947.jpg>)
 
-<figure class="content-figure">
-<img src="/media/e86fdad292-img_9437.jpg" alt="" width="2500" height="3333" loading="lazy" decoding="async">
-<figcaption><p>Die Kirche von Seegräben.</p></figcaption>
-</figure>
+*…und die Landschaft direkt dahinter*
+
+![](</media/a5fbd0b9ba-img_1228.jpg>)
+
+*Ein Schild zeigt den Weg zur Jucker Farm Seegräben*
+
+![](</media/9e3e23b597-img_3266.jpg>)
+
+*Auf dem Erlebnisbauernhof wird Obst und Gemüse angepflanzt und es gibt Unterhaltungsangebote für Famillien: Eine Burg aus Strohballen, einen “Geisslipark“ sowie einen Obst-Irrgarten. Je nach Jahreszeit gibt es auch Beeren und Früchte zum selber-pflücken.*
+
+![](</media/6241f977f9-img_7502.jpg>)
+
+*Im Hofladen werden die Produkte zum Verkauf angeboten. Im Herbst gibt es unzählige Sorten von Kürbissen sowie Kürbis-Skulpturen in einer Ausstellung zu betrachten.*
+
+![](</media/e86fdad292-img_9437.jpg>)
+
+*Die Kirche von Seegräben.*
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/schwerzenbach-am-greifensee">Zurück: Greifensee bei Schwerzenbach</a><a href="/fotoorte-zuercher-oberland/pfaeffikersee-seequai">Weiter: Seequai in Pfäffikon ZH</a></nav>

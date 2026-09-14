@@ -219,3 +219,32 @@ Final SEO comparison: 1,358 original metadata fields checked against built HTML;
 - Final production build: 79 pages; local link/media/anchor audit: zero errors. Remote main checked; no divergent changes.
 - Source files approximately 302 MiB; generated site approximately 348 MiB. Dependencies, generated output and downloaded source HTML remain excluded from Git.
 - Domain, original Squarespace site, analytics and noindex remain unchanged. Earlier “local only / nothing pushed” notes describe historical checkpoints, superseded by this release authorization.
+
+## Content organization and markup cleanup (2026-09-14, local review)
+- Branch: refactor/content-organization. These follow-up edits are not committed, pushed or deployed.
+- Every former top-level content file now lives in a project/page directory as index.md. App support/privacy pages are grouped with their project: endless-peaks, memosaurus, still-remember, 5seconds, etc. Existing path/canonicalPath/aliases fields are unchanged; filesystem names do not determine routes.
+- Removed 1,020 empty/redundant metadata entries from frontmatter: duplicate itemprop microdata, Twitter fields covered by Open Graph, repeated site name/URL, empty descriptions and obsolete geographic Open Graph fields. Site name/URL are generated centrally. Retained meaningful descriptions, Open Graph previews, twitter:card, canonical URLs, noindex and Article JSON-LD. Generic WebSite JSON-LD remains on the homepage only. Portfolio metadata similarly deduplicated.
+- Preserved every original span/anchor ID and position to keep existing fragment links working. These anchors are not needed on new pages but may have external incoming links.
+- Converted 318 simple image figures to ordinary Markdown. An immediately following italic paragraph is rendered as its figure caption by a small build-time helper, src/lib/content-images.js. Original dimensions are kept in src/content/image-dimensions.json; lazy loading/decoding and caption appearance preserved. Complex figures, maps, videos and forms retain HTML. No new dependencies or client JavaScript.
+- README.md documents the new structure, Markdown image/caption convention, dist output and migration archive. migration/README.md explains provenance files. Source comparison helper now locates moved pages by source URL.
+- Verification: build and link audit pass for all 79 routes. Automated before/after comparison confirms identical route sets, normalized visible text, image references and anchor IDs. Browser checked Markdown image rendering, dimensions, lazy loading and captions on Bachelorarbeit. noindex retained on all pages.
+
+
+## Remove unused section anchors (2026-09-14, local review)
+- User requested retaining only section anchors actually linked within this site; this supersedes the earlier blanket preservation decision.
+- Scanned generated HTML and source links: the homepage Software link (also on its alias) is the only page-section target in use. Kept page-section-625aab9ff90d7a4b52b57ace on ProjectList.
+- Removed 124 unused span anchors and 35 unused project-card anchor fields/IDs. Old external bookmarks to those removed fragments no longer target a section; page URLs are unchanged.
+- Verification: production build and link/anchor audit pass for all 79 pages; only the used project-list section ID remains in source. Changes remain local on refactor/content-organization.
+
+## GoatCounter integration (2026-09-14, local review)
+- User explicitly authorized GoatCounter implementation; this supersedes the earlier deferral of analytics. Signed-in Chrome dashboard supplied the endpoint https://janhuber.goatcounter.com/count.
+- Added shared Analytics.astro to both layouts. Production-build gate plus configured-site hostname gate prevents loading on localhost and other preview hosts; Do Not Track is respected. Uses the official async https://gc.zgo.at/count.js script, without extra click/form events or a new banner.
+- GoatCounter “Your site” set to https://calculable.github.io so current /Portfolio page paths link correctly. Existing private dashboard and individual-pageview-storage-off settings preserved. Account email verification is pending; user informed.
+- Updated website privacy statement for aggregate statistics, temporary session recognition, provider/hosting and DNT behavior. No source-site or domain change.
+- Validation: production build and link audit pass for all 79 pages. Executed each generated loader with simulated local, preview, production and DNT contexts: correct endpoint, one loader per page, no loading outside the permitted conditions. Browser confirmed no external analytics script on the local production preview. No synthetic pageviews sent; dashboard receipt remains to be checked after deployment.
+- Changes remain local on refactor/content-organization along with the content/SEO/anchor cleanup. Not pushed or deployed.
+
+
+## Follow-up release authorized (2026-09-14)
+- User requested push and deploy of the content organization, SEO/anchor cleanup and GoatCounter integration. Earlier local-only notes describe pre-release checkpoints.
+- Final production build/link audit passes for 79 pages. Domain and noindex remain unchanged.

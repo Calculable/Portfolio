@@ -7,7 +7,9 @@ root=Path(__file__).resolve().parents[1]
 def norm(s):return re.sub(r'\s+','',unescape(s)).replace('\u200b','')
 errors=[]
 for name in sys.argv[1:]:
- md=root/'src/content/pages'/(name.replace('__','/')+'.md')
+ candidates=[p for p in (root/'src/content/pages').rglob('*.md') if json.loads(p.read_text().split('---',2)[1]).get('source','').rstrip('/').endswith('/'+name.replace('__','/'))]
+ if not candidates: raise SystemExit('No content source found: '+name)
+ md=candidates[0]
  meta=json.loads(md.read_text().split('---',2)[1]);route=meta['path']
  out=root/'dist'/route.lstrip('/')/'index.html'
  r=parse((root/'migration/source'/(name+'.html')).read_text());s=r.all(lambda n:n.tag=='main')[0]

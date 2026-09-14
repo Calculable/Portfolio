@@ -5,60 +5,22 @@
   "path": "/memosaurus/terms-of-use",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Terms of use — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/memosaurus/terms-of-use"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Terms of use — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/memosaurus/terms-of-use"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Terms of use — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/memosaurus/terms-of-use"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "lang": "en",
-  "canonicalPath": "/memosaurus/terms-of-use",
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    }
-  ]
+  "canonicalPath": "/memosaurus/terms-of-use"
 }
 ---
-
-<span id="page-section-64044b9526d73f240b2807a2"></span>
 
 # Memosaurus - App: <br>Terms of Use
 

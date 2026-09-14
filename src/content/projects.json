@@ -4,7 +4,6 @@
     "description": "Eine Auswahl von Fotos von 2012 bis heute",
     "image": "/media/8aedef6048-img_0525-2.jpg",
     "url": "/portfolio",
-    "anchor": "page-section-625c4b5efc379b2c56154848",
     "width": 1560,
     "height": 1560
   },
@@ -13,7 +12,6 @@
     "description": "2026 - NoteFinder AI ist eine App für den Mac, um Textnotizen mittels KI-Anbindung semantisch zu durchsuchen.",
     "image": "/media/d6b62b8218-icon-ios-default-1024x1024-1x.png",
     "url": "/note-finder",
-    "anchor": "page-section-69775834c2b7d442635f5405",
     "width": 840,
     "height": 840
   },
@@ -22,7 +20,6 @@
     "description": "2026 - Endless Peaks ist eine App, die ruhige, abstrakte Berglandschaften erzeugt. Sanfte Kameraflüge und leise Musik schaffen eine entspannte Atmosphäre.",
     "image": "/media/ff3938e0d4-endless-peaks-icon-ios-default-1024x1024-1x.png",
     "url": "/endless-peaks-app",
-    "anchor": "page-section-62a084fc718d6b3be0d2ece9",
     "width": 825,
     "height": 799
   },
@@ -31,7 +28,6 @@
     "description": "2024 - Interaktiver Playground für physikalische Eigenschaften (SpriteKit)",
     "image": "/media/0764d9f8b4-spritekitphysicsappicon.png",
     "url": "https://github.com/Calculable/SpriteKitPhysicsSimulation",
-    "anchor": "page-section-697120d0653b8508836fa1db",
     "width": 1024,
     "height": 1024
   },
@@ -40,7 +36,6 @@
     "description": "2024 - Ein Rätsel-Spiel (iPhone App) mit dem alten Design von Mac System 7 (1999), nachgebaut in SwiftUI",
     "image": "/media/ad276b50d2-bildschirmfoto-2024-05-04-um-11.20.39.png",
     "url": "https://apps.apple.com/ch/app/forgotten-os/id6502570716?l=de-DE",
-    "anchor": "page-section-671e94b2ed91f12f3b35a3cc",
     "width": 808,
     "height": 808
   },
@@ -49,7 +44,6 @@
     "description": "2024 - iPhone App, Quizspiel auf Zeit",
     "image": "/media/68209a2ad2-icon-5-sekunden-neu.png",
     "url": "https://apps.apple.com/ch/app/the-5-seconds-game/id6737716092?l=de-DE",
-    "anchor": "page-section-686376df3bad712debc77625",
     "width": 4267,
     "height": 4267
   },
@@ -58,7 +52,6 @@
     "description": "2023 - Memosaurus hilft dir, mit der Lerntechnik “Spaced Repetition“ nachhaltig zu lernen.",
     "image": "/media/104bb6d73a-ios-marketing.png",
     "url": "/memosaurus-app",
-    "anchor": "page-section-6635fbd65dd70a5b4a5060b7",
     "width": 1024,
     "height": 1024
   },
@@ -67,7 +60,6 @@
     "description": "2022 - Still Remember? ist eine App, mit der du Erinnerungen speichern kannst. Verpasse nie mehr einen wichtigen Jahrestag!",
     "image": "/media/69e76150d2-app-icon.jpg",
     "url": "/still-remember-app",
-    "anchor": "page-section-642af3ecec89ee09d4c1a599",
     "width": 512,
     "height": 512
   },
@@ -76,7 +68,6 @@
     "description": "2022 - Die Seite bietet Zugang zu einer Sammlung von Transkriptionen historischer Quellen zur Geschichte Zürichs. (Mit dem Staatsarchiv Kanton Zürich)",
     "image": "/media/6740796246-bildschirmfoto-2023-08-13-um-07.53.17.png",
     "url": "https://qzh.sources-online.org/exist/apps/qzh/start.html",
-    "anchor": "page-section-64d86f2d19112d7ec6281617",
     "width": 1580,
     "height": 1578
   },
@@ -85,7 +76,6 @@
     "description": "2022 - Automatisierte Erkennung von Troll-Kommentaren in Schweizer Online-Zeitungen",
     "image": "/media/1487abf97a-zeichenfl-che-1-4x.png",
     "url": "/bachelorarbeit",
-    "anchor": "page-section-6366151cadd0ac1e4f2e72b7",
     "width": 761,
     "height": 760
   },
@@ -94,7 +84,6 @@
     "description": "2022 - Webapp zum Verwalten von Orten und Ausflugszielen",
     "image": "/media/c7649f437d-unsplash-image-qyaka7w5umy.jpg",
     "url": "/ortsverwaltung",
-    "anchor": "page-section-625c4be07ea66a2507883e14",
     "width": 1975,
     "height": 1975
   },
@@ -103,7 +92,6 @@
     "description": "2022 - Interaktive Karte mit 400 Wasserfällen in der Schweiz",
     "image": "/media/755f043475-example-map.jpg",
     "url": "/wasserfall-verzeichnis",
-    "anchor": "page-section-626569a8e3e24278737de017",
     "width": 2129,
     "height": 2129
   },
@@ -112,7 +100,6 @@
     "description": "2022 - Skript zur Erzeugung zufälliger Bilder",
     "image": "/media/50b440f245-export-14hrs-44min-55sec.jpg",
     "url": "/generative-art",
-    "anchor": "page-section-62c2ed18d8a0b71baaf9ea55",
     "width": 1000,
     "height": 1000
   },
@@ -121,7 +108,6 @@
     "description": "2022 - Videos vom Mond und den Sternen ✨🌓",
     "image": "/media/a2b4a9a20b-2022_timelapse.jpg",
     "url": "https://vimeo.com/700488297",
-    "anchor": "page-section-625c4b53fc379b2c56154575",
     "width": 1183,
     "height": 1183
   },
@@ -130,7 +116,6 @@
     "description": "2021 - Ein Tool zum Erklären und Debuggen von Haskell Programmiercode (Semesterprojekt an der Fachhochschule OST, Gruppenarbeit)",
     "image": "/media/f270dae5c4-2021_substitution_stepper.jpg",
     "url": "http://haskell-substitution-stepper.pages.gitlab.ost.ch/product-docu/index.html",
-    "anchor": "page-section-625c4fa4a3f00554fbf569f1",
     "width": 692,
     "height": 692
   },
@@ -139,7 +124,6 @@
     "description": "2021 - iPhone App zum Speichern von spontanen Gedanken",
     "image": "/media/395e3fbbae-group-1.png",
     "url": "/noteophant",
-    "anchor": "page-section-625c4fe66e72067905fbd3bf",
     "width": 1024,
     "height": 1024
   },
@@ -148,7 +132,6 @@
     "description": "2021 - Eine Sammlung mit fotogenen Orten im Zürcher Oberland",
     "image": "/media/bba77b1674-2021_z-rcher_oberland.jpg",
     "url": "/fotoorte-zuercher-oberland",
-    "anchor": "page-section-625c4fd8fedb082651f09cd8",
     "width": 1533,
     "height": 1533
   },
@@ -157,7 +140,6 @@
     "description": "2021 - Eine Webseite mit Informationen zum Pfäffikersee (zur Zeit offline)",
     "image": "/media/9e220c21b0-img_7789.jpg",
     "url": null,
-    "anchor": "page-section-625c4ff7d66e596f0a86fae7",
     "width": 1594,
     "height": 1594
   },
@@ -166,7 +148,6 @@
     "description": "2021 - Ein Video mit Mäusen im Joner Wald",
     "image": "/media/60a9690984-img_0974.jpg",
     "url": "https://vimeo.com/708597584",
-    "anchor": "page-section-625c4b4d230d5b649f5e809f",
     "width": 2499,
     "height": 2499
   },
@@ -175,7 +156,6 @@
     "description": "2021 - Gemeinsam mit der Forschungsgruppe für Erneuerbare Energien an der ZHAW",
     "image": "/media/f33db07b78-2021_dekarbonisierung.png",
     "url": "https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/oekotechnologien-energiesysteme/erneuerbare-energien/schweizer-energiesystem/dekarbonisierung-des-schweizer-energiesystems/",
-    "anchor": "page-section-625cf35e21d72e4fdd5f0030",
     "width": 1725,
     "height": 1725
   },
@@ -184,7 +164,6 @@
     "description": "2020 - Ein interaktives 24-Stunden Hintergrundbild",
     "image": "/media/72d0e4f8ea-2020_24h_wallpaper.cr2.jpg",
     "url": "/24h-hintergrundbild",
-    "anchor": "page-section-625c4bc2f90d7a4b52d63c65",
     "width": 1646,
     "height": 1646
   },
@@ -193,7 +172,6 @@
     "description": "2019 bis 2022 - Diverse Informatikprojekte an der Fachhochschule OST (ehemals HSR)",
     "image": "/media/c49ec6f2e6-2019-ost.jpg",
     "url": "/informatikprojekte-an-der-fachhochschule-ost",
-    "anchor": "page-section-625c4bde987fbc7d8d24ae97",
     "width": 479,
     "height": 484
   },
@@ -202,7 +180,6 @@
     "description": "2018 - Alte Postkartenausschnitte und wie sie heute aussehen (zur Zeit offline)",
     "image": "/media/ad53ca0d68-2018_historische_bilder.jpg",
     "url": null,
-    "anchor": "page-section-625c5751fedb082651f13b90",
     "width": 1963,
     "height": 1963
   },
@@ -211,7 +188,6 @@
     "description": "2018 - Gemeinfreie Bilder auf Unsplash.com",
     "image": "/media/df57d4be2b-jan-huber-soszl7iux-i-unsplash.jpg",
     "url": "/unsplash-fotoarchiv",
-    "anchor": "page-section-625d90534b4f2f409403a0bd",
     "width": 1751,
     "height": 1751
   },
@@ -220,7 +196,6 @@
     "description": "2017 - Applikation zum Aufnehmen von Radiosendungen",
     "image": "/media/2e14c09960-unsplash-image-f2h_wbknx4o.jpg",
     "url": "/radio-recorder",
-    "anchor": "page-section-625c4bdb1cf395665579a876",
     "width": 1563,
     "height": 1563
   },
@@ -229,7 +204,6 @@
     "description": "2017 - Abschlussarbeit der Informatikmittelschule im Unternehmen Abraxas",
     "image": "/media/1448912226-2017_ipa.jpg",
     "url": "/abschlussarbeit-informatikmittelschule-ipa",
-    "anchor": "page-section-625c4bd72c7cd15b231a020a",
     "width": 1314,
     "height": 1314
   },
@@ -238,7 +212,6 @@
     "description": "2016 - Fussgängersimulation",
     "image": "/media/fa8abb576b-2016_walky.jpg",
     "url": "/walky",
-    "anchor": "page-section-625c4bd46e72067905fb7bf8",
     "width": 903,
     "height": 903
   },
@@ -247,7 +220,6 @@
     "description": "2016 - Webseite für den Staatskundeunterricht",
     "image": "/media/c4833c1c71-unsplash-image-0eebhhymfiy.jpg",
     "url": "/staatskunde",
-    "anchor": "page-section-625c4bcef90d7a4b52d63c8f",
     "width": 1667,
     "height": 1667
   },
@@ -256,7 +228,6 @@
     "description": "2015 - Sokoban Spiel, inspiriert von der App “Pushy“",
     "image": "/media/f9a5f37598-header_blocky.jpg",
     "url": "/blocky",
-    "anchor": "page-section-625c4bec9d0edd31336addb6",
     "width": 900,
     "height": 900
   },
@@ -265,7 +236,6 @@
     "description": "2015 - Ein Programm zum einfachen Transformieren von strukturierten Daten",
     "image": "/media/ba354bb507-unsplash-image-hotybva3hqi.jpg",
     "url": "/textprocessor",
-    "anchor": "page-section-625c5c1acf3dfa4294769b44",
     "width": 1667,
     "height": 1667
   },
@@ -274,7 +244,6 @@
     "description": "2015 - Digitale Umsetzung eines Spiels des Mathematikers David Gale",
     "image": "/media/4954c45416-header_gale.jpg",
     "url": "/game-of-gale",
-    "anchor": "page-section-625c5c14836bd263cfb7b199",
     "width": 629,
     "height": 629
   },
@@ -283,7 +252,6 @@
     "description": "2015 - Projektarbeit an der Berufsbildungsschule Winterthur",
     "image": "/media/7d56b95b0e-pixel_escape_header.jpg",
     "url": "/pixly",
-    "anchor": "page-section-625c5be721d72e4fdd50a802",
     "width": 1111,
     "height": 1111
   },
@@ -292,7 +260,6 @@
     "description": "2015 bis 2017 - Projekte aus der Informatikmittelschule / Berufsbildung Winterthur",
     "image": "/media/b653e18232-2015_bbw.jpg",
     "url": "/informatikprojekte-berufsausbildung",
-    "anchor": "page-section-625cee5e6748d17246eb3ba7",
     "width": 1318,
     "height": 1318
   },
@@ -301,7 +268,6 @@
     "description": "2014 - Programm zur einfachen Zeiterfassung",
     "image": "/media/662c3868b8-2014_time_tracker.png",
     "url": "/timetracker",
-    "anchor": "page-section-625cee543a0672391379042f",
     "width": 512,
     "height": 512
   },
@@ -310,7 +276,6 @@
     "description": "2010 bis 2014 - Meine ersten Programmier-Erfahrungen",
     "image": "/media/4288f73383-2010_erste_programmierprojekte.png",
     "url": "/erste-programmierprojekte",
-    "anchor": "page-section-625cee4d7ea66a250797f1df",
     "width": 222,
     "height": 233
   }

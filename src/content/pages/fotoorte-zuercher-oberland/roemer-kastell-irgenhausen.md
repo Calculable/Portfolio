@@ -5,28 +5,8 @@
   "path": "/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Kastell Irgenhausen (Römerkastell) — Jan Huber"
-    },
-    {
-      "property": "og:latitude",
-      "content": "40.7207559"
-    },
-    {
-      "property": "og:longitude",
-      "content": "-74.0007613"
-    },
-    {
-      "property": "og:locality",
-      "content": ""
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen"
     },
     {
       "property": "og:type",
@@ -49,77 +29,11 @@
       "content": "1046"
     },
     {
-      "itemprop": "name",
-      "content": "Kastell Irgenhausen (Römerkastell) — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen"
-    },
-    {
-      "itemprop": "description",
-      "content": "Das Kastell Irgenhausen diente früher den Römer als Befestigungsanlage. Die Überreste der Mauern befinden sich Nahe des Seeufers bei Pfäffikon ZH."
-    },
-    {
-      "itemprop": "thumbnailUrl",
-      "content": "/media/eef47edeb7-img_9695.jpg"
-    },
-    {
-      "itemprop": "image",
-      "content": "/media/eef47edeb7-img_9695.jpg"
-    },
-    {
-      "itemprop": "author",
-      "content": "Jan Huber"
-    },
-    {
-      "itemprop": "datePublished",
-      "content": "2021-02-25T19:46:00+0100"
-    },
-    {
-      "itemprop": "dateModified",
-      "content": "2021-03-10T21:21:19+0100"
-    },
-    {
-      "itemprop": "headline",
-      "content": "Kastell Irgenhausen (Römerkastell)"
-    },
-    {
-      "itemprop": "publisher",
-      "content": "Jan Huber"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Kastell Irgenhausen (Römerkastell) — Jan Huber"
-    },
-    {
-      "name": "twitter:image",
-      "content": "/media/eef47edeb7-img_9695.jpg"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "twitter:description",
-      "content": "Das Kastell Irgenhausen diente früher den Römer als Befestigungsanlage. Die Überreste der Mauern befinden sich Nahe des Seeufers bei Pfäffikon ZH."
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    },
     {
       "name": "Kastell Irgenhausen (Römerkastell) — Jan Huber",
       "url": "https://www.jan-huber.ch/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen",
@@ -145,10 +59,7 @@
 }
 ---
 
-<span id="page-section-5ff34939dac66e1e162b4e60"></span>
-
 # Kastell Irgenhausen (Römerkastell)
-
 
 Das Kastell Irgenhausen diente früher den Römer als Befestigungsanlage. Die Überreste der Mauern befinden sich Nahe des Seeufers bei Pfäffikon ZH.
 
@@ -161,19 +72,16 @@ Die Anlage wurde damals gebaut, um die Germanen abzuwehren und sie sicherte eine
 
 Impressionen des Römerkastells
 
-<figure class="content-figure">
-<img src="/media/deb27a8b66-img_9695.jpg" alt="" width="2500" height="1744" loading="lazy" decoding="async">
-<figcaption><p>Das Römerkastell in Irgenhausen bei Pfäffikon ZH</p></figcaption>
-</figure>
+![](</media/deb27a8b66-img_9695.jpg>)
 
-<figure class="content-figure">
-<img src="/media/23bdaed57a-uvrse0825.jpg" alt="" width="2500" height="1971" loading="lazy" decoding="async">
-<figcaption><p>Römerkastell im Abendlicht</p></figcaption>
-</figure>
+*Das Römerkastell in Irgenhausen bei Pfäffikon ZH*
 
-<figure class="content-figure">
-<img src="/media/a85547018b-img_1868.jpg" alt="" width="2500" height="1536" loading="lazy" decoding="async">
-<figcaption><p>Das Kastell Irgenhausen liegt direkt am Seerundweg um den Pfäffikersee</p></figcaption>
-</figure>
+![](</media/23bdaed57a-uvrse0825.jpg>)
+
+*Römerkastell im Abendlicht*
+
+![](</media/a85547018b-img_1868.jpg>)
+
+*Das Kastell Irgenhausen liegt direkt am Seerundweg um den Pfäffikersee*
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/itziker-riet">Zurück: Itziker Riet</a><a href="/fotoorte-zuercher-oberland/kemptner-tobel">Weiter: Kemptner Tobel</a></nav>

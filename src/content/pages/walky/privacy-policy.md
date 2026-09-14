@@ -5,60 +5,22 @@
   "path": "/walky/privacy-policy",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/walky/privacy-policy"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/walky/privacy-policy"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/walky/privacy-policy"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "lang": "en",
-  "canonicalPath": "/walky/privacy-policy",
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    }
-  ]
+  "canonicalPath": "/walky/privacy-policy"
 }
 ---
-
-<span id="page-section-6aa41619e522993e1d91d30a"></span>
 
 # Walky Go - App: <br>Privacy Policy
 

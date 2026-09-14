@@ -5,60 +5,22 @@
   "path": "/last-directory-app/privacy-policy",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/last-directory-app/privacy-policy"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/last-directory-app/privacy-policy"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/last-directory-app/privacy-policy"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "lang": "en",
-  "canonicalPath": "/last-directory-app/privacy-policy",
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    }
-  ]
+  "canonicalPath": "/last-directory-app/privacy-policy"
 }
 ---
-
-<span id="page-section-676e550951e51179935d9cfa"></span>
 
 # <strong>Last Directory</strong> - App: <br>Privacy Policy
 

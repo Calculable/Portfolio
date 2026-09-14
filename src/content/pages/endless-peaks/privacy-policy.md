@@ -5,60 +5,22 @@
   "path": "/endless-peaks/privacy-policy",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/endless-peaks/privacy-policy"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/endless-peaks/privacy-policy"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/endless-peaks/privacy-policy"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "lang": "en",
-  "canonicalPath": "/endless-peaks/privacy-policy",
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    }
-  ]
+  "canonicalPath": "/endless-peaks/privacy-policy"
 }
 ---
-
-<span id="page-section-69710b1adbd3b35b0a79d03a"></span>
 
 # Endless Peaks - App: <br>Privacy Policy
 

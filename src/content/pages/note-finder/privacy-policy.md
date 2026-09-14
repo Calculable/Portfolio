@@ -5,60 +5,22 @@
   "path": "/note-finder/privacy-policy",
   "seo": [
     {
-      "property": "og:site_name",
-      "content": "Jan Huber"
-    },
-    {
       "property": "og:title",
       "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "property": "og:url",
-      "content": "https://www.jan-huber.ch/note-finder/privacy-policy"
     },
     {
       "property": "og:type",
       "content": "website"
     },
     {
-      "itemprop": "name",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "itemprop": "url",
-      "content": "https://www.jan-huber.ch/note-finder/privacy-policy"
-    },
-    {
-      "name": "twitter:title",
-      "content": "Privacy Policy — Jan Huber"
-    },
-    {
-      "name": "twitter:url",
-      "content": "https://www.jan-huber.ch/note-finder/privacy-policy"
-    },
-    {
       "name": "twitter:card",
       "content": "summary"
-    },
-    {
-      "name": "description",
-      "content": ""
     }
   ],
   "lang": "en",
-  "canonicalPath": "/note-finder/privacy-policy",
-  "structuredData": [
-    {
-      "url": "https://www.jan-huber.ch",
-      "name": "Jan Huber",
-      "@context": "http://schema.org",
-      "@type": "WebSite"
-    }
-  ]
+  "canonicalPath": "/note-finder/privacy-policy"
 }
 ---
-
-<span id="page-section-697503705d8bef2323673fcb"></span>
 
 # NoteFinder AI - App: <br>Privacy Policy
 
