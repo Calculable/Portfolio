@@ -20,11 +20,11 @@
   "lang": "de-CH",
   "canonicalPath": "/informatikprojekte-an-der-fachhochschule-ost",
   "heading": "Projekte an der FH OST",
-  "heroImage": "/media/adb35610e7-unsplash-image-jxbtfszaav0.jpg"
+  "heroIcon": "/media/c49ec6f2e6-2019-ost.jpg"
 }
 ---
 
-### Bachelor Informatik
+## Bachelor Informatik
 
 Im Bachelorstudium an der OST (ehemals HSR) gab es oft Projektarbeiten in der Gruppe.
 
@@ -32,7 +32,7 @@ Besuchte Module: <a href="https://studien.rj.ost.ch/allModules/32617_M_MsTe.html
 
 Hier sind einige der dabei entstandenen Projekte aufgeführt:
 
-### Beer Pro
+## Beer Pro
 
 Eine Android-App zum Verwalten von verschiedenen Biersorten. Erstellt für das Modul “Mobile and GUI Engineering” (<a href="https://github.com/Calculable/beerpro">auf Github anzeigen</a>).
 
@@ -44,7 +44,7 @@ Eine Android-App zum Verwalten von verschiedenen Biersorten. Erstellt für das M
 
 ![](</media/5849c04b10-1.png>)
 
-### Studienberatung Chatbot
+## Studienberatung Chatbot
 
 Ein einfacher Prototyp für einen Chatbot zur Studienberatung. Erstellt für das Modul “Artificial Inteligence Foundations” gemeinsam mit Yael Schärrer.
 
@@ -52,7 +52,7 @@ Ein einfacher Prototyp für einen Chatbot zur Studienberatung. Erstellt für das
 
 ![](</media/b96b3424cc-chat.jpg>)
 
-### PWire
+## PWire
 
 Dashboard für Feuchtigkeitsmesssensoren. Kommunikation über LoRaWAN. Erstellt für das Modul “Engineering Project” gemeinsam mit Oliver Göldi, Simeon Hafner und Carlo Kirchmeier.
 
@@ -64,13 +64,13 @@ Dashboard für Feuchtigkeitsmesssensoren. Kommunikation über LoRaWAN. Erstellt 
 
 ![](</media/06aafc1c84-6-sensor-details.png>)
 
-### Strategy Game
+## Strategy Game
 
 Ein verteiltes Strategiespiel mit mehreren Server-Instanzen. Erstellt für das Modul “Distributed Systems” gemeinsam mit Denis Nauli und Floris Staub (<a href="https://github.com/Calculable/Strategy-Game">auf Github anzeigen</a>).
 
 <iframe class="video-embed" src="https://player.vimeo.com/video/702306060?h=a7c3ba814c&amp;app_id=122963&amp;dnt=1" title="Strategy Game Demo" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-### Haskell Substitution Stepper
+## Haskell Substitution Stepper
 
 Ein Konsolentool zur schrittweisen Evaluierung von Haskell Funktionen (Semesterarbeit). Erstellt gemeinsam mit Robin Elvedi und Dominik Dietler.
 

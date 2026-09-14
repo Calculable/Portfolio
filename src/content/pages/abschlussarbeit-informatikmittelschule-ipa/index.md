@@ -20,7 +20,7 @@
   "lang": "de-CH",
   "canonicalPath": "/abschlussarbeit-informatikmittelschule-ipa",
   "heading": "Tax Monitor",
-  "heroImage": "/media/81603d1a64-unsplash-image-qaqsvssxp_w.jpg"
+  "heroIcon": "/media/1448912226-2017_ipa.jpg"
 }
 ---
 

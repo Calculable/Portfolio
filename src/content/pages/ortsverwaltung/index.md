@@ -19,12 +19,12 @@
   ],
   "lang": "de-CH",
   "canonicalPath": "/ortsverwaltung",
-  "heading": "Ort-verwaltung",
-  "heroImage": "/media/6985beb99f-unsplash-image-8vk5wwyv5ua.jpg"
+  "heading": "Ortsverwaltung",
+  "heroIcon": "/media/c7649f437d-unsplash-image-qyaka7w5umy.jpg"
 }
 ---
 
-### Software zur Speicherung von Orten
+## Software zur Speicherung von Orten
 
 Als Hobby-Fotograf habe ich lange nach einem Programm gesucht, um Reiseziele zu erfassen und zu organisieren. Da ich auf kein Tool gestossen bin, dass alle Erwartungen abdecken konnte, habe ich eine eigene Lösung entwickelt. Mit dem Programm ist es möglich, Orte und GPS-Tracks aus verschiedenen Quellen zu Importieren (Schweiz Tourismus, Outdooractive, Flickr) oder eigene Orte anhand der Koordinaten zu erfassen.
 

@@ -36,11 +36,11 @@
 }
 ---
 
-### Eine intelligente Suche für deine Notizen
+## Eine intelligente Suche für deine Notizen
 
 <p class="button-link"><a href="https://apps.apple.com/ch/app/notefinder-ai/id6758402671"> Herunterladen im mac App Store </a></p>
 
-### Was ist NoteFinder AI?
+## Was ist NoteFinder AI?
 
 <strong>NoteFinder AI </strong>ist eine Mac App, welche dir hilft, verschachtelte Textdokumente besser zu finden. Neben einer klassischen Stichwort-Suche besitzt die App eine KI-Integration, um Dokumente auch dann zu finden, wenn die Suchbegriffe nicht im Dokument enthalten sind.
 
@@ -55,6 +55,6 @@ Du kannst zum Beispiel Anfragen stellen wie:
 
 ![](</media/f15aed5e6d-bildschirmfoto-2026-01-28-um-19.51.20.png>)
 
-### Kontaktformular
+## Kontaktformular
 
 <p class="button-link"><a href="/note-finder/contact"> Kontakt und Support </a></p>

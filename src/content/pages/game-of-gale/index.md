@@ -28,36 +28,36 @@
   "lang": "de-CH",
   "canonicalPath": "/game-of-gale",
   "heading": "Game of Gale",
-  "heroImage": "/media/64c38ad770-header_gale.png"
+  "heroIcon": "/media/4954c45416-header_gale.jpg"
 }
 ---
 
-### Über Game of Gale
+## Über Game of Gale
 
 Game of Gale ist die Computerumsetzung eines Spiels, das vom amerikanischen Mathematiker und Ökonomen <a href="https://de.wikipedia.org/wiki/David_Gale_(%C3%96konom)">David Gale</a> entwickelt wurde und mit Stift und Papier gespielt werden kann. Im Rahmen eines Schulprojekts im Fach Mathematik ist in Zusammenarbeit mit Pascal Andermatt (<a href="https://github.com/pandermatt">GitHub</a>, <a href="http://pandermatt.bitballoon.com/">Homepage</a>) die Umsetzung für den Computer entstanden.<br><br>Beim Spiel, welches auch &quot;Bridg-It&quot; genannt wird, geht es darum, durch geschicktes Verbinden von Punkten auf einem Raster eine durchgehende Verbindung von der einen Spielfeldhälfte auf die andere Seite zu erreichen.
 
 <iframe class="video-embed" src="https://player.vimeo.com/video/469197969?app_id=122963&amp;wmode=opaque&amp;dnt=1" title="Game of Gale" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-### Spiel-Algorithmen
+## Spiel-Algorithmen
 
 Für die Computer-Umsetzung des Spiels wurden insgesamt 11 verschiedene Spielalgorithmen entwickelt, gegen die der Benutzer antreten kann. <br><br>Man kann die verschiedenen Algorithmen gegeneinander antreten lassen. Im Turniermodus spielen die Algorithmen tausende Spiele untereinander. In der Entwicklungsphase konnten wir so kontrollieren, wie stark ein Algorithmus spielt. <br><br>Obwohl erwiesenermassen eine Gewinnstrategie für das Spiel existieren muss, hat diese bis heute noch niemand entdeckt.
 
-### Funktionen
+## Funktionen
 
-#### <strong>Turnier</strong>
+### <strong>Turnier</strong>
 
-## <strong>💪</strong>
+<strong>💪</strong>
 
 Im Turnier-Modus können verschiedene Algorithmen gegeneinander antreten und Auswertungen generiert werden
 
-#### <strong>Steuerbares Design</strong>
+### <strong>Steuerbares Design</strong>
 
-## <strong>🖋</strong>
+<strong>🖋</strong>
 
 Das Design des Spiels lässt sich vom Benutzer nach den eigenen Vorlieben anpassen und gestalten
 
-#### <strong>Schwierigkeitsstufen</strong>
+### <strong>Schwierigkeitsstufen</strong>
 
-## <strong>🧠</strong>
+<strong>🧠</strong>
 
 Die Spielstärke des virtuellen Gegners lässt sich beliebig anpassen

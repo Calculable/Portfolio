@@ -20,7 +20,7 @@
   "lang": "de-CH",
   "canonicalPath": "/staatskunde",
   "heading": "Webseite Staatskunde",
-  "heroImage": "/media/f7272d0d80-header_staatskunde.jpg"
+  "heroIcon": "/media/c4833c1c71-unsplash-image-0eebhhymfiy.jpg"
 }
 ---
 

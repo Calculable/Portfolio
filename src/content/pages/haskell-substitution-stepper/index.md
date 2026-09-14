@@ -5,7 +5,7 @@
   "canonicalPath": "/haskell-substitution-stepper",
   "lang": "de-CH",
   "heading": "Haskell Substitution Stepper",
-  "heroImage": "/media/f270dae5c4-2021_substitution_stepper.jpg",
+  "heroIcon": "/media/f270dae5c4-2021_substitution_stepper.jpg",
   "seo": [
     { "name": "description", "content": "Haskell-Code Schritt für Schritt verstehen: Ein Studienprojekt an der OST macht die Auswertung von Ausdrücken sichtbar und unterstützt beim Lernen und Debuggen." },
     { "property": "og:title", "content": "Haskell Substitution Stepper — Jan Huber" },

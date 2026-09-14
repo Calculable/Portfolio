@@ -43,7 +43,7 @@
 <button type="submit">Senden</button>
 </form>
 
-### Impressum
+## Impressum
 
 Jan Huber<br>
 c/o Frey Services<br>

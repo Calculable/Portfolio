@@ -6,7 +6,7 @@
   "canonicalPath": "/historische-bilder-pfaffikon-zh",
   "lang": "de-CH",
   "heading": "Pfäffikon Zürich - damals und heute",
-  "heroImage": "/media/pfaeffikon-historisch/titelbild_historische_bilder.jpg",
+  "heroIcon": "/media/ad53ca0d68-2018_historische_bilder.jpg",
   "imageComparisons": true,
   "seo": [
     {

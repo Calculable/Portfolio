@@ -28,11 +28,11 @@
   "lang": "de-CH",
   "canonicalPath": "/24h-hintergrundbild",
   "heading": "Dynamisches Hintergrundbild",
-  "heroImage": "/media/d257139a4f-24h_hintergrundbild_0012_img_8207.cr2.jpg"
+  "heroIcon": "/media/72d0e4f8ea-2020_24h_wallpaper.cr2.jpg"
 }
 ---
 
-### 24 Stunden - ein Motiv
+## 24 Stunden - ein Motiv
 
 Seit der macOS Version Mojave gibt es die Möglichkeit, dynamische Fotos als Desktop-Hintergrund zu verwenden. Diese Hintergrundbilder verändern ihr Aussehen abhängig von der aktuellen Uhrzeit und dem Stand der Sonne.
 
@@ -44,7 +44,7 @@ Eine Anleitung, um das Hintergrundbild zu verwenden, befindet sich hier:
 
 <p class="button-link"><a href="https://dynamicwallpaper.club/docs"> Hilfe bei der Verwendung </a></p>
 
-### Vorschau
+## Vorschau
 
 Das Hintergrundbild besteht aus den folgenden Einzelfotos:
 

@@ -28,12 +28,11 @@
   "lang": "de-CH",
   "canonicalPath": "/memosaurus-app",
   "heading": "Memosaurus App",
-  "heroImage": "/media/430cc4303f-mockuuups-smartphone-mockup-on-colorful-notebooks-with-easter-gingerbreads.jpeg",
   "heroIcon": "/media/104bb6d73a-ios-marketing.png"
 }
 ---
 
-### Nachhaltiges Lernen - Mit Spaced Repetition
+## Nachhaltiges Lernen - Mit Spaced Repetition
 
 <p class="button-link"><a href="https://apps.apple.com/ch/app/memosaurus/id1672915883"> Im App Store herunterladen </a></p>
 

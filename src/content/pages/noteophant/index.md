@@ -32,7 +32,7 @@
 }
 ---
 
-### Was ist Note-O-Phant?
+## Was ist Note-O-Phant?
 
 Note-O-Phant ist eine Swift-App für iPhone, iPad und Mac. Mit der App können Text-Schnipsel gesammelt werden. Die Texte werden automatisch mit Datum und Uhrzeit abgelegt. Memophant kann für unterschiedlichste Zwecke verwendet werden
 

@@ -20,13 +20,13 @@
   "lang": "de-CH",
   "canonicalPath": "/textprocessor",
   "heading": "Text Processor",
-  "heroImage": "/media/17a6ad3c1b-unsplash-image-o1xcui-yt_w.jpg"
+  "heroIcon": "/media/ba354bb507-unsplash-image-hotybva3hqi.jpg"
 }
 ---
 
 Zum Transformieren von Text gibt es bereits zahlreiche Werkzeuge. Leider sind viele dieser Werkzeuge sehr kompliziert in der Anwendung und erfordern das Beherrschen von Konzepten wie Regular Expressions. Das Ziel in dieser Projektarbeit war die Entwicklung einer einfacherer Möglichkeit. Der Anwender oder die Anwenderin definiert anhand mehrerer Beispiele, wie eine Transformation aussieht. Der TextProcessor erkennt dabei in vielen Fällen automatisch die Struktur des Textes und kann die gewünsche Transformation dann automatisch anwenden.
 
-### Beispiel
+## Beispiel
 
 Die Ausgangslage in diesem Beispiel ist eine Liste von Emailadressen:
 

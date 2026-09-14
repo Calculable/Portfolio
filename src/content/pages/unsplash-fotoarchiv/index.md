@@ -28,11 +28,9 @@
   "lang": "de-CH",
   "canonicalPath": "/unsplash-fotoarchiv",
   "heading": "Gemeinfreie Fotos auf Unsplash",
-  "heroImage": "/media/3946248c42-jan-huber-iaed8dhi_o4-unsplash.jpg"
+  "heroIcon": "/media/df57d4be2b-jan-huber-soszl7iux-i-unsplash.jpg"
 }
 ---
-
-## Unsplash Bildarchiv zur freien Verwendung
 
 Auf Unsplash.com habe ich einen Teil meines Fotoarchivs zur lizenzfreien Verwendung veröffentlicht. Diese Bilder können frei und ohne Copyright-Hinweis für eigene Projekte (kommerziell und nicht-kommerziell) verwendet werden. Dabei gilt die Unsplash-Lizenz.
 

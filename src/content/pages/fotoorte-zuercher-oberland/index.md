@@ -30,11 +30,10 @@
     }
   ],
   "lang": "de-CH",
-  "canonicalPath": "/fotoorte-zuercher-oberland"
+  "canonicalPath": "/fotoorte-zuercher-oberland",
+  "heading": "Fotogene Landschaften im Zürcher Oberland"
 }
 ---
-
-# Fotogene Landschaften im Zürcher Oberland
 
 Diese Seite enthält eine Auswahl an Landschaften und Wandertouren im Zürcher Oberland. Klicken Sie auf einen Eintrag, um mehr über einen Ort zu erfahren.
 

@@ -20,7 +20,7 @@
   "lang": "de-CH",
   "canonicalPath": "/radio-recorder",
   "heading": "Radio Recorder",
-  "heroImage": "/media/ef6c41e700-unsplash-image-idwpkeo-zwk.jpg"
+  "heroIcon": "/media/2e14c09960-unsplash-image-f2h_wbknx4o.jpg"
 }
 ---
 

@@ -1,12 +1,12 @@
 ---
 {
-  "title": "Generative Art — Jan Huber",
+  "title": "Generative Kunst — Jan Huber",
   "source": "https://www.jan-huber.ch/generative-art",
   "path": "/generative-art",
   "seo": [
     {
       "property": "og:title",
-      "content": "Generative Art — Jan Huber"
+      "content": "Generative Kunst — Jan Huber"
     },
     {
       "property": "og:type",
@@ -19,8 +19,8 @@
   ],
   "lang": "de-CH",
   "canonicalPath": "/generative-art",
-  "heading": "GENERATIVE ART",
-  "heroImage": "/media/fdc3b53b14-export-14hrs-44min-55sec.jpg"
+  "heading": "Generative Kunst",
+  "heroIcon": "/media/50b440f245-export-14hrs-44min-55sec.jpg"
 }
 ---
 

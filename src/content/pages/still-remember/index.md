@@ -40,12 +40,11 @@
   "lang": "de-CH",
   "canonicalPath": "/still-remember-app",
   "heading": "Still Remember? App",
-  "heroImage": "/media/31f3d0db9e-mockuuups-tablet-mockup-with-back-to-school-elements.jpeg",
   "heroIcon": "/media/33cff0136b-icon_512x512-2x.png"
 }
 ---
 
-### Nie mehr ein wichtiges Jubiläum verpassen
+## Nie mehr ein wichtiges Jubiläum verpassen
 
 Still Remember? ist eine App, mit der du Erinnerungen speichern kannst. Remember benachrichtigt dich vor wichtigen Jahrestagen, damit du keine Gelegenheit zum Feiern verpasst.
 
@@ -57,28 +56,28 @@ Still Remember? ist eine App, mit der du Erinnerungen speichern kannst. Remember
 
 ![](</media/32785cc346-header.png>)
 
-### Verwende “Still Remember?”, um persönliche Erinnerungen oder historische Momente zu speichern
+## Verwende “Still Remember?”, um persönliche Erinnerungen oder historische Momente zu speichern
 
 ![](</media/93d6b432f7-historic.jpeg>)
 
-### Sehe, welche Jubiläen als nächstes anstehen
+## Sehe, welche Jubiläen als nächstes anstehen
 
 ![](</media/1ab0aae519-upcoming.jpeg>)
 
-### Sehe, wo die Erinnerungen stattgefunden haben
+## Sehe, wo die Erinnerungen stattgefunden haben
 
 ![](</media/7cf54bd718-map.jpeg>)
 
-### “Still Remember?” funktioniert auf dem iPhone, dem iPad und dem Mac
+## “Still Remember?” funktioniert auf dem iPhone, dem iPad und dem Mac
 
 ![](</media/05cca55dcc-mac.jpeg>)
 
-### Deine Daten bleiben auf deinem Gerät
+## Deine Daten bleiben auf deinem Gerät
 
 Alle Erinnerungen und Bilder die du mit “Still Remember?” aufzeichnest, sind nur auf deinem Gerät gespeichert.
 
 <p class="button-link"><a href="/remember-app/privacy-policy"> Datenschutzbestimmungen </a></p>
 
-### Kontaktformular
+## Kontaktformular
 
 <p class="button-link"><a href="/remember-app/contact"> Kontakt und Support </a></p>

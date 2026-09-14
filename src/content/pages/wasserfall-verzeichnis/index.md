@@ -20,7 +20,7 @@
   "lang": "de-CH",
   "canonicalPath": "/wasserfall-verzeichnis",
   "heading": "Wasserfall Verzeichnis Schweiz",
-  "heroImage": "/media/f186419d87-example-map.png"
+  "heroIcon": "/media/755f043475-example-map.jpg"
 }
 ---
 

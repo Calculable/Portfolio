@@ -20,11 +20,11 @@
   "lang": "de-CH",
   "canonicalPath": "/bachelorarbeit",
   "heading": "Bachelorarbeit",
-  "heroImage": "/media/89888187c6-bildschirmfoto-2022-07-05-um-20.02.14.png"
+  "heroIcon": "/media/1487abf97a-zeichenfl-che-1-4x.png"
 }
 ---
 
-### Troldejæger
+## Troldejæger
 
 Automatische Erkennung von Troll-Kommentaren in Schweizer Online-Zeitungen
 

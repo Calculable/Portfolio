@@ -20,11 +20,11 @@
   "lang": "de-CH",
   "canonicalPath": "/erste-programmierprojekte",
   "heading": "Erste Software-Projekte",
-  "heroImage": "/media/52f8b0d10c-unsplash-image-dhl49oyrn7y.jpg"
+  "heroIcon": "/media/4288f73383-2010_erste_programmierprojekte.png"
 }
 ---
 
-### Erste Versuche mit Apple Skript
+## Erste Versuche mit Apple Skript
 
 Das Interesse für Computer begleitet mich schon seit der Kindheit. Mit 12 Jahren habe ich mich das erste mal mit dem Programmieren beschäftigt und musste schon bald feststellen, dass ich mir das ganze etwas zu einfach vorgestellt hatte. Statt mit spektakulären 3D-Animationen musste ich mich zuerst mit einfachen Skripten beschäftigen. Die Faszination für das Programmieren hat mich dennoch nicht losgelassen. Hier sind einige Screenshots meiner ersten Programme:
 
@@ -52,7 +52,7 @@ Das Interesse für Computer begleitet mich schon seit der Kindheit. Mit 12 Jahre
 
 *Chatbot*
 
-### Erste Programme mit Objective-C
+## Erste Programme mit Objective-C
 
 Nach den ersten Gehversuchen wollte ich endlich die ersten grafischen Benutzeroberflächen erstellen. Mit dem Buch <a href="http://www.cocoa-coding.de/kids/">Mac-Programmierung für Kids</a> habe ich mir die Grundlagen von Objective-C beigebracht. Die Programmiersprache Objective-C existiert wurde mittlerweile durch “Swift“ abgelöst. Hier sind einige Screenshots aus der damaligen Zeit:
 

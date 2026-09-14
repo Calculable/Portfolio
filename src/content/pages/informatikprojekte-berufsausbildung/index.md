@@ -20,7 +20,7 @@
   "lang": "de-CH",
   "canonicalPath": "/informatikprojekte-berufsausbildung",
   "heading": "Projekte während der Informatik-Mittelschule",
-  "heroImage": "/media/5bbedd62a3-unsplash-image-njhwb0vsgg8.jpg"
+  "heroIcon": "/media/b653e18232-2015_bbw.jpg"
 }
 ---
 

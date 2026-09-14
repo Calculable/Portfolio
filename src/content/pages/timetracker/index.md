@@ -1,12 +1,12 @@
 ---
 {
-  "title": "TimeTracker — Jan Huber",
+  "title": "Time Tracker — Jan Huber",
   "source": "https://www.jan-huber.ch/timetracker",
   "path": "/timetracker",
   "seo": [
     {
       "property": "og:title",
-      "content": "TimeTracker — Jan Huber"
+      "content": "Time Tracker — Jan Huber"
     },
     {
       "property": "og:type",
@@ -19,12 +19,10 @@
   ],
   "lang": "de-CH",
   "canonicalPath": "/timetracker",
-  "heading": "Time",
-  "heroImage": "/media/fefc16681d-orginal.jpg"
+  "heading": "Time Tracker",
+  "heroIcon": "/media/662c3868b8-2014_time_tracker.png"
 }
 ---
-
-## Tracker
 
 Der TimeTracker ist eines meiner ersten Objective-C Programme. Das Ziel war eine möglichst einfache Bedienung. Nach dem Start der Applikation beginnt die Uhr automatisch zu zählen. Immer wenn eine Aufgabe abgeschlossen wurde, kann im Textfeld eine kurze Beschreibung eingetragen werden und anschliessend mit “OK“ ein neuer Eintrag erstellt werden.
 

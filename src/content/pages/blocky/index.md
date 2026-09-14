@@ -28,11 +28,11 @@
   "lang": "de-CH",
   "canonicalPath": "/blocky",
   "heading": "Blocky",
-  "heroImage": "/media/9ded8cd3aa-header_blocky.jpg"
+  "heroIcon": "/media/f9a5f37598-header_blocky.jpg"
 }
 ---
 
-### Was ist Blocky?
+## Was ist Blocky?
 
 Blocky wurde im Rahmen eines Schulprojekts für das Modul „Programmieren mit Java“ gemeinsam mit Pascal Andermatt (<a href="https://github.com/pandermatt">GitHub</a>, <a href="https://pandermatt.ch/">Homepage</a>) entwickelt. Es handelt sich um ein sogenanntes „Sokoban“-Spiel. Dabei steuert der Benutzer eine Spielfigur und muss durch geschicktes Verschieben von Kisten ein Ziel erreichen. Sokoban ist japanisch und bedeutet „Lagerhausverwalter“.
 
@@ -42,12 +42,12 @@ Blocky wurde im Rahmen eines Schulprojekts für das Modul „Programmieren mit J
 
 *Ein Blocky-Level mit verschiedenen Block-Typen*
 
-### Funktionen
+## Funktionen
 
 Im Gegensatz zur ersten Sokoban-Variante von 1982, bietet Blocky viele weitere Zusatzfunktionen wie Portale, Schlüssel, Türen und vieles mehr. Jeder Block hat unterschiedliche Eigenschaften, die dem Spieler beim Lösen der Rätsel helfen können. Blocky kann auch gegen virtuelle Gegner gespielt werden.
 
 Blocky ist stark von „Pushy“ inspiriert - einem Spiel, welches oft an Schulen als Teil einer Lernwerkstatt eingesetzt wird.
 
-### Rätsel
+## Rätsel
 
 Blocky besteht aus 100 Rätseln. AnwenderInnen können eigene Rätsel erstellen und diese mit anderen SpielerInnen teilen. Blocky unterstützt das Sokoban-Dateiformat, was bedeutet, dass tausende bestehenden Sokoban-Rätsel aus dem Internet importiert werden können.
