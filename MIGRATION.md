@@ -274,3 +274,18 @@ Final SEO comparison: 1,358 original metadata fields checked against built HTML;
 
 ### Pfäffikon release authorization
 - User requested “merge and deploy”. Final production build and link/media/anchor audit pass for 80 pages; remote main has no divergent commits. Earlier local-only notes describe review checkpoints.
+
+## Haskell Substitution Stepper project page
+- [x] Read supplied Markdown documentation and one-page OST report; inspected terminal screenshot. Source material: /Users/jan/Desktop/Substitution Stepper Material/. Treat placeholder installation/manual chapters as incomplete documentation, not instructions.
+- [x] German explanation for curious non-experts at /haskell-substitution-stepper; homepage dead external link replaced with local route. Original overview year/group-project context retained; no individual role or co-author names inferred from partial material.
+- [x] Demo MP4, terminal screenshot and English project summary PDF stored locally. Technical decision: native video controls, no autoplay or GIF dependency; existing layout/Markdown/SEO conventions, no new runtime dependency.
+- [x] Production build: 81 pages; link/media/anchor audit: zero errors. Local browser confirmed German content and responsive layout at mobile width without horizontal overflow. Native video controls and local source verified.
+- [ ] User review and publishing.
+
+### Redaktionelle Korrekturen Haskell Substitution Stepper
+- Auf Nutzerangabe Dominik Dietler, Robin Elvedi und Jan Huber ergänzt: Studienarbeit für Jan, Bachelorarbeit für Dominik und Robin. Projektübersicht entsprechend präzisiert.
+- Gewünschte Abschnitte und Sätze entfernt; vollständige Arbeit im OST-Repositorium statt lokalem Kurzbericht verlinkt. Änderungen weiterhin lokal zur Durchsicht.
+
+### Veröffentlichung Haskell Substitution Stepper
+- Nutzer hat Push und Deployment freigegeben: gekürzte deutsche Projektseite mit Team und Studien-/Bachelorarbeitskontext, vollständige OST-Arbeit verlinkt, Projektübersicht und Archivlink für Dekarbonisierung aktualisiert.
+- Build und Link-/Medienprüfung: 81 Seiten, keine Fehler. Unabhängige lokale Navigationsänderungen in SiteHeader.astro und portfolio.css bleiben ausserhalb dieses Releases. Der nicht mehr verlinkte lokale Projektkurzbericht wird nicht veröffentlicht.

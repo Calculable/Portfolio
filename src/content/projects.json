@@ -113,9 +113,9 @@
   },
   {
     "title": "Haskell Substitution Stepper",
-    "description": "2021 - Ein Tool zum Erklären und Debuggen von Haskell Programmiercode (Semesterprojekt an der Fachhochschule OST, Gruppenarbeit)",
+    "description": "2021 - Ein Tool zum Erklären und Debuggen von Haskell Programmiercode (Studien- und Bachelorarbeit an der Fachhochschule OST, Gruppenarbeit)",
     "image": "/media/f270dae5c4-2021_substitution_stepper.jpg",
-    "url": "http://haskell-substitution-stepper.pages.gitlab.ost.ch/product-docu/index.html",
+    "url": "/haskell-substitution-stepper",
     "width": 692,
     "height": 692
   },
@@ -155,7 +155,7 @@
     "title": "Dekarbonisierung der Schweiz",
     "description": "2021 - Gemeinsam mit der Forschungsgruppe für Erneuerbare Energien an der ZHAW",
     "image": "/media/f33db07b78-2021_dekarbonisierung.png",
-    "url": "https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/oekotechnologien-energiesysteme/erneuerbare-energien/schweizer-energiesystem/dekarbonisierung-des-schweizer-energiesystems/",
+    "url": "https://web.archive.org/web/20241008111702/https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/oekotechnologien-energiesysteme/erneuerbare-energien/schweizer-energiesystem/dekarbonisierung-des-schweizer-energiesystems/",
     "width": 1725,
     "height": 1725
   },
