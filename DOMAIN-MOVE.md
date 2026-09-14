@@ -20,7 +20,8 @@ Previous deployed commit: d681944; previous Astro site https://calculable.github
 - [x] Change apex A records and www CNAME at Hosttech.
 - [x] Check authoritative DNS, HTTPS certificate, www/apex redirects and all original URLs.
 - [x] Enable Enforce HTTPS in GitHub Pages.
-- [ ] Allow residual DNS/edge caches to expire; check ordinary browser resolution and HTTP redirect after propagation.
+- [x] Verify HTTP redirects after edge-cache propagation.
+- [ ] Residual visitor/browser DNS caches expire automatically; local Chrome was still cached at the last check.
 - [x] Update GoatCounter site link to https://www.jan-huber.ch.
 
 ## Applied DNS
@@ -41,3 +42,6 @@ Authoritative DNS verified; Astro homepage confirmed at GitHub origin over HTTP 
 - Apex HTTPS and the old calculable.github.io/Portfolio address redirect permanently to the corresponding www path. Live robots.txt allows indexing and references the original-domain sitemap.
 - All three authoritative nameservers, Cloudflare DNS and Google DNS return the intended records. GitHub's UI DNS check has intermittently reported stale InvalidCNAMEError despite successful certificate issuance and independently correct DNS.
 - At 08:10 UTC local Chrome still showed Squarespace due to DNS caching, and the GitHub HTTP edge still served a previously cached 200 response (10-minute cache) despite HTTPS enforcement being enabled. These residual propagation checks remain; do not alter the correct DNS records or cancel Squarespace.
+
+## Completion — 08:13 UTC
+Final documentation deployment 6dfb6da succeeded (Actions 34821407189). HTTP homepage and /bachelorarbeit/ now return 301 to their matching HTTPS URLs at GitHub origin. Domain launch is complete; only residual visitor DNS caches may continue to show Squarespace temporarily.
