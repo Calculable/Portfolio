@@ -1,0 +1,52 @@
+---
+import ProjectList from '../components/ProjectList.astro';
+import ProjectHeader from '../components/ProjectHeader.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import '../styles/portfolio.css';
+import '../styles/content.css';
+const { page } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = new URL(`${base}${page.canonicalPath ?? page.path}`, Astro.site).href;
+const seo = page.seo.filter((meta) => meta.name !== 'robots').map((meta) => {
+  const key = meta.property || meta.name || meta.itemprop;
+  let content = meta.content;
+  if (['og:url', 'twitter:url', 'url'].includes(key)) content = canonical;
+  if (['og:image', 'twitter:image', 'image', 'thumbnailUrl'].includes(key) && content.startsWith('/')) content = new URL(`${base}${content}`, Astro.site).href;
+  return { ...meta, content };
+});
+// Markdown uses root-relative paths; rewrite at build time for GitHub project Pages.
+const structuredData = JSON.stringify(page.structuredData || []).replace(/https?:\/\/www\.jan-huber\.ch/g, `${Astro.site.origin}${base}`).replace(/"\/media\//g, `"${Astro.site.origin}${base}/media/`).replace(/</g, '\\u003c');
+const raw = await Astro.slots.render('default');
+const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, path) => `${attr}="${base}/${path}"`);
+---
+<!doctype html>
+<html lang={page.lang || "de-CH"}>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/8540d811da-favicon.ico`} />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{page.title}</title>
+    {seo.map((meta) => <meta {...meta} />)}
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
+    <script type="application/ld+json" set:html={structuredData} />
+  </head>
+  <body class:list={{ "home-site": page.path === "/" }}>
+    <a class="skip-link" href="#page">Zum Inhalt springen</a>
+    <SiteHeader />
+    <main id="page" class:list={['content-main', { 'home-page': page.path === '/' || page.path === '/jan-huber-portfolio' }]}>
+      {page.heading && <ProjectHeader page={page} />}
+      {page.path === '/' ? (
+        <section class="terminal-intro" aria-label="Einleitung">
+          <div class="terminal-body">
+            <p class="terminal-prompt" aria-hidden="true">jan@portfolio: ~</p>
+            <Fragment set:html={content} />
+          </div>
+        </section>
+      ) : <Fragment set:html={content} />}
+      {page.path === '/' && <ProjectList />}
+    </main>
+    <SiteFooter />
+  </body>
+</html>

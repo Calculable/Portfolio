@@ -1,0 +1,19 @@
+---
+import projects from '../content/projects.json';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const local = (url) => url?.startsWith('/') ? `${base}${url}` : url;
+---
+<section id="page-section-625aab9ff90d7a4b52b57ace" aria-label="Projekte" class="project-list">
+  {projects.map((project) => (
+    <article class="project-card" id={project.anchor}>
+      <div class="project-artwork">
+      {project.url ? <a class="project-image" href={local(project.url)} aria-label={project.title}><img src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" /></a> : <img class="project-image" src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" />}
+      </div>
+      <div class="project-description">
+        <h2>{project.url ? <a href={local(project.url)}>{project.title}</a> : project.title}</h2>
+        <p>{project.description}</p>
+        {project.url && <a class="project-button" href={local(project.url)}>Anzeigen <span aria-hidden="true">↗</span></a>}
+      </div>
+    </article>
+  ))}
+</section>

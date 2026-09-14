@@ -1,0 +1,10 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+export function getStaticPaths() {
+  const pages = import.meta.glob('../content/pages/**/*.md', { eager: true });
+  return Object.values(pages).flatMap((page) => [page.frontmatter.path, ...(page.frontmatter.aliases || [])]
+    .filter((path) => path !== '/').map((path) => ({ params: { slug: path.slice(1) }, props: { page } })));
+}
+const { page } = Astro.props;
+---
+<PageLayout page={page.frontmatter}><page.Content /></PageLayout>

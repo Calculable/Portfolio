@@ -2,17 +2,17 @@
 
 ## Suchmaschinen während der Entwicklung
 
-Die Startseite enthält `<meta name="robots" content="noindex" />` im HTML-Kopf.
-Damit werden Suchmaschinen, die diese Anweisung unterstützen, angewiesen, die
-Seite nicht zu indexieren. Zum öffentlichen Suchmaschinen-Start diesen Tag in
-`src/pages/index.astro` entfernen; bei zusätzlichen Seiten ebenfalls `noindex`
-setzen, solange das Portfolio noch nicht indexiert werden soll.
-Keine Crawling-Sperre in `robots.txt` hinzufügen: Suchmaschinen müssen die Seite
-abrufen können, um `noindex` zu sehen. Die Webseite bleibt per Direktlink erreichbar.
+Alle Seiten behalten während der Migration `noindex`. Der Tag steht in
+`src/layouts/PageLayout.astro` und `src/layouts/PortfolioLayout.astro`.
+Erst beim ausdrücklich freigegebenen Suchmaschinen-Start entfernen. Keine
+Crawling-Sperre ergänzen: Suchmaschinen müssen `noindex` lesen können.
 
-Eine einfache Hello-World-Webseite mit Astro, HTML, CSS und Vanilla JavaScript.
+Die Astro-Webseite enthält die von Squarespace übernommenen öffentlichen Inhalte.
+**Die Migration wird nach Freigabe vom 14.09.2026 auf GitHub Pages veröffentlicht.
+Der Domainumzug und die Suchmaschinen-Freigabe bleiben separat.**
+Anforderungen, Seiten-Checkliste, Entscheidungen und Prüfungen: [MIGRATION.md](MIGRATION.md).
 
-Live: https://calculable.github.io/Portfolio/
+Bisher veröffentlichte Version: https://calculable.github.io/Portfolio/
 
 ## Lokal starten
 
@@ -34,13 +34,62 @@ npm run preview
 
 Die fertige statische Webseite liegt in `dist/`.
 
-## Dateien bearbeiten
+## Inhalte bearbeiten
 
-- `src/pages/index.astro`: HTML und Seiteninhalt
-- `src/styles/global.css`: Gestaltung
-- `src/scripts/main.js`: Vanilla JavaScript
-- `astro.config.mjs`: Domain und Basispfad
-- `.github/workflows/deploy.yml`: automatische Veröffentlichung
+- `src/content/projects.json`: Projektliste der Startseite (Reihenfolge, Titel, Beschreibung, Bild und Link).
+- `src/content/pages/home.md`: Einleitung der Startseite und ihre Alias-URL `/jan-huber-portfolio`.
+- `src/content/pages/kontakt.md`: Kontakttext, Impressum und Basin-Formular.
+- `src/content/pages/fotoorte-zuercher-oberland/`: ein Markdown-Dokument pro Fotoort.
+- Alle weiteren Seiten haben entsprechend ihrer URL benannte `.md`-Dateien.
+- `public/media/`: lokale Bilder, Favicon und das Video. Referenz im Inhalt: `/media/dateiname.jpg`.
+- `src/styles/content.css`: Gestaltung der übernommenen Inhalte.
+- `src/components/SiteHeader.astro` und `SiteFooter.astro`: gemeinsame Navigation; das mobile Menü klappt über einen Button auf.
+- Der Terminal-Look der Startseite steht in `src/styles/content.css`; die Einleitung bleibt in `home.md` editierbar.
+- `astro.config.mjs`: Domain und Basispfad. Beim späteren Domainumzug anpassen.
+
+Jede Markdown-Datei beginnt mit Frontmatter zwischen zwei `---`-Zeilen.
+Die JSON-Schreibweise ist gültiges YAML und bewahrt die ursprünglichen SEO-Felder
+explizit. `path` bestimmt die URL, `title` den Browser-Titel und `seo` die ursprünglichen
+Meta-Tags; `structuredData` enthält die strukturierten Suchmaschineninformationen.
+`heading` ist die sichtbare Projektüberschrift; optional zeigen `heroIcon` ein kleines
+App-Icon und `heroImage` ein kompaktes Titelbild (jeweils `/media/...`).
+Nach dem zweiten `---` stehen die Texte als Markdown. Bilder und ihre Beschriftungen
+stehen in kurzen HTML-`figure`-Abschnitten, Karten in `iframe`-Zeilen.
+
+Für eine Textänderung nur den Inhalt unter dem zweiten `---` bearbeiten. Bei einer
+SEO-Änderung die betreffenden Titel/Beschreibungen in `seo` ebenfalls anpassen.
+Interne Links immer ohne `/Portfolio` schreiben, z. B. `/kontakt` oder
+`/fotoorte-zuercher-oberland/bachtel`. Das Layout ergänzt den konfigurierten Basispfad.
+`aliases` gibt zusätzliche URLs für denselben Inhalt an. Die Startseite und
+`/jan-huber-portfolio` teilen sich deshalb dieselbe Datei.
+
+Neue Seiten: eine `.md`-Datei kopieren, `path`, `canonicalPath`, `source`, Titel und
+SEO bearbeiten, anschließend Inhalt ersetzen. Keine neue Astro-Seite nötig.
+Die Sitemap wird automatisch aus den kanonischen Seiten-URLs erzeugt.
+
+## Projekte auf der Startseite pflegen
+
+In `src/content/projects.json` entspricht jeder Eintrag einem Projekt. Einträge
+verschieben, um die Reihenfolge zu ändern; einen Eintrag kopieren, um ein Projekt
+hinzuzufügen. `title`, `description`, `image` und `url` bearbeiten. Für eine noch
+nicht verfügbare Projektseite `url: null` setzen; dann erscheinen keine Links.
+`width` und `height` sind die ursprünglichen Bildabmessungen. `anchor` bewahrt
+bestehende Sprungmarken; bei neuen Projekten eine eindeutige Kennung verwenden.
+Kein HTML und keine Änderung am Layout nötig.
+
+## Migration prüfen
+
+```sh
+ASTRO_TELEMETRY_DISABLED=1 npm run build
+python3 scripts/audit-site.py
+```
+
+`audit-site.py` prüft alle lokalen Seiten-, Anker- und Medienlinks und die
+vollständige Abdeckung der ursprünglichen Sitemap. `scripts/check-content.py`
+vergleicht die Texte/Bilder mit den lokalen Original-HTML-Snapshots; es erhält
+die Dateinamen ohne `.html` als Argumente. `migration/assets.json` hält die Herkunft
+der Medien fest. Die Import-Skripte sind einmalige Migrationshilfen, keine
+Laufzeit-Abhängigkeit. **Nicht über später manuell bearbeitete Inhalte importieren.**
 
 ## Veröffentlichen
 
@@ -64,10 +113,10 @@ Nach erfolgreichem Versand zeigt Basin seine Standard-Bestätigungsseite.
 - Dashboard: https://usebasin.com/app/forms/75327/submissions
 - Benachrichtigungen: https://usebasin.com/app/forms/75327/notification_email_settings/edit
 - Der Empfänger wird ausschließlich in Basin verwaltet. Den Bestätigungslink in Basins Verifizierungs-E-Mail anklicken, um E-Mail-Benachrichtigungen zu aktivieren.
-- `site_source` enthält `https://calculable.github.io/Portfolio/`.
-- `form_source` enthält `portfolio-contact`.
+- `site_source` enthält `jan-huber-astro`.
+- `form_source` enthält den jeweiligen Seitenpfad zur Unterscheidung der Formulare.
 
-Bei weiteren Webseiten/Formularen die versteckten Werte in `src/pages/index.astro`
+Bei weiteren Webseiten/Formularen die versteckten Werte in der jeweiligen Markdown-Datei
 entsprechend anpassen. Sie werden mit jeder Anfrage gespeichert. Versteckte
 Felder sind öffentlich einsehbar und vom Absender veränderbar; sie dienen nur
 der Zuordnung, nicht als Sicherheitsnachweis. Der öffentliche Basin-Endpunkt
@@ -99,12 +148,13 @@ Bildlink das grosse Bild direkt. Header und Footer sind eigene Astro-Komponenten
 SEO: Titel, Beschreibung, Canonical-URL, Open Graph, Twitter-Vorschau,
 strukturierte CollectionPage/ImageGallery-Daten und Bild-Alternativtexte sind
 enthalten. Die neue Seite behält `noindex` in `src/layouts/PortfolioLayout.astro`.
-Für die spätere Freigabe auch den Tag auf der Startseite entfernen.
-Die Datenschutz-Verknüpfung ist vorerst ein inaktiver Platzhalter.
+Für die spätere Freigabe auch den Tag in `PageLayout.astro` entfernen.
+Die Datenschutz-Verknüpfung führt zur übertragenen Datenschutzerklärung.
 
 Justified Gallery ist auf Version 3.8.1 fixiert. Die Integration übergibt die
 Bildabmessungen direkt als Layout-Daten, damit die Bibliothek nicht alle grossen
 Fallback-Bilder vorlädt. Der Browser wählt über `srcset` die passende Bildgrösse. Nach der Layout-Berechnung
-lädt ein IntersectionObserver weitere Bilder erst in der Nähe des sichtbaren Bereichs.
-Ohne JavaScript greift die Galerie auf native Lazy-Loading-Bilder zurück.
+lädt der Browser weitere Bilder mit nativem `loading="lazy"`. Alle Bilder besitzen
+von Anfang an echte `src`/`srcset`-Adressen, damit sie auch ohne Galerie-Skript
+laden. Die ersten zwei Bilder werden sofort geladen.
 Bei einem Bibliotheks-Update diesen Integrationspunkt erneut prüfen.

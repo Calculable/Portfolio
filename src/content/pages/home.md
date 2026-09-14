@@ -1,0 +1,105 @@
+---
+{
+  "title": "Jan Huber",
+  "source": "https://www.jan-huber.ch/",
+  "path": "/",
+  "seo": [
+    {
+      "property": "og:site_name",
+      "content": "Jan Huber"
+    },
+    {
+      "property": "og:title",
+      "content": "Jan Huber"
+    },
+    {
+      "property": "og:url",
+      "content": "https://www.jan-huber.ch"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:description",
+      "content": "Portfolio von Jan Huber - Landschaftsfotografien aus der Schweiz und Informatikprojekte."
+    },
+    {
+      "property": "og:image",
+      "content": "/media/a867ca1069-bildschirmfoto-2020-10-31-um-14.06.04.png"
+    },
+    {
+      "property": "og:image:width",
+      "content": "1500"
+    },
+    {
+      "property": "og:image:height",
+      "content": "933"
+    },
+    {
+      "itemprop": "name",
+      "content": "Jan Huber"
+    },
+    {
+      "itemprop": "url",
+      "content": "https://www.jan-huber.ch"
+    },
+    {
+      "itemprop": "description",
+      "content": "Portfolio von Jan Huber - Landschaftsfotografien aus der Schweiz und Informatikprojekte."
+    },
+    {
+      "itemprop": "thumbnailUrl",
+      "content": "/media/a867ca1069-bildschirmfoto-2020-10-31-um-14.06.04.png"
+    },
+    {
+      "itemprop": "image",
+      "content": "/media/a867ca1069-bildschirmfoto-2020-10-31-um-14.06.04.png"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Jan Huber"
+    },
+    {
+      "name": "twitter:image",
+      "content": "/media/a867ca1069-bildschirmfoto-2020-10-31-um-14.06.04.png"
+    },
+    {
+      "name": "twitter:url",
+      "content": "https://www.jan-huber.ch"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Portfolio von Jan Huber - Landschaftsfotografien aus der Schweiz und Informatikprojekte."
+    },
+    {
+      "name": "description",
+      "content": "Portfolio von Jan Huber - Landschaftsfotografien aus der Schweiz und Informatikprojekte."
+    }
+  ],
+  "structuredData": [
+    {
+      "url": "https://www.jan-huber.ch",
+      "name": "Jan Huber",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    }
+  ],
+  "lang": "de-CH",
+  "canonicalPath": "/",
+  "aliases": [
+    "/jan-huber-portfolio"
+  ]
+}
+---
+
+<span id="page-section-686016230814eb2d683c7d21"></span>
+
+# <strong>&gt; Hallo Welt!</strong>
+
+## Ich entwickle <a href="#page-section-625aab9ff90d7a4b52b57ace">Software</a> und<br>fotografiere <a href="/portfolio">Landschaften</a>.
+

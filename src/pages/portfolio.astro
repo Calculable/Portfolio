@@ -17,12 +17,10 @@ photos.sort(newestFirst);
 <PortfolioLayout image={photos[0]?.full} imageAlt={photos[0]?.title} imageCount={photos.length}>
   <main id="gallery" class="gallery-main">
     <h1 class="sr-only">Fotoarchiv von Jan Huber</h1>
-    <noscript><style>.gallery-thumbnail[data-src] { display: none !important; }</style></noscript>
     <div class="photo-grid">
       {photos.map((photo, index) => (
         <a class="photo" href={photo.full} data-photo data-index={index} aria-label={`${photo.title} – vergrössern`}>
-          <img class="gallery-thumbnail" src={index < 2 ? photo.thumbnail : 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'} srcset={index < 2 ? photo.srcset : undefined} data-src={index >= 2 ? photo.thumbnail : undefined} data-srcset={index >= 2 ? photo.srcset : undefined} alt={photo.title} width={photo.source.width} height={photo.source.height} sizes="(max-width: 640px) 90vw, 44vw" decoding="async" />
-          {index >= 2 && <noscript><img src={photo.thumbnail} srcset={photo.srcset} sizes="(max-width: 640px) 90vw, 44vw" alt={photo.title} width={photo.source.width} height={photo.source.height} loading="lazy" decoding="async" /></noscript>}
+          <img class="gallery-thumbnail" src={photo.thumbnail} srcset={photo.srcset} alt={photo.title} width={photo.source.width} height={photo.source.height} sizes="(max-width: 640px) 90vw, 44vw" loading={index < 2 ? 'eager' : 'lazy'} decoding="async" />
         </a>
       ))}
     </div>

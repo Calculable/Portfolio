@@ -30,31 +30,12 @@ if (gallery && gallery.children.length) {
     cssAnimation: false,
     imagesAnimationDuration: 0,
   });
-  const deferred = new IntersectionObserver((entries) => {
-    for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      const image = entry.target.querySelector('img');
-      image.srcset = image.dataset.srcset;
-      image.src = image.dataset.src;
-      delete image.dataset.src;
-      delete image.dataset.srcset;
-      deferred.unobserve(entry.target);
-    }
-  }, { rootMargin: '600px 0px' });
-  let observing = false;
   // Use the actual row width to select an appropriate Astro image variant.
   $gallery.on('jg.complete jg.resize', () => {
     for (const link of gallery.querySelectorAll('[data-photo]')) {
       link.querySelector('img').sizes = `${Math.ceil(link.getBoundingClientRect().width)}px`;
     }
-    // Wait until rows have positions; before layout all absolute entries
-    // briefly overlap at the top, which defeats native lazy loading.
-    if (!observing) {
-      observing = true;
-      gallery.querySelectorAll('[data-photo]').forEach(link => {
-        if (link.querySelector('img').dataset.src) deferred.observe(link);
-      });
-    }
+
   });
   $gallery.justifiedGallery(options());
   let lastWidth = gallery.clientWidth;

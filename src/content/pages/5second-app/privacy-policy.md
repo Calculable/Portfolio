@@ -1,0 +1,75 @@
+---
+{
+  "title": "Privacy Policy — Jan Huber",
+  "source": "https://www.jan-huber.ch/5second-app/privacy-policy",
+  "path": "/5second-app/privacy-policy",
+  "seo": [
+    {
+      "property": "og:site_name",
+      "content": "Jan Huber"
+    },
+    {
+      "property": "og:title",
+      "content": "Privacy Policy — Jan Huber"
+    },
+    {
+      "property": "og:url",
+      "content": "https://www.jan-huber.ch/5second-app/privacy-policy"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "itemprop": "name",
+      "content": "Privacy Policy — Jan Huber"
+    },
+    {
+      "itemprop": "url",
+      "content": "https://www.jan-huber.ch/5second-app/privacy-policy"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Privacy Policy — Jan Huber"
+    },
+    {
+      "name": "twitter:url",
+      "content": "https://www.jan-huber.ch/5second-app/privacy-policy"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary"
+    },
+    {
+      "name": "description",
+      "content": ""
+    }
+  ],
+  "structuredData": [
+    {
+      "url": "https://www.jan-huber.ch",
+      "name": "Jan Huber",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    }
+  ],
+  "lang": "en",
+  "canonicalPath": "/5second-app/privacy-policy"
+}
+---
+
+<span id="page-section-642a9fbb3dfd89740de60231"></span>
+
+# 5 Seconds - App: <br>Privacy Policy
+
+<strong>We do not collect personal information using the app.</strong>
+
+We do not collect or have access to your personal data recoded in the app “5 Seconds“ for iOS, iPad OS and macOS.
+
+<strong>Data Provided by Apple</strong>
+
+Apple provides certain usage and device data automatically through App Store Connect for all apps. This includes information like app performance, crash reports, and general interaction data, which is collected to improve user experience and app functionality. The data cannot be used to identify you. Please refer to <a href="https://www.apple.com/legal/privacy/en-ww/">Apple’s Privacy Policy</a> for more details on how this data is managed and used.
+
+<strong>Contact</strong>
+
+If you have any questions about this Privacy Policy, reach out by <a href="/5seconds-app/contact">using the contact form</a>.
