@@ -22,7 +22,9 @@ for name in sys.argv[1:]:
  if len(built_images)<len(source_images):errors.append((name,'Image count',len(source_images),len(built_images)))
  for n in main.all(lambda n:n.tag in ['img','video']):
   u=n.attrs.get('src','')
-  if u.startswith('/Portfolio/') and not (root/'public'/u.removeprefix('/Portfolio/')).exists():errors.append((name,'Missing asset',u))
+  if u.startswith('/'):
+   asset=u.removeprefix('/Portfolio').lstrip('/')
+   if not (root/'public'/asset).exists():errors.append((name,'Missing asset',u))
  print(name, 'text blocks',len(s.all(lambda n:n.has('sqs-html-content'))),'images',len(built_images))
 for e in errors:print('ERROR',e)
 raise SystemExit(bool(errors))

@@ -2,8 +2,9 @@
 from pathlib import Path
 from urllib.parse import urlsplit,unquote
 from source_html import parse
-import json,xml.etree.ElementTree as E
+import json,re,xml.etree.ElementTree as E
 root=Path(__file__).resolve().parents[1];dist=root/'dist';errors=[];oldlinks=[]
+base=re.search(r"base:\s*['\"]([^'\"]*)",(root/'astro.config.mjs').read_text()).group(1).rstrip('/')
 for p in dist.rglob('*.html'):
  r=parse(p.read_text())
  for n in r.all(lambda n:n.tag in ['a','img','video','script','link','iframe']):
@@ -12,8 +13,8 @@ for p in dist.rglob('*.html'):
    if 'squarespace' in url.netloc and not (n.tag=='a' and url.netloc=='support.squarespace.com'):errors.append((str(p.relative_to(dist)),'Squarespace dependency',u))
    if url.netloc or url.scheme or not u:continue
    path=unquote(url.path)
-   if path.startswith('/Portfolio'):path=path[len('/Portfolio'):]
-   elif path.startswith('/'):errors.append((str(p.relative_to(dist)),'Missing base',u));continue
+   if base and (path==base or path.startswith(base+'/')):path=path[len(base):]
+   elif base and path.startswith('/'):errors.append((str(p.relative_to(dist)),'Missing base',u));continue
    target=(dist/path.lstrip('/')) if url.path else p
    if target.is_dir():target=target/'index.html'
    elif not target.suffix and not target.exists():target=target/'index.html'

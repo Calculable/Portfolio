@@ -32,7 +32,6 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
     {seo.map((meta) => <meta {...meta} />)}
     <meta property="og:site_name" content="Jan Huber" />
     <meta property="og:url" content={canonical} />
-    <meta name="robots" content="noindex" />
     <link rel="canonical" href={canonical} />
     {page.structuredData?.length > 0 && <script type="application/ld+json" set:html={structuredData} />}
   </head>
