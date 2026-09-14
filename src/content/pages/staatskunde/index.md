@@ -24,7 +24,7 @@
 }
 ---
 
-Die Webseite <a href="https://staatskunde.ikbw.ch">staatskunde.ikbw.ch</a> war eine Schulprojektarbeit für das Fach &quot;Geschichte&quot; gemeinsam mit Adrian Schrempp. In einer zweiten Projektphase haben wir anschliessend Unterstützung durch die gesamte Klasse (<a href="http://medio.kbw.ch:8080/">siehe Klassenhomepage</a>) erhalten, um den Feinschliff vorzunehmen und Erfahrungen im Projektmanagement zu sammeln.
+Die Webseite <a href="https://staatskunde.ikbw.ch">staatskunde.ikbw.ch</a> war eine Schulprojektarbeit für das Fach &quot;Geschichte&quot; gemeinsam mit Adrian Schrempp. In einer zweiten Projektphase haben wir anschliessend Unterstützung durch die gesamte Klasse erhalten, um den Feinschliff vorzunehmen und Erfahrungen im Projektmanagement zu sammeln.
 
 <iframe class="video-embed" src="https://player.vimeo.com/video/469198004?app_id=122963&amp;wmode=opaque&amp;dnt=1" title="Staatskunde" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
 

@@ -9,7 +9,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #9d9d9d; outline-offs
 .wordmark { font-size: 1.2rem; font-weight: 750; letter-spacing: 0.01em; white-space: nowrap; }
 .site-menu { display: flex; align-items: center; gap: 2.4rem; flex: 1; }
 .menu-toggle { display: none; }
-.site-header nav { font-size: 1rem; }
+.site-header nav { display: flex; align-items: center; gap: 1.5rem; font-size: 1rem; }
 .active { padding-bottom: 4px; border-bottom: 1px solid #ddd; }
 .header-actions { margin-left: auto; display: flex; align-items: center; gap: 1.8rem; }
 .social { display: grid; place-items: center; width: 28px; height: 36px; }

@@ -9,6 +9,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <div class="site-menu" id="site-menu">
   <nav aria-label="Hauptnavigation">
     <a class:list={{ active: Astro.url.pathname.replace(/\/$/, "").endsWith("/portfolio") }} aria-current={Astro.url.pathname.replace(/\/$/, "").endsWith("/portfolio") ? "page" : undefined} href={`${base}/portfolio/`}>Fotoarchiv</a>
+    <a href={`${base}/#page-section-625aab9ff90d7a4b52b57ace`}>Projekte</a>
   </nav>
   <div class="header-actions">
     <a class="social" href="https://github.com/Calculable" aria-label="GitHub">
