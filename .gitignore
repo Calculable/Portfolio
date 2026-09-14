@@ -10,3 +10,8 @@ dist/
 # Read-only source snapshots; not part of the published website.
 migration/source/*.html
 __pycache__/
+
+# Local migration records and provenance (not part of the repository).
+/MIGRATION.md
+/DOMAIN-MOVE.md
+/migration/

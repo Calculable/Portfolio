@@ -2,7 +2,7 @@
 from pathlib import Path
 from urllib.parse import urlsplit,unquote
 from source_html import parse
-import json,re,xml.etree.ElementTree as E
+import json,re
 root=Path(__file__).resolve().parents[1];dist=root/'dist';errors=[];oldlinks=[]
 base=re.search(r"base:\s*['\"]([^'\"]*)",(root/'astro.config.mjs').read_text()).group(1).rstrip('/')
 for p in dist.rglob('*.html'):
@@ -24,9 +24,11 @@ for p in dist.rglob('*.html'):
     if unquote(url.fragment) not in ids:errors.append((str(p.relative_to(dist)),'Missing anchor',u))
  if len(r.all(lambda n:n.tag=='title'))!=1:errors.append((str(p),'title'))
  if len(r.all(lambda n:n.tag=='link' and n.attrs.get('rel')=='canonical'))!=1:errors.append((str(p),'canonical'))
-for u in E.parse(root/'migration/source/sitemap.xml').getroot():
- path=urlsplit(u[0].text).path.lstrip('/')
- if not (dist/path/'index.html').exists():errors.append(('sitemap','Missing page',path))
+for source in (root/'src/content/pages').rglob('*.md'):
+ meta=json.loads(source.read_text().split('---',2)[1])
+ for route in [meta['path'], *meta.get('aliases', [])]:
+  path=route.strip('/')
+  if not (dist/path/'index.html').exists():errors.append(('content','Missing page',route))
 print('Pages:',len(list(dist.rglob('*.html'))),'Errors:',len(errors))
 for e in errors:print(e)
 raise SystemExit(bool(errors))

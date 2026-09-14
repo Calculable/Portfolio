@@ -1,5 +1,0 @@
-{
-  "source": "https://video.squarespace-cdn.com/content/v1/5fb42137fd2e9534ade38cfa/0e0638a1-d717-490a-a323-6c5a52fb6e8a/playlist.m3u8",
-  "local": "/media/endless-peaks-demo.mp4",
-  "method": "Remuxed highest-resolution public HLS video to MP4 with ffmpeg, no re-encoding."
-}
