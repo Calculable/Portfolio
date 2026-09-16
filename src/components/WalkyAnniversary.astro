@@ -1,0 +1,111 @@
+---
+const media = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/walky`;
+const screenshots = [
+  { file: '01-flow', alt: 'Walky Go: gelbe Fussgänger bewegen sich um farbige Hindernisse', label: 'Fussgänger simulieren' },
+  { file: '02-draw', alt: 'Walky Go: selbst gezeichnete Hindernisse und zwei Fussgängergruppen', label: 'Eigene Umgebungen zeichnen' },
+  { file: '03-routes', alt: 'Walky Go: eine berechnete Route mit Gehzeit und Distanz', label: 'Wege und Distanzen erkunden' },
+];
+---
+<nav class="walky-chapters" aria-label="Walky-Versionen">
+  <a href="#walky-neu"><span>2026</span> Web & iPhone <span aria-hidden="true">↓</span></a>
+  <a href="#walky-original"><span>2016</span> Java-Original <span aria-hidden="true">↓</span></a>
+</nav>
+<section id="walky-neu" class="walky-anniversary" aria-labelledby="walky-comeback">
+  <header class="anniversary-hero">
+    <div class="anniversary-intro">
+      <p class="eyebrow">2026 · Zum 10-Jahre-Jubiläum</p>
+      <h2 id="walky-comeback">Walky für Web<br />und iPhone</h2>
+      <p class="anniversary-lead">Zum 10-Jahre-Jubiläum gibt es unser gemeinsames Schulprojekt in einer neuen Form: Pascal Andermatt hat Walky in eine Webapplikation und die iPhone-App <strong>Walky Go</strong> migriert.</p>
+      <div class="walky-actions">
+        <a class="store-link" href="https://apps.apple.com/ch/app/walky-go/id6811090126" aria-label="Walky Go im App Store herunterladen"><img src={`${media}/app-store.svg`} alt="Download on the App Store" width="150" height="50" /></a>
+        <a class="web-link" href="https://walky.ch/demo/">Webdemo öffnen <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <img class="simulation-art" src={`${media}/background.webp`} alt="" width="1800" height="1013" fetchpriority="high" />
+    <div class="anniversary-caption"><span>Walky Go / 2026</span><span>Fussgängersimulation</span></div>
+  </header>
+  <div class="app-showcase">
+    <div class="section-intro"><h3>Die neue App</h3><p>Umgebungen zeichnen, Fussgänger losschicken und ihre Wege beobachten – jetzt direkt auf dem iPhone.</p></div>
+    <div class="screenshot-grid">
+      {screenshots.map(({file, alt, label}, index) => <figure><img src={`${media}/${file}.webp`} alt={alt} width="792" height="1721" loading="lazy" decoding="async" /><figcaption><span>0{index + 1}</span>{label}</figcaption></figure>)}
+    </div>
+  </div>
+  <div class="feature-grid">
+    <article class="feature-card airplay-card">
+      <div class="feature-copy"><p class="eyebrow">AirPlay</p><h3>Walky auf dem grossen Bildschirm</h3><p>Mit AirPlay lässt sich die Simulation vom iPhone auf den Fernseher übertragen.</p></div>
+      <img src={`${media}/airplay-support.webp`} alt="Walky-Simulation einer Stadtkarte auf einem Fernseher über AirPlay" width="1200" height="900" loading="lazy" decoding="async" />
+    </article>
+    <article class="feature-card map-card">
+      <div class="feature-copy"><p class="eyebrow">Kartenimport</p><h3>Die Stadt als Spielfeld</h3><p>Echte Karten importieren und Fusswege durch die Stadt erkunden.</p></div>
+      <img src={`${media}/map-import.webp`} alt="Importierte Stadtkarte in Walky Go mit einer eingezeichneten Fussgängerroute" width="570" height="1240" loading="lazy" decoding="async" />
+    </article>
+  </div>
+  <aside class="sticker-section" aria-labelledby="walky-stickers">
+    <div><p class="eyebrow">iMessage</p><h3 id="walky-stickers">Walky als Sticker</h3><p>Die kleinen Fussgänger gibt es auch als iMessage-Stickerpack.</p></div>
+    <div class="sticker-line">
+      <img src={`${media}/walky-time.webp`} alt="Grüner Walky-Sticker: Walky Time!" width="400" height="400" loading="lazy" />
+      <img src={`${media}/pathfinding-intensifies.webp`} alt="Violetter Walky-Sticker: Pathfinding intensifies!" width="400" height="400" loading="lazy" />
+      <img src={`${media}/one-more-simulation.webp`} alt="Türkiser Walky-Sticker: Just one more simulation…" width="400" height="400" loading="lazy" />
+    </div>
+  </aside>
+</section>
+<style>
+  .walky-chapters { display: flex; flex-wrap: wrap; gap: 12px 32px; margin: -12px 0 30px; }
+  .walky-chapters a { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; font-size: .85rem; text-decoration: none; }
+  .walky-chapters a:hover { text-decoration: underline; }
+  .walky-chapters a > span:first-child { color: #777; font-variant-numeric: tabular-nums; }
+  .walky-anniversary { color: #202020; }
+  .anniversary-hero { position: relative; isolation: isolate; overflow: hidden; background: #1e1e1e; color: #fff; border-radius: 20px; }
+  .anniversary-intro { position: relative; z-index: 2; padding: clamp(28px, 5vw, 52px); max-width: 650px; }
+  .walky-anniversary .eyebrow { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 650; margin: 0 0 18px; }
+  .anniversary-intro .eyebrow { color: #f1c4e1; }
+  .walky-anniversary h2 { font-size: clamp(2.6rem, 5.2vw, 4.4rem); line-height: 1.06; letter-spacing: -.055em; margin: 0; font-weight: 750; }
+  .walky-anniversary .anniversary-lead { max-width: 420px; line-height: 1.7; margin: 26px 0 30px; font-size: 1.02rem; color: #dedede; }
+  .walky-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }
+  .store-link { display: inline-block; flex: 0 0 auto; }
+  .walky-anniversary .store-link img { width: 150px; height: 50px; margin: 0; }
+  .web-link { display: inline-flex; gap: 16px; align-items: center; min-height: 48px; font-size: .9rem; }
+  .web-link span { font-size: 1.3rem; color: #e5a1d1; }
+  .walky-anniversary a:focus-visible { outline: 3px solid #e6a7d5; outline-offset: 6px; }
+  .walky-anniversary .simulation-art { position: absolute; z-index: -1; width: 100%; height: 100%; max-height: none; object-fit: cover; inset: 0; opacity: .8; mask-image: linear-gradient(90deg, transparent 40%, #000 95%); }
+  .anniversary-caption { display: flex; justify-content: space-between; gap: 16px; padding: 18px clamp(28px, 5vw, 52px); border-top: 1px solid #ffffff25; font-size: .65rem; text-transform: uppercase; letter-spacing: .12em; color: #c4c4c4; }
+  .app-showcase { margin: 56px 0 36px; }
+  .section-intro { display: grid; grid-template-columns: 1fr 1.3fr; gap: 32px; align-items: start; margin: 0 0 28px; }
+  .walky-anniversary h3 { margin: 0; font-size: clamp(1.5rem, 2.8vw, 2rem); letter-spacing: -.035em; }
+  .walky-anniversary .section-intro p { margin: 0; font-size: 1rem; color: #626262; }
+  .screenshot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .walky-anniversary .screenshot-grid figure { margin: 0; min-width: 0; }
+  .walky-anniversary .screenshot-grid img { width: 100%; height: auto; max-height: none; border-radius: 14px; }
+  .walky-anniversary .screenshot-grid figcaption { display: flex; gap: 10px; margin-top: 14px; font-size: .76rem; line-height: 1.5; color: #505050; }
+  .screenshot-grid figcaption span { color: #999; }
+  .feature-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 22px; margin: 52px 0 0; align-items: stretch; }
+  .feature-card { border-radius: 18px; overflow: hidden; background: #f3f1ed; }
+  .feature-copy { padding: 30px; }
+  .feature-copy .eyebrow { color: #736078; }
+  .walky-anniversary .feature-copy h3 { font-size: 1.7rem; }
+  .walky-anniversary .feature-copy p:last-child { margin: 16px 0 0; color: #626262; font-size: .93rem; }
+  .airplay-card { display: flex; flex-direction: column; }
+  .walky-anniversary .airplay-card > img { width: 100%; max-height: none; margin: auto 0 0; aspect-ratio: 4 / 3; object-fit: cover; }
+  .map-card { background: #f0edf4; }
+  .walky-anniversary .map-card > img { width: 190px; height: auto; max-height: none; border: 5px solid #242424; border-radius: 26px; margin: 0 auto 28px; box-shadow: 0 15px 32px #20152b20; }
+  .sticker-section { display: grid; grid-template-columns: 1fr 1.5fr; align-items: center; gap: 24px; margin: 34px 0 70px; padding: 34px 0; }
+  .walky-anniversary .sticker-section p:last-child { color: #626262; font-size: .95rem; margin-bottom: 0; }
+  .sticker-line { display: flex; align-items: center; }
+  .walky-anniversary .sticker-line img { width: 33.333%; height: auto; max-height: none; transform: rotate(-9deg); }
+  .walky-anniversary .sticker-line img:nth-child(2) { transform: rotate(8deg) translateY(-10px); }
+  @media (max-width: 700px) {
+    .section-intro, .feature-grid, .sticker-section { grid-template-columns: 1fr; gap: 20px; }
+    .walky-anniversary .simulation-art { mask-image: linear-gradient(90deg, transparent 20%, #000 100%); opacity: .22; }
+    .anniversary-caption { font-size: .58rem; }
+    .screenshot-grid { gap: 12px; }
+    .walky-anniversary .screenshot-grid figcaption { display: block; font-size: .7rem; }
+    .screenshot-grid figcaption span { display: block; margin-bottom: 4px; }
+    .feature-copy { padding: 26px; }
+    .sticker-section { margin-bottom: 40px; }
+    .sticker-line { max-width: 500px; margin: 8px auto 0; }
+  }
+  @media (max-width: 480px) {
+    .screenshot-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 0 18px; }
+    .walky-anniversary .screenshot-grid figure { flex: 0 0 78%; scroll-snap-align: start; }
+  }
+</style>

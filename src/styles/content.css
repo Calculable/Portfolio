@@ -96,3 +96,23 @@
 @media (max-width: 640px) {
   .project-list { grid-template-columns: 1fr; gap: 1.5rem; }
 }
+
+/* Visually separate the original Walky project from its 2026 successor. */
+.content-main .walky-original { padding: clamp(24px, 4vw, 48px); background: #f4f4f3; border: 1px solid #e4e4e2; border-radius: 18px; }
+.walky-original-header { padding-bottom: 32px; margin-bottom: 36px; border-bottom: 1px solid #d8d8d5; }
+.content-main .walky-archive-label { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: #686868; margin: 0 0 18px; }
+.content-main .walky-original-header h2 { font-size: clamp(1.9rem, 3.5vw, 2.7rem); margin: 0 0 20px; }
+.content-main .walky-original-header > p:not(.walky-archive-label) { color: #606060; max-width: 65ch; font-size: 1rem; }
+.walky-original-header > a { display: inline-block; padding: 8px 0; font-size: .85rem; }
+.content-main .walky-original h3 { margin-top: 2.5rem; font-size: 1.5rem; }
+.content-main .walky-original h4 { font-size: 1.1rem; margin: 1.8rem 0 1rem; }
+
+.walky-original-features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 24px 0 0; }
+.walky-original-features article { padding: 24px; border: 1px solid #e4e4e2; border-radius: 14px; background: #fff; }
+.walky-feature-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: #efedf2; color: #61536c; }
+.walky-feature-icon svg { width: 24px; height: 24px; }
+.content-main .walky-original-features h4 { margin: 20px 0 12px; font-size: 1.05rem; line-height: 1.35; }
+.content-main .walky-original-features p { margin: 0; font-size: .9rem; line-height: 1.65; color: #626262; }
+@media (max-width: 700px) {
+  .walky-original-features { grid-template-columns: 1fr; }
+}
