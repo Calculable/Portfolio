@@ -1,0 +1,13 @@
+<dialog class="lightbox" aria-label="Fotoansicht" id="lightbox">
+    <div class="lightbox-toolbar">
+      <p id="photo-counter" role="status" aria-live="polite"></p>
+      <button type="button" class="icon-button" id="close-lightbox" aria-label="Fotoansicht schliessen" autofocus>×</button>
+    </div>
+    <div class="lightbox-stage">
+      <button type="button" class="icon-button previous" id="previous-photo" aria-label="Vorheriges Foto">‹</button>
+      <figure><img id="large-photo" alt="" /></figure>
+      <button type="button" class="icon-button next" id="next-photo" aria-label="Nächstes Foto">›</button>
+    </div>
+    <p class="lightbox-hint">← → Blättern <span aria-hidden="true">·</span> Esc Schliessen</p>
+  </dialog>
+  <script>import '../scripts/gallery.js';</script>

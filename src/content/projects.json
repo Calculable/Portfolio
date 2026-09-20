@@ -8,6 +8,14 @@
     "height": 1560
   },
   {
+    "title": "Unendliche Bilder",
+    "description": "2026 - Ein Kameraexperiment mit Licht, Farben und Bewegung. Wenn die Kamera ihr eigenes Bildschirmbild filmt, entstehen immer neue abstrakte Muster.",
+    "image": "/media/recursive-art/leuchtende-spirale.webp",
+    "url": "/recursive-art",
+    "width": 900,
+    "height": 900
+  },
+  {
     "title": "NoteFinder AI",
     "description": "2026 - NoteFinder AI ist eine App für den Mac, um Textnotizen mittels KI-Anbindung semantisch zu durchsuchen.",
     "image": "/media/d6b62b8218-icon-ios-default-1024x1024-1x.png",

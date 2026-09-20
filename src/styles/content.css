@@ -116,3 +116,15 @@
 @media (max-width: 700px) {
   .walky-original-features { grid-template-columns: 1fr; }
 }
+
+/* Shared art galleries preserve each image at its natural aspect ratio. */
+.content-main .art-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 3vw, 32px); margin: 2rem 0 3rem; }
+.content-main .art-photo-grid figure { margin: 0; }
+.content-main .art-photo-grid img { display: block; width: 100%; height: auto; max-height: none; aspect-ratio: auto; object-fit: contain; margin: 0; }
+.content-main video.recursive-art-making-of { width: 100%; height: auto; max-height: none; aspect-ratio: 16 / 9; }
+
+.art-photo-grid a { display: block; }
+.art-photo-grid a:focus-visible { outline: 3px solid #242424; outline-offset: 4px; }
+@media (max-width: 640px) {
+  .content-main .art-photo-grid { grid-template-columns: minmax(0, 1fr); }
+}
