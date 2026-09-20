@@ -90,6 +90,7 @@ Wenn Sie einen externen Link öffnen, verlassen Sie diese Website. Für die Ziel
 - [Memosaurus](/memosaurus/privacy-policy)
 - [5 Seconds](/5second-app/privacy-policy)
 - [Walky](/walky/privacy-policy)
+- [Pixly](/pixly/privacy-policy)
 - [NoteFinder AI](/note-finder/privacy-policy)
 - [Last Directory](/last-directory-app/privacy-policy)
 - [Endless Peaks](/endless-peaks/privacy-policy)
