@@ -1,0 +1,100 @@
+---
+const media = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/pixly`;
+---
+<nav class="pixly-chapters" aria-label="Pixly-Versionen">
+  <a href="#pixly-neu"><span>2026</span> Die neue App ↓</a>
+  <a href="#pixly-original"><span>2015</span> Das C-Original ↓</a>
+</nav>
+<section id="pixly-neu" class="pixly-anniversary" aria-labelledby="pixly-comeback">
+  <header class="pixly-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">2015 → 2026 · Ein Schulprojekt kehrt zurück</p>
+      <h2 id="pixly-comeback">Ein Pixel.<br />Ein Tunnel.<br /><span>Noch eine Runde.</span></h2>
+      <p class="lead">Damals ein C-Spiel in einer 80 × 25 Zeichen grossen Konsole. Heute neu gevibe-coded: Pixly ist unsere Hommage an das Spiel, mit dem alles begann.</p>
+      <p class="credits">Von Pascal Andermatt und Jan Huber</p>
+    </div>
+    <div class="hero-gameplay"><img src={`${media}/smooth.webp`} alt="Pixly auf dem iPhone: ein Pixel fliegt durch den gelben Tunnel" width="1100" height="2390" fetchpriority="high" /></div>
+    <div class="hero-footer"><span>Pixly / 2026</span><span>iPhone · iPad · Apple Watch · Mac · Apple TV</span></div>
+  </header>
+
+  <div class="intro"><h3>Das Spielprinzip</h3><p>Steuere deinen Pixel durch einen endlosen Tunnel. Weiche den Wänden aus und schau, wie weit du kommst. Ein kleiner Fehler – und die Jagd nach dem nächsten Highscore beginnt von vorne.</p></div>
+
+  <div class="versions">
+    <article class="version classic">
+      <div class="version-copy"><p class="eyebrow">Pixly 1.0</p><h3>Die klassische Version</h3><p>Der klassische Konsolenstil: stufige Tunnelwände, ein einzelner Pixel und einfache Tippsteuerung.</p></div>
+      <img src={`${media}/classic.webp`} alt="Pixly 1.0 auf dem iPhone: weisser Tunnel mit stufigen Wänden und einer kleinen schwarzen Spielfigur" width="1100" height="506" loading="lazy" decoding="async" />
+    </article>
+    <article class="version smooth">
+      <div class="version-copy"><p class="eyebrow">Pixly 2.0</p><h3>Die Version mit Physik</h3><p>Flüssige Bewegungen und Physik geben dem alten Spielgefühl einen neuen Dreh. Der Pixel bleibt klein. Die Herausforderung auch diesmal nicht.</p></div>
+      <img src={`${media}/smooth.webp`} alt="Pixly 2.0 auf dem iPhone: ein Pixel mit Bewegungsspur fliegt durch einen gelben Tunnel" width="1100" height="2390" loading="lazy" decoding="async" />
+    </article>
+  </div>
+
+  <div class="intro"><h3>Spielfiguren und Highscores</h3><p>Wähle deine Spielfigur und versuche, deinen persönlichen Rekord zu verbessern.</p></div>
+  <div class="device-grid">
+    <article class="ipad-card"><div class="device-copy"><p class="eyebrow">iPhone & iPad</p><h3>Auf iPhone und iPad</h3><p>Vom iPhone bis zum iPad: ein endloser Tunnel.</p></div><img src={`${media}/ipad-phosphor.webp`} alt="Pixly auf dem iPad im grünen Phosphor-Farbthema" width="800" height="1067" loading="lazy" decoding="async" /></article>
+    <article class="watch-card"><div class="device-copy"><p class="eyebrow">Apple Watch</p><h3>Auf der Apple Watch</h3><p>Das Konsolenspiel gibt es jetzt auch im kleinsten Format.</p></div><div class="watches"><img src={`${media}/watch-phosphor.webp`} alt="Pixly auf der Apple Watch mit grünem Tunnel" width="416" height="496" loading="lazy" decoding="async" /><img src={`${media}/watch-amber.webp`} alt="Pixly auf der Apple Watch im bernsteinfarbenen Design" width="416" height="496" loading="lazy" decoding="async" /></div></article>
+  </div>
+  <section class="gameplay-preview" aria-labelledby="pixly-gameplay-title">
+    <div><h3 id="pixly-gameplay-title">Gameplay-Video</h3><p>Ein kurzer Einblick in Pixly.</p></div>
+    <video controls playsinline preload="none" poster={`${media}/gameplay-poster.jpg`} width="590" height="1278" aria-label="Pixly Gameplay">
+      <source src={`${media}/gameplay.mp4`} type="video/mp4" />
+      Dein Browser unterstützt die Videowiedergabe nicht. <a href={`${media}/gameplay.mp4`}>Gameplay-Video öffnen</a>
+    </video>
+  </section>
+</section>
+<style>
+  .pixly-chapters { display:flex; flex-wrap:wrap; gap:12px 32px; margin:-12px 0 30px; }
+  .pixly-chapters a { display:inline-flex; align-items:center; gap:12px; min-height:44px; font-size:.85rem; text-decoration:none; }
+  .pixly-chapters a:hover { text-decoration:underline; }
+  .pixly-chapters span { color:#777; }
+  .pixly-anniversary { color:#202020; margin-bottom:64px; }
+  .pixly-anniversary .eyebrow { font: 600 .7rem/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing:.07em; text-transform:uppercase; margin:0 0 18px; }
+  .pixly-hero { display:grid; grid-template-columns:1.45fr 1fr; border-radius:20px; overflow:hidden; background:#0d100d; color:#fff; }
+  .hero-copy { padding:clamp(28px,4vw,48px); align-self:center; }
+  .hero-copy .eyebrow { color:#bcceaa; }
+  .pixly-anniversary h2 { font-size:clamp(2.5rem,4.6vw,4rem); line-height:1.06; letter-spacing:-.055em; margin:0; }
+  .hero-copy h2 span { color:#f4ed9d; }
+  .pixly-anniversary .lead { font-size:1rem; line-height:1.75; color:#d0d3ca; margin:26px 0 20px; max-width:43ch; }
+  .pixly-anniversary .credits { font-size:.78rem; color:#a5ada0; }
+  .hero-gameplay { padding:36px 30px 0 0; align-self:end; }
+  .pixly-anniversary .hero-gameplay img { width:240px; max-height:none; border:1px solid #34352b; border-bottom:0; border-radius:28px 28px 0 0; }
+  .hero-footer { grid-column:1/-1; display:flex; justify-content:space-between; gap:16px; border-top:1px solid #ffffff25; padding:18px 32px; font:.65rem/1.6 ui-monospace,monospace; color:#b9bfb1; }
+  .intro { display:grid; grid-template-columns:1fr 1.3fr; gap:32px; margin:54px 0 28px; }
+  .pixly-anniversary h3 { margin:0; font-size:clamp(1.5rem,2.7vw,2rem); letter-spacing:-.035em; }
+  .pixly-anniversary .intro p { margin:0; color:#626262; font-size:1rem; }
+  .versions { display:grid; gap:20px; }
+  .version { border-radius:18px; overflow:hidden; }
+  .version-copy { padding:32px; }
+  .version-copy p:last-child { font-size:.95rem; line-height:1.7; margin:16px 0 0; max-width:51ch; }
+  .classic { background:#eeede6; }
+  .pixly-anniversary .classic > img { width:calc(100% - 64px); max-height:none; border-radius:14px; margin:0 32px 32px; }
+  .smooth { display:grid; grid-template-columns:1.25fr 1fr; align-items:center; background:#ffb900; }
+  .pixly-anniversary .smooth > img { height:360px; width:auto; max-height:none; margin:30px auto; border:5px solid #151108; border-radius:24px; }
+  .gameplay-preview { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:28px; margin:48px 0 0; padding:32px 0; border-top:1px solid #e4e4df; border-bottom:1px solid #e4e4df; }
+  .gameplay-preview p { color:#626262; font-size:.93rem; }
+  .pixly-anniversary .gameplay-preview video { display:block; width:100%; max-width:240px; height:auto; max-height:none; aspect-ratio:295 / 639; object-fit:contain; margin:0 auto; border-radius:12px; background:#0d100d; }
+  .device-grid { display:grid; grid-template-columns:1.1fr 1fr; gap:20px; }
+  .device-grid article { border-radius:18px; overflow:hidden; }
+  .device-copy { padding:30px; }
+  .device-copy p:last-child { font-size:.93rem; margin:16px 0 0; }
+  .ipad-card { background:#0d2015; color:#a3f1b9; }
+  .watch-card { background:#f1efe7; display:flex; flex-direction:column; }
+  .pixly-anniversary .ipad-card > img { width:65%; max-height:none; border:9px solid #080d09; border-radius:21px; margin:0 auto 32px; }
+  .watches { display:flex; gap:16px; padding:25px 26px; align-items:center; margin:auto 0; }
+  .pixly-anniversary .watches img { width:calc(50% - 8px); max-height:none; border:7px solid #242522; border-radius:30px; box-shadow:0 12px 20px #00000015; }
+  .watches img:nth-child(2) { transform:translateY(24px); }
+  .pixly-anniversary a:focus-visible,.pixly-chapters a:focus-visible { outline:3px solid #678b55; outline-offset:5px; }
+  @media(max-width:700px) {
+    .pixly-hero { grid-template-columns:1fr; }
+    .hero-gameplay { padding:0 28px; }
+    .pixly-anniversary .hero-gameplay img { width:210px; }
+    .hero-footer { padding:18px 26px; flex-direction:column; gap:6px; }
+    .intro,.device-grid,.gameplay-preview { grid-template-columns:1fr; gap:20px; }
+    .smooth { grid-template-columns:1fr; }
+    .pixly-anniversary .smooth > img { margin:0 auto 30px; }
+    .version-copy,.device-copy { padding:26px; }
+    .pixly-anniversary .classic > img { width:calc(100% - 32px); margin:0 16px 16px; }
+    .watches { max-width:360px; margin:0 auto; }
+  }
+</style>

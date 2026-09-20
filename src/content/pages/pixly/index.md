@@ -14,7 +14,7 @@
     },
     {
       "property": "og:description",
-      "content": "Eines meiner ersten Informatikprojekte: Ein kleines Spiel als grafische Konsolenanwendung. Pixly entstand als Gruppenarbeit an der Informatikmittelschule in Winterthur"
+      "content": "Pixly kehrt zurück: unser C-Konsolenspiel von 2015, neu gevibe-coded für iPhone, iPad, Apple Watch, Mac und Apple TV. Eine Hommage an das ursprüngliche Schulprojekt."
     },
     {
       "name": "twitter:card",
@@ -22,7 +22,7 @@
     },
     {
       "name": "description",
-      "content": "Eines meiner ersten Informatikprojekte: Ein kleines Spiel als grafische Konsolenanwendung. Pixly entstand als Gruppenarbeit an der Informatikmittelschule in Winterthur"
+      "content": "Pixly kehrt zurück: unser C-Konsolenspiel von 2015, neu gevibe-coded für iPhone, iPad, Apple Watch, Mac und Apple TV. Eine Hommage an das ursprüngliche Schulprojekt."
     }
   ],
   "lang": "de-CH",

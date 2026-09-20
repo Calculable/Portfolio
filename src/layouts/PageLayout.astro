@@ -7,6 +7,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 import Analytics from '../components/Analytics.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import WalkyAnniversary from '../components/WalkyAnniversary.astro';
+import PixlyAnniversary from '../components/PixlyAnniversary.astro';
 import '../styles/portfolio.css';
 import '../styles/content.css';
 const { page } = Astro.props;
@@ -43,6 +44,7 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
     <main id="page" class:list={['content-main', { 'home-page': page.path === '/' || page.path === '/jan-huber-portfolio' }]}>
       {page.heading && <ProjectHeader page={page} />}
       {page.path === '/walky' && <WalkyAnniversary />}
+      {page.path === '/pixly' && <PixlyAnniversary />}
       {page.path === '/' ? (
         <section class="terminal-intro" aria-label="Einleitung">
           <div class="terminal-body">
@@ -57,6 +59,16 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
             <h2 id="walky-original-title">Walky als Java-Applikation</h2>
             <p>Hier begann unser gemeinsames Schulprojekt. Die folgenden Einblicke und Funktionen zeigen die ursprüngliche Java-Version von Pascal Andermatt und Jan Huber.</p>
             <a href="#walky-neu">Zur neuen Version von 2026 ↑</a>
+          </header>
+          <Fragment set:html={content} />
+        </section>
+       ) : page.path === '/pixly' ? (
+        <section id="pixly-original" class="walky-original" aria-labelledby="pixly-original-title">
+          <header class="walky-original-header">
+            <p class="walky-archive-label">Pixly als C-Konsolenspiel</p>
+            <h2 id="pixly-original-title">Die ursprüngliche Version von 2015</h2>
+            <p>Hier begann die Geschichte: als gemeinsames Schulprojekt von Pascal Andermatt, Jan Huber und Adrian Schrempp. Die folgenden Einblicke zeigen das Original.</p>
+            <a href="#pixly-neu">Zur neuen Version von 2026 ↑</a>
           </header>
           <Fragment set:html={content} />
         </section>
