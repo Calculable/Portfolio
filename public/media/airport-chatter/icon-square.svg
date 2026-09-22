@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs><linearGradient id="tower-background" x1="0" y1="0" x2="0.25" y2="1"><stop stop-color="#466967"/><stop offset="1" stop-color="#183c3b"/></linearGradient><filter id="layer-shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#102b2a" flood-opacity="0.22"/></filter></defs>
+<rect width="1024" height="1024" fill="url(#tower-background)"/>
+<g filter="url(#layer-shadow)"><path d="M776 209A60 60 0 1 0 802 296A52 52 0 0 1 776 209Z" fill="#f5cf96"/>
+<path transform="translate(-28,-35)" d="M227 421L281 397L319 329Q325 319 333 324L310 386L345 374L362 352L373 350L366 384L272 431Z" fill="#f7e5c4"/>
+<path d="M218 287V310M207 298H230M750 457V480M739 468H762" stroke="#9fceb8" stroke-width="8" stroke-linecap="round"/>
+<circle cx="302" cy="552" r="6" fill="#accdb5"/>
+</g>
+<g filter="url(#layer-shadow)"><defs><linearGradient id="brass" x2="0.2" y2="1"><stop stop-color="#ffe2a5"/><stop offset="1" stop-color="#c17c47"/></linearGradient><linearGradient id="glass" x2="0" y2="1"><stop stop-color="#a4e5cc"/><stop offset="1" stop-color="#3a887d"/></linearGradient></defs>
+<path d="M486 280V170" stroke="#f0cc91" stroke-width="22" stroke-linecap="round"/><circle cx="486" cy="166" r="22" fill="#ffbe76"/>
+<path d="M356 744L390 472H620L655 744Z" fill="url(#brass)"/>
+<path d="M320 321Q315 300 340 287L487 232Q501 226 518 233L668 289Q694 300 688 323L661 454Q657 482 631 488H378Q349 484 344 460Z" fill="url(#brass)"/>
+<path d="M351 329L487 307V440L374 433Z M513 307L655 329L633 433L513 440Z" fill="url(#glass)"/>
+<path d="M367 348L474 330M531 330L638 348" fill="none" stroke="#d9ffdd" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+<path d="M346 475H662" stroke="#855b42" stroke-width="18" stroke-linecap="round"/>
+<rect x="473" y="539" width="62" height="102" rx="27" fill="#396c65"/>
+<path d="M280 754Q280 723 313 723H706Q739 723 739 754V786H280Z" fill="#d6a773"/>
+<path d="M299 745H720" stroke="#ffe0a1" stroke-width="9" stroke-linecap="round"/>
+</g>
+<g filter="url(#layer-shadow)">
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="0.3" y2="1">
+      <stop stop-color="#ffd39b"/><stop offset="1" stop-color="#df915c"/>
+    </linearGradient>
+  </defs>
+  <!-- A single compact silhouette keeps the head, tucked paws and curled body connected. -->
+  <path d="M550 736C529 723 531 694 546 681L544 644Q545 634 554 640L580 660Q592 657 604 660L625 641Q634 634 635 647L636 672C657 643 687 631 717 638C762 647 788 684 784 720C780 752 754 762 715 763H584Q559 761 550 736Z" fill="url(#fur)"/>
+  <path d="M551 650L555 674L574 665Z M626 651L613 664L630 677Z" fill="#c97e60"/>
+  <path d="M549 702Q559 713 570 703M589 703Q601 714 611 703" stroke="#684638" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M575 718Q581 714 587 718L581 724Z" fill="#965b4a"/>
+  <path d="M581 724Q579 730 573 729" stroke="#965b4a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M576 671L579 680M590 670L590 679" stroke="#bf784d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M678 659Q686 669 686 678M705 656Q715 666 716 677M731 665Q742 674 741 685" stroke="#c17a4d" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- The tail wraps into the body without a detached or dangling tip. -->
+  <path d="M770 712C774 748 723 757 676 742C660 737 645 737 633 741" stroke="#c27c50" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M770 708C773 738 722 748 678 735C659 729 643 732 636 735" stroke="#f5bc82" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M563 746Q577 739 594 746" stroke="#f7c68b" stroke-width="14" fill="none" stroke-linecap="round"/>
+</g>
+</svg>
