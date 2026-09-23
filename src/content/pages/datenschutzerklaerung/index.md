@@ -86,7 +86,7 @@ Wenn Sie einen externen Link öffnen, verlassen Sie diese Website. Für die Ziel
 
 ## Datenschutzerklärungen der Apps
 
-- [AirportChatter](/airport-chatter/privacy-policy)
+- [Tower Lounge](/tower-lounge/privacy-policy)
 
 - [Still Remember?](/remember-app/privacy-policy)
 - [Memosaurus](/memosaurus/privacy-policy)

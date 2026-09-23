@@ -1,12 +1,12 @@
 ---
 {
-  "title": "AirportChatter Privacy Policy — Jan Huber",
-  "source": "https://www.jan-huber.ch/airport-chatter/privacy-policy",
-  "path": "/airport-chatter/privacy-policy",
+  "title": "Tower Lounge Privacy Policy — Jan Huber",
+  "source": "https://www.jan-huber.ch/tower-lounge/privacy-policy",
+  "path": "/tower-lounge/privacy-policy",
   "seo": [
     {
       "property": "og:title",
-      "content": "AirportChatter Privacy Policy — Jan Huber"
+      "content": "Tower Lounge Privacy Policy — Jan Huber"
     },
     {
       "property": "og:type",
@@ -18,26 +18,26 @@
     }
   ],
   "lang": "en",
-  "canonicalPath": "/airport-chatter/privacy-policy"
+  "canonicalPath": "/tower-lounge/privacy-policy"
 }
 ---
 
-# AirportChatter: Privacy Policy
+# Tower Lounge: Privacy Policy
 
 Last updated: September 22, 2026.
 
-AirportChatter is an independent app for listening to airport radio alongside ambient music. This policy covers the app, beta testing, and AirportChatter support requests. **Audio comes from external services, which receive data when your device connects to them.** AirportChatter does not require its own account and does not operate its own audio relay or listening-history server.
+Tower Lounge is an independent app for listening to airport radio alongside ambient music. This policy covers the app, beta testing, and Tower Lounge support requests. **Audio comes from external services, which receive data when your device connects to them.** Tower Lounge does not require its own account and does not operate its own audio relay or listening-history server.
 
 ## Responsible person and contact
 
-Jan Huber is responsible for AirportChatter and the support information described here.
+Jan Huber is responsible for Tower Lounge and the support information described here.
 
 Jan Huber<br>
 c/o Frey Services<br>
 Eggstrasse 14f<br>
 8134 Adliswil, Switzerland
 
-Use the [AirportChatter contact form](/airport-chatter/contact) for support and privacy requests.
+Use the [Tower Lounge contact form](/tower-lounge/contact) for support and privacy requests.
 
 ## Information stored on your device
 
@@ -47,21 +47,21 @@ The tower's time-of-day appearance uses your device's clock and time zone; it do
 
 ## Airport audio — LiveATC
 
-When the app prepares or plays a station, your device connects directly to the stream provider. The provider necessarily receives your IP address and the requested stream, and may receive technical connection details. A connection may begin while a station is being prepared, before you hear audio. LiveATC describes server logging and, for its websites and services, cookies and advertising technologies in its own policy. Not every website feature is used by AirportChatter's native audio player.
+When the app prepares or plays a station, your device connects directly to the stream provider. The provider necessarily receives your IP address and the requested stream, and may receive technical connection details. A connection may begin while a station is being prepared, before you hear audio. LiveATC describes server logging and, for its websites and services, cookies and advertising technologies in its own policy. Not every website feature is used by Tower Lounge's native audio player.
 
 LiveATC is responsible for its own processing. See [LiveATC's privacy policy](https://www.liveatc.net/privacy/) and [terms of use](https://www.liveatc.net/legal/). If you use another stream provider, that provider's privacy practices apply. The developer does not receive LiveATC's listener logs.
 
 ## Ambient music — SoundCloud
 
-AirportChatter embeds SoundCloud's official web player. It loads as part of the app interface and can contact SoundCloud and its service providers **before you press Play**, even when the music is paused or its volume is zero. Pausing music does not unload the player.
+Tower Lounge embeds SoundCloud's official web player. It loads as part of the app interface and can contact SoundCloud and its service providers **before you press Play**, even when the music is paused or its volume is zero. Pausing music does not unload the player.
 
-SoundCloud may process your IP address, browser/device information, listening activity, and cookies or similar identifiers. Its policy includes embedded widgets and describes personalization, analytics, advertising, sharing, and international processing. Account-related behavior depends on whether the player recognizes a SoundCloud session. AirportChatter receives playback events to coordinate its controls; it does not ask for or store your SoundCloud password.
+SoundCloud may process your IP address, browser/device information, listening activity, and cookies or similar identifiers. Its policy includes embedded widgets and describes personalization, analytics, advertising, sharing, and international processing. Account-related behavior depends on whether the player recognizes a SoundCloud session. Tower Lounge receives playback events to coordinate its controls; it does not ask for or store your SoundCloud password.
 
-See [SoundCloud's privacy policy](https://soundcloud.com/pages/privacy) and [cookie policy and available choices](https://soundcloud.com/pages/cookies). Use the privacy/cookie controls offered by SoundCloud where available. Quitting or force-quitting AirportChatter stops its embedded player; simply locking your device or putting the app in the background may leave audio playing; clearing cookies in a separate browser does not necessarily clear an app's embedded web storage.
+See [SoundCloud's privacy policy](https://soundcloud.com/pages/privacy) and [cookie policy and available choices](https://soundcloud.com/pages/cookies). Use the privacy/cookie controls offered by SoundCloud where available. Quitting or force-quitting Tower Lounge stops its embedded player; simply locking your device or putting the app in the background may leave audio playing; clearing cookies in a separate browser does not necessarily clear an app's embedded web storage.
 
 ## TestFlight and diagnostics
 
-If you install a beta through TestFlight, Apple processes testing information and may make installation/session metrics, crash reports, device and OS details, and feedback available to the developer. Feedback can include your contact details, comments, and any screenshots you choose to send. These are used to investigate problems, respond to you, and improve AirportChatter, not to market to you or build advertising profiles. Avoid including sensitive information in screenshots or messages.
+If you install a beta through TestFlight, Apple processes testing information and may make installation/session metrics, crash reports, device and OS details, and feedback available to the developer. Feedback can include your contact details, comments, and any screenshots you choose to send. These are used to investigate problems, respond to you, and improve Tower Lounge, not to market to you or build advertising profiles. Avoid including sensitive information in screenshots or messages.
 
 The app's on-screen diagnostics show playback and connection state; merely opening that panel does not submit a support report. Apple's collection is governed by [TestFlight & Privacy](https://www.apple.com/legal/privacy/data/en/test-flight/) and your Apple settings.
 
@@ -91,6 +91,6 @@ Depending on applicable law, you can request access, correction, deletion, restr
 
 ## Children and changes
 
-AirportChatter is not directed at children. External services have their own minimum-age requirements; SoundCloud currently specifies 16 in the EEA/UK and 13 elsewhere. Do not use those services if you do not meet their requirements. Contact us if a child has submitted personal information to us so we can address it.
+Tower Lounge is not directed at children. External services have their own minimum-age requirements; SoundCloud currently specifies 16 in the EEA/UK and 13 elsewhere. Do not use those services if you do not meet their requirements. Contact us if a child has submitted personal information to us so we can address it.
 
 We will update this page when the app or our practices change and revise the date above. Material changes will also be communicated through the app or release information as appropriate.

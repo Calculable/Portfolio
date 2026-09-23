@@ -1,12 +1,12 @@
 ---
 {
-  "title": "AirportChatter Contact — Jan Huber",
-  "source": "https://www.jan-huber.ch/airport-chatter/contact",
-  "path": "/airport-chatter/contact",
+  "title": "Tower Lounge Contact — Jan Huber",
+  "source": "https://www.jan-huber.ch/tower-lounge/contact",
+  "path": "/tower-lounge/contact",
   "seo": [
     {
       "property": "og:title",
-      "content": "AirportChatter Contact — Jan Huber"
+      "content": "Tower Lounge Contact — Jan Huber"
     },
     {
       "property": "og:type",
@@ -18,21 +18,21 @@
     }
   ],
   "lang": "en",
-  "canonicalPath": "/airport-chatter/contact"
+  "canonicalPath": "/tower-lounge/contact"
 }
 ---
 
-# AirportChatter:<br>Contact
+# Tower Lounge:<br>Contact
 
 Questions, feedback, or a privacy request? Send Jan Huber a message. For playback issues, include your device, app version, station name, and what happened. Please do not include passwords or sensitive information.
 
 <form action="https://usebasin.com/f/ff509d632e80" method="POST" class="contact-form">
-<input type="hidden" name="form_source" value="/airport-chatter/contact">
+<input type="hidden" name="form_source" value="/tower-lounge/contact">
 <input type="hidden" name="site_source" value="jan-huber-astro">
 <label>Your Name (required)<input name="name" type="text" autocomplete="name" maxlength="200" required></label>
 <label>E-Mail (required)<input name="email" type="email" autocomplete="email" maxlength="254" required></label>
 <label>Your message (required)<textarea name="message" rows="7" maxlength="10000" required></textarea></label>
-<p>Your name, email, and message are sent through Basin so I can answer you. See the <a href="/airport-chatter/privacy-policy">AirportChatter privacy policy</a> and the <a href="/datenschutzerklaerung">website privacy policy</a>.</p>
+<p>Your name, email, and message are sent through Basin so I can answer you. See the <a href="/tower-lounge/privacy-policy">Tower Lounge privacy policy</a> and the <a href="/datenschutzerklaerung">website privacy policy</a>.</p>
 <button type="submit">Send</button>
 </form>
 
