@@ -12,6 +12,7 @@ const media = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/pixly`;
       <h2 id="pixly-comeback">Ein Pixel.<br />Ein Tunnel.<br /><span>Noch eine Runde.</span></h2>
       <p class="lead">Damals ein C-Spiel in einer 80 × 25 Zeichen grossen Konsole. Heute neu gevibe-coded: Pixly ist unsere Hommage an das Spiel, mit dem alles begann.</p>
       <p class="credits">Von Pascal Andermatt und Jan Huber</p>
+      <a class="store-link" href="https://apps.apple.com/us/app/pixly-go/id6813048604" aria-label="Pixly Go im App Store herunterladen"><img src={`${media}/app-store.svg`} alt="Laden im App Store" width="150" height="50" /></a>
     </div>
     <div class="hero-gameplay"><img src={`${media}/smooth.webp`} alt="Pixly auf dem iPhone: ein Pixel fliegt durch den gelben Tunnel" width="1100" height="2390" fetchpriority="high" /></div>
     <div class="hero-footer"><span>Pixly / 2026</span><span>iPhone · iPad · Apple Watch · Mac · Apple TV</span></div>
@@ -57,6 +58,8 @@ const media = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/pixly`;
   .hero-copy h2 span { color:#f4ed9d; }
   .pixly-anniversary .lead { font-size:1rem; line-height:1.75; color:#d0d3ca; margin:26px 0 20px; max-width:43ch; }
   .pixly-anniversary .credits { font-size:.78rem; color:#a5ada0; }
+  .store-link { display:inline-block; margin-top:12px; border-radius:8px; }
+  .pixly-anniversary .store-link img { width:150px; height:auto; max-height:none; margin:0; }
   .hero-gameplay { padding:36px 30px 0 0; align-self:end; }
   .pixly-anniversary .hero-gameplay img { width:240px; max-height:none; border:1px solid #34352b; border-bottom:0; border-radius:28px 28px 0 0; }
   .hero-footer { grid-column:1/-1; display:flex; justify-content:space-between; gap:16px; border-top:1px solid #ffffff25; padding:18px 32px; font:.65rem/1.6 ui-monospace,monospace; color:#b9bfb1; }
