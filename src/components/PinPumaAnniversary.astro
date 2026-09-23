@@ -1,0 +1,59 @@
+---
+const media = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/media/pinpuma`;
+---
+<nav class="pinpuma-chapters" aria-label="PinPuma-Versionen">
+  <a href="#pinpuma-neu"><span>2026</span> Die neue App ↓</a>
+  <a href="#pinpuma-original"><span>2022</span> Wie alles begann ↓</a>
+</nav>
+<section id="pinpuma-neu" class="pinpuma" aria-labelledby="pinpuma-title">
+  <header class="pinpuma-hero">
+    <div class="hero-copy">
+      <h2 id="pinpuma-title">Schöne Orte.<br /><span>Gut aufgehoben.</span></h2>
+      <p class="lead">Ein Fotospot für den nächsten Morgen. Ein Ausflugsziel fürs Wochenende. PinPuma sammelt Orte, Bilder und die passende ÖV-Anreise – direkt auf iPhone und Mac.</p>
+      <p class="availability">Persönliches Projekt · Nicht im App Store verfügbar</p>
+    </div>
+    <img class="hero-logo" src={`${media}/icon.webp`} alt="PinPuma-Logo: ein orangefarbener Puma in einer violetten Kartennadel" width="1024" height="1024" fetchpriority="high" />
+    <div class="hero-footer"><span>PinPuma / 2026</span><span>iOS & macOS</span></div>
+  </header>
+
+  <figure class="app-view">
+    <a href={`${media}/orte.webp`} aria-label="Screenshot der PinPuma-Ortsübersicht vergrössern"><img src={`${media}/orte.webp`} alt="PinPuma auf dem Mac: Ortssammlung in der Seitenleiste, Fotos und Karte des Landwasserviadukts" width="905" height="768" /></a>
+    <figcaption>Die neue Mac-App: Fotoorte, Karten und weiterführende Links an einem Ort.</figcaption>
+  </figure>
+
+  <div class="features" aria-label="Funktionen von PinPuma">
+    <article><h3>Sammeln</h3><p>Orte speichern, importieren und als Favoriten merken.</p></article>
+    <article><h3>Entdecken</h3><p>Fotos ansehen und Orte auf der Karte erkunden.</p></article>
+    <article><h3>Losfahren</h3><p>ÖV-Anreise prüfen und den SBB-Fahrplan öffnen.</p></article>
+  </div>
+
+</section>
+<style>
+  .pinpuma-chapters { display:flex; flex-wrap:wrap; gap:12px 32px; margin:-12px 0 30px; }
+  .pinpuma-chapters a { display:inline-flex; align-items:center; gap:12px; min-height:44px; font-size:.85rem; text-decoration:none; }
+  .pinpuma-chapters a:hover { text-decoration:underline; }
+  .pinpuma-chapters span { color:#777; }
+  .pinpuma { margin-bottom:64px; color:#30252e; }
+  .pinpuma-hero { display:grid; grid-template-columns:1.6fr 1fr; background:#5d374d; color:#fff; border-radius:20px; overflow:hidden; }
+  .hero-copy { padding:clamp(28px,4vw,48px); align-self:center; }
+  .pinpuma h2 { font-size:clamp(2.4rem,4.5vw,4rem); line-height:1.08; letter-spacing:-.055em; margin:0; }
+  .pinpuma h2 span { color:#ffa873; }
+  .pinpuma .lead { font-size:1rem; line-height:1.75; color:#f0e4eb; margin:24px 0; max-width:45ch; }
+  .pinpuma .availability { font-size:.75rem; line-height:1.6; color:#f7d6c3; margin:0; }
+  .pinpuma .hero-logo { width:100%; max-height:none; align-self:center; padding:12px 24px 12px 0; margin:0; }
+  .hero-footer { grid-column:1/-1; display:flex; justify-content:space-between; gap:16px; padding:16px 32px; border-top:1px solid #ffffff26; font-size:.7rem; color:#e6cedd; }
+  .pinpuma .app-view { margin:36px 0 42px; }
+  .pinpuma .app-view img { width:100%; max-height:none; border-radius:10px; box-shadow:0 12px 32px #3b20341a; }
+  .pinpuma figcaption { text-align:center; font-size:.78rem; color:#68515f; margin:20px 0 0; }
+  .features { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:26px; margin:0 0 44px; }
+  .features article { border-top:1px solid #dbcbd5; padding-top:20px; }
+  .pinpuma h3 { font-size:1.3rem; margin:14px 0; }
+  .features p { font-size:.92rem; line-height:1.75; color:#665b63; margin:0; }
+  .pinpuma a:focus-visible, .pinpuma-chapters a:focus-visible { outline:3px solid #a15181; outline-offset:5px; }
+  @media (max-width:640px) {
+    .pinpuma-hero { grid-template-columns:1fr; }
+    .pinpuma .hero-logo { width:180px; padding:0; margin:0 auto 28px; }
+    .features { grid-template-columns:1fr; gap:22px; }
+    .hero-footer { padding:16px 24px; }
+  }
+</style>

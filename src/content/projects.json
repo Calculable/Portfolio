@@ -8,6 +8,14 @@
     "height": 1560
   },
   {
+    "title": "PinPuma",
+    "description": "2026 - Fotoorte und Ausflugsziele sammeln, auf Karten erkunden und die ÖV-Anreise planen. Die Neuauflage der Ortsverwaltung von 2022 für iPhone und Mac.",
+    "image": "/media/pinpuma/icon.webp",
+    "url": "/pinpuma",
+    "width": 1024,
+    "height": 1024
+  },
+  {
     "title": "Tower Lounge",
     "description": "2026 - Flughafenfunk und Ambient-Musik in einem gemütlichen Kontrollturm. Eine App für iPhone und Mac zum Entspannen und Zuhören.",
     "image": "/media/tower-lounge/icon-square.svg",
@@ -94,14 +102,6 @@
     "url": "/bachelorarbeit",
     "width": 761,
     "height": 760
-  },
-  {
-    "title": "Ortsverwaltung",
-    "description": "2022 - Webapp zum Verwalten von Orten und Ausflugszielen",
-    "image": "/media/c7649f437d-unsplash-image-qyaka7w5umy.jpg",
-    "url": "/ortsverwaltung",
-    "width": 1975,
-    "height": 1975
   },
   {
     "title": "Wasserfall Verzeichnis",

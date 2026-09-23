@@ -9,6 +9,7 @@ import Analytics from '../components/Analytics.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import WalkyAnniversary from '../components/WalkyAnniversary.astro';
 import PixlyAnniversary from '../components/PixlyAnniversary.astro';
+import PinPumaAnniversary from '../components/PinPumaAnniversary.astro';
 import '../styles/portfolio.css';
 import '../styles/content.css';
 const { page } = Astro.props;
@@ -46,6 +47,7 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
       {page.heading && <ProjectHeader page={page} />}
       {page.path === '/walky' && <WalkyAnniversary />}
       {page.path === '/pixly' && <PixlyAnniversary />}
+      {page.path === '/pinpuma' && <PinPumaAnniversary />}
       {page.path === '/' ? (
         <section class="terminal-intro" aria-label="Einleitung">
           <div class="terminal-body">
@@ -70,6 +72,16 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
             <h2 id="pixly-original-title">Die ursprüngliche Version von 2015</h2>
             <p>Hier begann die Geschichte: als gemeinsames Schulprojekt von Pascal Andermatt, Jan Huber und Adrian Schrempp. Die folgenden Einblicke zeigen das Original.</p>
             <a href="#pixly-neu">Zur neuen Version von 2026 ↑</a>
+          </header>
+          <Fragment set:html={content} />
+        </section>
+      ) : page.path === '/pinpuma' ? (
+        <section id="pinpuma-original" class="walky-original" aria-labelledby="pinpuma-original-title">
+          <header class="walky-original-header">
+            <p class="walky-archive-label">2022 · Die ursprüngliche Webapplikation</p>
+            <h2 id="pinpuma-original-title">Wie alles begann</h2>
+            <p>Von der persönlichen Ortsverwaltung zu PinPuma: eine neue App, dieselbe Freude am Entdecken.</p>
+            <a href="#pinpuma-neu">Zur App von 2026 ↑</a>
           </header>
           <Fragment set:html={content} />
         </section>
