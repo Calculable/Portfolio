@@ -14,7 +14,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/pinpuma/icon.webp"
+      "content": "/media/pinpuma/icon-liquid-glass.png"
     },
     {
       "property": "og:type",
@@ -28,7 +28,7 @@
   "lang": "de-CH",
   "canonicalPath": "/pinpuma",
   "heading": "PinPuma",
-  "heroIcon": "/media/pinpuma/icon.webp"
+  "heroIcon": "/media/pinpuma/icon-liquid-glass.png"
 }
 ---
 
