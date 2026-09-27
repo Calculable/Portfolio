@@ -1,0 +1,24 @@
+Wasserfall-Export
+OSM-Datenstand: 2026-09-27T12:13:18Z
+Exportiert: 2026-09-27T12:22:53Z
+Gesamt: 1518; benannt: 365
+node: 1501
+way: 17
+relation: 0
+Mit Höhe: 257
+Mit Wikidata: 28
+Mit Bildverweisen: 42
+Bildrechte: NICHT geprüft. Keine Bilder werden heruntergeladen oder zur Anzeige freigegeben.
+
+Hinweise:
+Gemeinsame Wikidata-ID Q214924, bitte prüfen: node/1230090972, node/13078248019
+Gemeinsame Wikidata-ID Q2430022, bitte prüfen: node/14008073688, node/322834458
+Gleicher Name innerhalb ca. 100 m: node/1230090972, node/13078248019 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/12670324871, node/13464590565 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/12670324871, node/13464590593 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/13464590565, node/13464590593 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/13464590566, node/13464590594 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/13464590566, node/3010905701 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/13464590594, node/3010905701 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/2399895404, node/7196251104 – nicht automatisch zusammengeführt
+Gleicher Name innerhalb ca. 100 m: node/2903487307, node/444685019 – nicht automatisch zusammengeführt

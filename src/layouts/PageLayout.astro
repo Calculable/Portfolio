@@ -1,4 +1,5 @@
 ---
+import WaterfallDirectory from '../components/WaterfallDirectory.astro';
 import PhotoLightbox from '../components/PhotoLightbox.astro';
 import ImageComparison from '../components/ImageComparison.astro';
 import ProjectList from '../components/ProjectList.astro';
@@ -40,11 +41,12 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
     <link rel="canonical" href={canonical} />
     {page.structuredData?.length > 0 && <script type="application/ld+json" set:html={structuredData} />}
   </head>
-  <body class:list={{ "home-site": page.path === "/" }}>
+  <body class:list={{ "home-site": page.path === "/", "waterfall-site": page.path === "/wasserfall-verzeichnis" }}>
     <a class="skip-link" href="#page">Zum Inhalt springen</a>
     <SiteHeader />
-    <main id="page" class:list={['content-main', { 'home-page': page.path === '/' || page.path === '/jan-huber-portfolio' }]}>
-      {page.heading && <ProjectHeader page={page} />}
+    <main id="page" class:list={['content-main', { 'home-page': page.path === '/' || page.path === '/jan-huber-portfolio', 'waterfall-page': page.path === '/wasserfall-verzeichnis' }]}>
+      {page.heading && page.path !== '/wasserfall-verzeichnis' && <ProjectHeader page={page} />}
+      {page.path === '/wasserfall-verzeichnis' && <WaterfallDirectory />}
       {page.path === '/walky' && <WalkyAnniversary />}
       {page.path === '/pixly' && <PixlyAnniversary />}
       {page.path === '/pinpuma' && <PinPumaAnniversary />}
@@ -85,6 +87,8 @@ const content = raw.replace(/\b(href|src|poster)="\/(?!\/)([^"]*)"/g, (_, attr, 
           </header>
           <Fragment set:html={content} />
         </section>
+      ) : page.path === '/wasserfall-verzeichnis' ? (
+        <aside class="wf-information" aria-label="Sicherheit, Daten und Lizenzen"><Fragment set:html={content} /></aside>
       ) : <Fragment set:html={content} />}
       {page.path === '/' && <ProjectList />}
     </main>

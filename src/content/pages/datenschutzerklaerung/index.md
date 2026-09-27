@@ -1,12 +1,12 @@
 ---
 {
-  "title": "Privacy Policy 1 — Jan Huber",
+  "title": "Datenschutzerklärung — Jan Huber",
   "source": "https://www.jan-huber.ch/datenschutzerklaerung",
   "path": "/datenschutzerklaerung",
   "seo": [
     {
       "property": "og:title",
-      "content": "Privacy Policy 1 — Jan Huber"
+      "content": "Datenschutzerklärung — Jan Huber"
     },
     {
       "property": "og:type",
@@ -55,6 +55,16 @@ Weitere Informationen: [Funktionsweise von Basin](https://docs.usebasin.com/gett
 Auf den Seiten zu Fotoorten sind Karten von OpenStreetMap eingebettet. Wenn eine Karte geladen wird, baut Ihr Browser Verbindungen zu OpenStreetMap auf. Dabei werden unter anderem Ihre IP-Adresse, Browserinformationen und die angefragten Kartenausschnitte übermittelt. Die Karten zeigen den beschriebenen Fotoort; diese Website fragt Ihren Gerätestandort nicht ab.
 
 Weitere Informationen: [Datenschutzerklärung der OpenStreetMap Foundation](https://osmfoundation.org/wiki/Privacy_Policy).
+
+<h3 id="wasserfall-verzeichnis">Wasserfall-Verzeichnis</h3>
+
+Im Wasserfall-Verzeichnis werden die Wasserfalldaten zusammen mit dieser Website über GitHub Pages ausgeliefert. Suche, der Schalter für unbenannte Einträge und Detail-Einblendungen werden ausschliesslich in Ihrem Browser verarbeitet. Suchbegriffe werden von dieser Funktion nicht an einen Suchdienst oder Analyseanbieter übermittelt. Es gibt keine Standortabfrage, Konten, Favoritenspeicherung oder Cookies dieser Verzeichnisfunktion.
+
+Die Hintergrundkarte wird erst geladen, wenn Sie auf „Karte laden“ klicken. Dann ruft Ihr Browser Kartenbilder von `tile.openstreetmap.org` ab. Dabei erhält die OpenStreetMap Foundation (Vereinigtes Königreich) insbesondere Ihre IP-Adresse, Browserinformationen, die Herkunftswebsite und die angefragten Kartenausschnitte. Dies dient der Bereitstellung und dem sicheren Betrieb der Karte. Laut OSMF werden Kartenbilder über ein weltweites Netz von Cache-Servern ausgeliefert; der konkrete Serverstandort hängt vom Abruf ab. Sonstige personenbezogene Daten werden laut OSMF im Vereinigten Königreich und in den Niederlanden, Sicherungen in der EU gespeichert. Informationen zur Aufbewahrung und zu Ihren Rechten finden Sie in der [Datenschutzerklärung der OSMF](https://osmfoundation.org/wiki/Privacy_Policy).
+
+Die Aktivierung wird nicht dauerhaft gespeichert. Nach einem Neuladen ist die Hintergrundkarte wieder ausgeschaltet. Ohne Aktivierung bleibt die Liste benutzbar. Der Browser kann bereits geladene Kartenbilder entsprechend den HTTP-Cache-Vorgaben zwischenspeichern.
+
+Wikidata-Ergänzungen werden vor der Veröffentlichung mit einem lokalen Verwaltungswerkzeug abgerufen. Beim Betrachten des Verzeichnisses entsteht dadurch keine Verbindung Ihres Browsers zu Wikidata oder Wikimedia Commons. Es werden keine externen Fotos eingebunden. Links zu Google Maps, Apple Karten, OpenStreetMap oder Wikipedia/Wikidata öffnen diese Dienste erst beim Anklicken; dabei wird kein Gerätestandort durch das Verzeichnis abgefragt. Die allgemeinen Hinweise zu Hosting und Besucherstatistik auf dieser Seite gelten weiterhin.
 
 ## Eingebettete Videos von Vimeo
 

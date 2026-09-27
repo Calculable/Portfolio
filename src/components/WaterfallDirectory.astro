@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets';
+import landscape from '../assets/waterfalls/landscape.png';
+import dataset from '../../public/data/waterfalls.json';
+import { searchWaterfalls, displayName } from '../lib/waterfall-data.js';
+import '../styles/waterfalls.css';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const records = dataset.waterfalls;
+const named = searchWaterfalls(records, '', false);
+const count = (value) => new Intl.NumberFormat('de-CH').format(value);
+// Image references stay in the downloadable source file, never in rendered media.
+const browserRecords = records.map(({ photoReferences, heightOriginal, manuallyCorrected, ...record }) => record);
+---
+<section class="wf-directory" aria-label="Wasserfälle entdecken" data-waterfall-directory>
+  <header class="wf-intro">
+    <Image src={landscape} alt="" class="wf-hero-image" widths={[640, 960, 1254]} sizes="(max-width: 760px) 100vw, 75vw" format="webp" quality={82} loading="eager" fetchpriority="high" />
+    <div class="wf-hero-content"><h1>Wasserfälle<br /><em>der Schweiz.</em></h1></div>
+  </header>
+  <aside class="wf-safety" aria-label="Sicherheitshinweis">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 3 2 21h20L12 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 9v5m0 3v.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <div><strong>Nicht alle Wasserfälle sind sicher oder öffentlich zugänglich.</strong> <a href="#wasserfall-sicherheit">Sicherheits- und Haftungshinweise</a></div>
+  </aside>
+  <div class="wf-toolbar">
+    <label class="wf-search">Wasserfall suchen
+      <input type="search" id="wf-search" placeholder="Zum Beispiel Rheinfall oder Giessbach" autocomplete="off" maxlength="160" disabled />
+    </label>
+    <label class="wf-toggle"><input type="checkbox" id="wf-unnamed" disabled /> Auch unbenannte anzeigen</label>
+  </div>
+  <div class="wf-explorer">
+    <section class="wf-map-panel" aria-label="Interaktive Karte">
+      <div id="wf-map" class="wf-map" hidden aria-label="Karte der Wasserfälle"></div>
+      <div id="wf-map-consent" class="wf-map-consent">
+        <button id="wf-load-map" class="wf-primary" type="button" disabled>Karte laden</button>
+        <p>Beim Laden werden deine IP-Adresse und der Kartenausschnitt an OpenStreetMap übermittelt. <a href={`${base}/datenschutzerklaerung#wasserfall-verzeichnis`}>Datenschutz</a></p>
+      </div>
+      <div class="wf-map-actions" id="wf-map-actions" hidden>
+        <button type="button" id="wf-fit-map">Alle Treffer zeigen</button>
+      </div>
+      <p id="wf-map-message" class="wf-map-message" role="status" hidden></p>
+    </section>
+    <section class="wf-results" aria-label="Wasserfall-Liste">
+      <div class="wf-results-heading"><h3>Das Verzeichnis</h3><p id="wf-count" role="status" aria-live="polite">{count(named.length)} benannte Wasserfälle</p></div>
+      <ul id="wf-list" class="wf-list">
+        {named.map((record) => <li><a href={`https://www.openstreetmap.org/${record.osmType}/${record.osmID}`} rel="noopener noreferrer">{displayName(record)}</a></li>)}
+      </ul>
+      <p id="wf-empty" class="wf-empty" hidden>Kein Wasserfall gefunden. Versuche einen anderen Namen oder blende unbenannte Einträge ein.</p>
+    </section>
+  </div>
+  <noscript><p>Die Namensliste und Quellenlinks funktionieren ohne JavaScript. Für Suche, Karte und Detail-Einblendungen bitte JavaScript aktivieren.</p></noscript>
+  <p class="wf-source">Daten: <a href="https://www.openstreetmap.org/copyright" rel="noopener noreferrer">© OpenStreetMap contributors</a> · <a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener noreferrer">ODbL 1.0</a>. Namensvarianten und Bildverweise teilweise aus <a href="https://www.wikidata.org/wiki/Wikidata:Licensing" rel="noopener noreferrer">Wikidata (CC0)</a>. <a href={`${base}/data/waterfalls.json`} download>Datensatz herunterladen (JSON)</a> · <a href="#wasserfall-daten">Über die Daten</a></p>
+  <dialog id="wf-detail" class="wf-detail" aria-labelledby="wf-detail-title" aria-describedby="wf-detail-safety">
+    <div class="wf-dialog-header"><h2 id="wf-detail-title"></h2><button id="wf-close" type="button" aria-label="Details schliessen" title="Schliessen" autofocus><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg></button></div>
+    <dl id="wf-detail-facts"></dl>
+    <details id="wf-detail-names" class="wf-detail-names" hidden><summary>Weitere Namen</summary><p></p></details>
+    <p id="wf-detail-safety" class="wf-detail-safety">Zugang und Sicherheit sind nicht geprüft. Die Koordinaten sind kein Wegweiser und kein sicherer Ausgangspunkt für eine Route. Beachte die örtlichen Verhältnisse und Sperrungen.</p>
+    <h3>Ort und Quellen öffnen</h3>
+    <div id="wf-detail-links" class="wf-detail-links"></div>
+    <p class="wf-external-note">Externe Dienste öffnen sich erst beim Anklicken. Es gelten deren Datenschutzbestimmungen.</p>
+    <p class="wf-source">© OpenStreetMap contributors · ODbL 1.0. Ergänzende Namensvarianten: Wikidata / CC0.</p>
+  </dialog>
+  <script id="wf-data" type="application/json" set:html={JSON.stringify(browserRecords).replace(/</g, '\\u003c')} />
+</section>
+<script>
+  import '../scripts/waterfalls.js';
+</script>
