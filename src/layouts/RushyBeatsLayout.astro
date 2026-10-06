@@ -1,0 +1,35 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import '../styles/portfolio.css';
+import '../styles/rushy-beats.css';
+const { title, description, path } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const root = `${base}/rushy-beats`;
+const canonical = new URL(`${base}${path}`, Astro.site).href;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090909" />
+    <title>{title} — Jan Huber</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/media/rushy-beats/icon.svg`} />
+    <meta property="og:title" content={`${title} — Jan Huber`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body class="rushy-site">
+    <a class="skip" href="#main">Skip to content</a>
+    <SiteHeader />
+    <main id="main"><slot /></main>
+    <footer class="rushy-footer wrap">
+      <a class="rushy-wordmark" href={root}>RUSHY BEAT<span class="red">.</span></a>
+      <div><a href={`${root}/contact`}>Contact & support</a><a href={`${root}/privacy-policy`}>Privacy policy</a></div>
+      <span class="copyright">© {new Date().getFullYear()} JAN HUBER</span>
+    </footer>
+  </body>
+</html>

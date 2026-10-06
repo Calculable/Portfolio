@@ -1,0 +1,21 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+const page = {
+  title: 'Rushy Beat: Contact and Support — Jan Huber',
+  path: '/rushy-beats/contact',
+  lang: 'en',
+  seo: [{ name: 'description', content: 'Contact and support for Rushy Beat.' }],
+};
+---
+<PageLayout page={page}>
+  <h1>Rushy Beat:<br />Contact and Support</h1>
+  <form action="https://usebasin.com/f/ff509d632e80" method="POST" class="contact-form">
+    <input type="hidden" name="form_source" value="/rushy-beats/contact" />
+    <input type="hidden" name="site_source" value="jan-huber-astro" />
+    <label>Your Name (required)<input name="name" type="text" autocomplete="name" maxlength="200" required /></label>
+    <label>E-Mail (required)<input name="email" type="email" autocomplete="email" maxlength="254" required /></label>
+    <p>Please provide an E-Mail so that we can get in contact with you</p>
+    <label>Your message (required)<textarea name="message" rows="7" maxlength="10000" required></textarea></label>
+    <button type="submit">Send</button>
+  </form>
+</PageLayout>

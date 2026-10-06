@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/RushyBeatsLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Layout title="Rushy Beat" description="DONT BLINK. A game for iOS and macOS." path="/rushy-beats">
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <h1>RUSHY<br />BEAT</h1>
+      <p class="hero-subtitle outline">DONT BLINK<span class="red">.</span></p>
+      <p class="hero-description">a Game for iOS and macOS</p>
+      <a class="solid-button" href="#trailer">WATCH THE GAME <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="road-art" role="img" aria-label="A red player arrow races between black and white lanes, past contrasting obstacles.">
+      <svg viewBox="0 0 560 760" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#888" stroke-opacity=".14" /></pattern></defs>
+        <path fill="#eeeee8" d="M0 0H390L145 760H0Z" />
+        <path fill="#111" d="M390 0H560V760H145Z" />
+        <path fill="url(#grid)" d="M0 0H560V760H0Z" />
+        <path d="M390 0L145 760" stroke="#ff2e40" stroke-width="2" />
+        <g fill="#111"><path d="M185 127H270L255 174H170Z"/><path d="M48 500H173L156 553H31Z"/></g>
+        <g fill="#eeeee8"><path d="M404 48H470L456 89H390Z"/><path d="M334 242H443L425 293H317Z"/><path d="M227 628H380L359 691H207Z"/></g>
+        <g fill="#ff2e40"><path d="M275 302L320 497L188 460Z"/><path opacity=".45" d="M180 487L294 519L281 553L168 521Z"/><path opacity=".18" d="M160 547L267 577L255 611L148 581Z"/></g>
+      </svg>
+      <div class="road-caption">Dont hit the blocks</div>
+    </div>
+  </section>
+  <div class="ticker" aria-hidden="true"><span>NO BRAKES.</span><span>JUST BEATS.</span><span>NO BRAKES.</span><span>JUST BEATS.</span></div>
+  <section id="trailer" class="trailer-section wrap" aria-label="Rushy Beat gameplay video">
+    <video controls playsinline preload="metadata" poster={`${base}/media/rushy-beats/gameplay-poster.jpg`} aria-label="Rushy Beat gameplay">
+      <source src={`${base}/media/rushy-beats/gameplay.mp4`} type="video/mp4" />
+      <a href={`${base}/media/rushy-beats/gameplay.mp4`}>Watch the gameplay video</a>
+    </video>
+  </section>
+  <section class="closing wrap"><h2>ONE MORE<br />TRY<span class="red">.</span></h2></section>
+</Layout>
