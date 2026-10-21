@@ -36,6 +36,7 @@
 .rushy-site main .solid-button:hover { background: var(--paper); color: #090909; }
 .solid-button span { font: normal 36px/1 Arial, sans-serif; }
 .hero .solid-button { width: min(100%, 380px); }
+.trailer-link { margin-top: 22px; padding-block: 8px; font-size: 14px; font-weight: 700; letter-spacing: .5px; }
 .road-art { position: relative; min-height: 650px; overflow: hidden; border: 1px solid var(--line); background: #111; }
 .road-art svg { position: absolute; width: 100%; height: 100%; inset: 0; }
 .road-meta, .road-caption, .copyright { font: 500 10px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 1.5px; }
