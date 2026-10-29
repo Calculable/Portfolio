@@ -33,3 +33,7 @@ git push origin main
 ```
 
 Website: https://www.jan-huber.ch/
+
+## UI-Texte in Portfolio-Projekten
+
+Für Apps und andere Portfolio-Projekte eine sachliche, funktionale Oberfläche verwenden. Das App-Logo nicht zusätzlich als Dekoration innerhalb der App wiederholen. Keine dekorativen Slogans oder Fülltexte wie «Auf Spurensuche», «Jedes Foto hat eine Geschichte» oder «Entdecke, wo deine Fotografien ein neues Zuhause finden». Texte sollen Funktionen, Inhalte, Zustände oder notwendige Hinweise beschreiben; unnötige Überschriften und Marketingtexte weglassen. Diese Vorgabe auch bei zukünftigen Projekten berücksichtigen.
