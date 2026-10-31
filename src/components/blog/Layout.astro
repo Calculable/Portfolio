@@ -1,0 +1,15 @@
+---
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="de-CH"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width"/>
+<title>{title} — Jan Huber Fotografie</title>
+<link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)}/>
+<link rel="alternate" type="application/rss+xml" title="Jan Huber Fotografie" href="/blog/rss.xml"/>
+<link rel="stylesheet" href="/blog-assets/style.css"/>
+</head><body>
+<a class="skip" href="#inhalt">Zum Inhalt</a>
+<div class="page"><header><a class="brand" href="/blog/">Jan Huber <span>Fotografie</span></a></header><main id="inhalt"><slot/></main></div>
+<slot name="viewer"/>
+</body></html>

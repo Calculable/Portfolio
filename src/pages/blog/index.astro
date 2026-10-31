@@ -1,0 +1,14 @@
+---
+import Layout from '../../components/blog/Layout.astro';
+import { articles, day, displayDay } from '../../components/blog/articles';
+---
+<Layout title="Ausflüge">
+  <h1 class="sr-only">Fotografien von Jan Huber</h1>
+  {articles.length === 0 && <p class="meta">Noch keine Artikel.</p>}
+  {articles.map(article => <article class="post"><a class="post-link" href={'/blog/'+article.slug+'/'}>
+    <div class="post-info"><div><p class="meta"><time datetime={day(article)}>{displayDay(article)}</time></p><h2>{article.title}</h2></div></div>
+    <div class="contact-preview"><div class="cover"><img src={article.photos[0].image} alt={article.photos[0].alt}/></div>
+    <div class="preview-pair">{article.photos.slice(1,3).map(photo => <img src={photo.image} alt={photo.alt} loading="lazy"/>)}</div></div>
+  </a></article>)}
+  <p class="meta"><a href="/blog/rss.xml">RSS</a></p>
+</Layout>

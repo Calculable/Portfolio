@@ -1,0 +1,22 @@
+---
+import Layout from '../../components/blog/Layout.astro';
+import { articles, day, displayDay, parts } from '../../components/blog/articles';
+export function getStaticPaths() {
+  return articles.map((article,index) => ({params:{slug:article.slug}, props:{article,index}}));
+}
+const { article,index } = Astro.props;
+const prev = articles[index+1], next = articles[index-1];
+---
+<Layout title={article.title}>
+  <div class="article-heading"><h1>{article.title}</h1><p class="article-date"><time datetime={day(article)}>{displayDay(article)}</time></p></div>
+  <div class="photos">{article.photos.map((photo,i) => <figure class="photograph">
+    <button class="photo-button" data-photo={photo.image} data-caption={parts(photo.caption).map(p=>p.text).join('')} aria-label={'Bild vergrössern: '+photo.alt}><img src={photo.image} alt={photo.alt} loading={i?'lazy':'eager'} decoding="async"/></button>
+    <figcaption>{parts(photo.caption).map(p=>p.href?<a href={p.href} target="_blank" rel="noopener noreferrer">{p.text}</a>:p.text)}</figcaption>
+  </figure>)}</div>
+  <nav class="article-nav" aria-label="Artikelnavigation">
+    {prev?<a href={'/blog/'+prev.slug+'/'} rel="prev">← Vorheriger Artikel</a>:<span aria-disabled="true">← Vorheriger Artikel</span>}
+    <a href="/blog/">Alle Ausflüge</a>
+    {next?<a href={'/blog/'+next.slug+'/'} rel="next">Nächster Artikel →</a>:<span aria-disabled="true">Nächster Artikel →</span>}
+  </nav>
+  <Fragment slot="viewer"><dialog aria-label="Bildansicht"><div class="lightbar"><button id="close" aria-label="Bildansicht schliessen">Schliessen ×</button></div><button id="prev" class="step prev" aria-label="Vorheriges Bild">←</button><figure><img id="large" alt=""/><figcaption id="caption"></figcaption></figure><button id="next" class="step next" aria-label="Nächstes Bild">→</button></dialog><script is:inline defer src="/blog-assets/gallery.js"></script></Fragment>
+</Layout>
