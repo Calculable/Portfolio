@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/01221ba2b9-img_0825.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0825_Fertig_2019-02-14.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/01221ba2b9-img_0825.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0825_Fertig_2019-02-14.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,22 +68,22 @@ Vom Rosinli hat man aus 824 Metern über Meer einen schönen Ausblick bis in die
 
 Das Rosinli liegt in der Nähe von Bäretswil / Adetswil.
 
-![](</media/754b0a9841-img_e0817.jpg>)
+![](</media/IMG_E0817_Fertig_2019-02-14.JPG>)
 
 *Sonnenuntergangs-Panorma vom Rosinli*
 
-![](</media/73673e0436-img_4869.jpg>)
+![](</media/IMG_4869_Fertig_2019-11-10.JPG>)
 
 *Das rustikale Berggashaus Rosinli verfügt über einen grossen Aussenbereich mit Selbstbedienung und bewirtet die Gäste auch im innern. Beliebt ist das Rosinli unter anderem wegen einer langen Metallrutschbahn oder auch als Lokalität für Feiern und geschäftliche Anlässe.*
 
-![](</media/090b4f4e9f-img_0825.jpg>)
+![](</media/IMG_0825_Fertig_2019-02-14.JPG>)
 
 *Die Sonne kommt langsam hinter der Bergkette hervor.*
 
-![](</media/32b7724c0d-img_8362.jpg>)
+![](</media/IMG_8362_Fertig_2019-11-10.JPG>)
 
 *Blick auf die verschneide Rigi vom Bachtel aus gesehen*
 
-![](</media/89665ae644-img_8365.jpg>)
+![](</media/IMG_8365.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/ried-in-bubikon">Zurück: Ried und Moore in Bubikon</a><a href="/fotoorte-zuercher-oberland/sagenraintobel">Weiter: Sagenrain (Tobel)</a></nav>

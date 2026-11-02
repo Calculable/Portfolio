@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/1d588f0731-img_8754.jpg"
+      "content": "/media/IMG_8754_Fertig_2021-01-03.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/1d588f0731-img_8754.jpg",
+      "image": "/media/IMG_8754_Fertig_2021-01-03.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -85,16 +85,16 @@ Der Weg durch das Tobel dauert etwa eine Stunde und folgt dem Chämtner-Bach.
 <figcaption><p>Über die beiden Tobeltürme wurden umliegende Fabriken mit Wasserkraft angetrieben. Die Elektrizität war noch nicht industriell nutzbar, deshalb wurde die Energie als Antriebskraft über ein Räderwerk mit Drahtseilen transportiert. Die beiden Türme zählen zu den kantonalen Kulturschutzgütern. Auf Infotafeln ist im Detail beschrieben, wie die Türme früher genutzt wurden.</p><p></p><p></p><p>Für den zweiten Turm war der Bau einer anliegenden Fabrik geplant. Allerdings konnte die Fabrik nicht gebaut werden, weshalb es in diesem Turm auch keine Turbinen gibt.</p></figcaption>
 </figure>
 
-![](</media/73723e2ab5-img_7673.jpg>)
+![](</media/IMG_7673_Fertig_2015-10-31.JPG>)
 
-![](</media/aab3c3af80-img_2855.jpg>)
+![](</media/IMG_2855_Fertig_2014-01-04.jpg>)
 
 *Der Grosse Giessen ist ein beliebtes Ausflugsziel. Leider wird durch ein Warnhinweis vom Baden abgeraten, da die Gefahr von Steinschlag besteht. Alle paar Jahre findet beim Wasserfall die Veranstaltung &quot;Winterzauber&quot; statt. Dabei wird der Wasserfall bunt beleuchtet.*
 
-![](</media/8dee8b710b-img_7705.jpg>)
+![](</media/IMG_7705_Fertig_2015-10-31.JPG>)
 
-![](</media/78bdffb995-img_7742.jpg>)
+![](</media/IMG_7742_Fertig_2015-10-31.JPG>)
 
-![](</media/22dd0cba23-img_7643.jpg>)
+![](</media/IMG_7643_Fertig_2015-10-31.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/roemer-kastell-irgenhausen">Zurück: Kastell Irgenhausen (Römerkastell)</a><a href="/fotoorte-zuercher-oberland/kempt-bei-illnau">Weiter: Kempt bei Illnau</a></nav>

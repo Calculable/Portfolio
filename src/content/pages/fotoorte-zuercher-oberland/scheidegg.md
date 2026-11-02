@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/4dd902be40-img_0962.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0962_Fertig_2021-02-14.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/4dd902be40-img_0962.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0962_Fertig_2021-02-14.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,20 +68,20 @@ Auf der Alp Scheidegg auf 1246 Meer über Meer hat man Aussicht auf Bachtel, Rig
 
 Die Scheidegg ist bekannt als Ausflugsziel für Paraglider und Modellflieger, im Winter kann auch die Schlittelbahn verwendet werden.
 
-![](</media/c95313ea6e-img_0925.jpg>)
+![](</media/IMG_0925_Fertig_2021-02-14.JPG>)
 
-![](</media/2e2d220453-img_0938.jpg>)
+![](</media/IMG_0938_Fertig_2021-02-14.JPG>)
 
 *Die letzten Höhenmeter bis zur Scheidegg*
 
-![](</media/c03f6ebf8c-img_0942.jpg>)
+![](</media/IMG_0942_Fertig_2021-02-14.JPG>)
 
 *…und der Blick zurück*
 
-![](</media/d1e68b5663-img_0962.jpg>)
+![](</media/IMG_0962_Fertig_2021-02-14.JPG>)
 
 *Aussicht von der Scheidegg*
 
-![](</media/9cd146f062-img_0968.jpg>)
+![](</media/IMG_0968_Fertig_2021-02-14.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/sagenraintobel">Zurück: Sagenrain (Tobel)</a><a href="/fotoorte-zuercher-oberland/schnebelhorn">Weiter: Schnebelhorn</a></nav>

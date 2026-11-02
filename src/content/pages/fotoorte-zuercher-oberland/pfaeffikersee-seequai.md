@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/2abc1bcde4-img_8634.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_8634_Fertig_2020-12-19.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/2abc1bcde4-img_8634.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_8634_Fertig_2020-12-19.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,32 +68,32 @@ Der Wanderweg um den Pfäffikersee ist rund 10 Kilometer lang und führt durch d
 
 Der Pfäffikersee hat eine spannende Geschichte - er war ursprünglich durch einen Gletscher während der letzten Eiszeit entstanden und dann bereits früh während der Jungssteinzeit an den Uferzonen besiedelt. Dank hervorragenden Umweltbedingungen sind viele Fundgegenstände aus dieser Zeit noch heute erhalten geblieben.
 
-![](</media/e97700fe91-img_9353.jpg>)
+![](</media/IMG_9353_Fertig_2016-04-10.JPG>)
 
 *Seequai bei Pfäffikon ZH*
 
-![](</media/1260bbc686-img_7789.jpg>)
+![](</media/IMG_7789_Fertig_2015-11-07.jpg>)
 
 *Seequai bei Pfäffikon ZH mit Blick auf Seegräben*
 
-![](</media/d9d77e9480-img_2179-als-smartobjekt-1.jpg>)
+![](</media/IMG_2179_Fertig_2013-12-13.jpg>)
 
 *Der Pfäffikersee bei Nebel*
 
-![](</media/ea32eb3280-img_8634.jpg>)
+![](</media/IMG_8634_Fertig_2020-12-19.JPG>)
 
 *Möven und Schwäne am Pfäffikersee*
 
-![](</media/f326819a8c-img_1784.jpg>)
+![](</media/IMG_1784_Fertig_2020-02-09.jpg>)
 
 *Die Skulptur “Knabe mit Fisch“*
 
-![](</media/70f15ce6ec-img_0095.jpg>)
+![](</media/IMG_0095_Fertig_2012-12-08.jpg>)
 
 *Sitzbank im Schnee mit Blick auf den Pfäffikersee*
 
 <figure class="content-figure">
-<img src="/media/dac67b5962-img_2010.jpg" alt="" width="2500" height="2971" loading="lazy" decoding="async">
+<img src="/media/IMG_2010_Fertig_2020-10-25.JPG" alt="" width="2500" height="2971" loading="lazy" decoding="async">
 <figcaption><p><strong>Mehr über den Pfäffikersee erfahren</strong></p><a href="https://www.pfäffikersee.org">pfäffikersee.org</a></figcaption>
 </figure>
 

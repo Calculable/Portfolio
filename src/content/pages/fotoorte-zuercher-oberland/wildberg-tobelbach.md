@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/b02b3f7ddc-img_6467.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_6467_Fertig_2018-06-02.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/b02b3f7ddc-img_6467.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_6467_Fertig_2018-06-02.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,20 +68,20 @@ Das Wildbergtobel bei der Töss in Rikon ist eher unbekannt. Auf dem Weg von der
 
 Der Bach, der durch das Tobel fliesst, heisst schlicht “Tobelbach“. Er ist etwa 10 Kilometer lang und mündet dann in die Töss.
 
-![](</media/1b05df3a56-img_6467.jpg>)
+![](</media/IMG_6467_Fertig_2018-06-02.JPG>)
 
 *Der “obere Wasserfall“ im Wildberg-Tobel*
 
-![](</media/d47a74f6f9-img_2358.jpg>)
+![](</media/IMG_2358_Fertig_2016-09-17.JPG>)
 
 *Der Tobelbach oberhalb des Wasserfalls*
 
-![](</media/518002430d-img_0188.jpg>)
+![](</media/IMG_0188_Fertig_2014-10-14.jpg>)
 
 *Der Wald im Herbst*
 
-![](</media/e90994a2a0-img_0186.jpg>)
+![](</media/IMG_0186_Fertig_2014-10-14.JPG>)
 
-![](</media/1415a9d561-img_0163.jpg>)
+![](</media/IMG_0163_Fertig_2014-10-14.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/tauferhoehle">Zurück: Täuferhöhle</a></nav>

@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/54a8a885d5-img_9084.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_9084_Fertig_2021-01-15.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/54a8a885d5-img_9084.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_9084_Fertig_2021-01-15.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,31 +68,31 @@ In den Uferzonen rund um den Pfäffikersee befinden sich viele Moorlandschaften 
 
 Rund um den See befinden sich mehrere Ried-Landschaften, die grösste und bekannteste davon ist das Robenhauser Ried. In der Geschichte war das Ried bereits früh besiedelt, weshalb Archäologen und Archäologinnen immer wider auf spannende Funde aus der Pfahlbauerzeit stossen, was das Robenhauser Ried bereits mehrmals in die Schlagzeilen brachte. Neben dem Robenhauser Ried sind unter anderem auch das Ausliker-Ried und das Irgenhauser-Ried einen Besuch werden. Seit einigen Jahren werden gewisse Flächen rund um den See wider vollständig der Natur überlassen. So kann sich die Moorlandschaft vom früheren Torf-Abbau regenerieren.
 
-![](</media/c954b577c9-img_7829.jpg>)
+![](</media/IMG_7829.jpg>)
 
 *Frost am frühen Morgen im Riet*
 
-![](</media/3cbf277360-img_8151.jpg>)
+![](</media/IMG_8151_Fertig_2019-08-31.JPG>)
 
 *Blick von der Jucker-Farm auf das Robenhauser Ried im Licht des Sonnenaufgangs*
 
-![](</media/2a734ba2e8-img_9084.jpg>)
+![](</media/IMG_9084_Fertig_2021-01-15.JPG>)
 
 *Schnee im Robenhauser Ried*
 
-![](</media/1312cfaee6-img_8971.jpg>)
+![](</media/IMG_8971_Fertig_2021-01-15.JPG>)
 
-![](</media/c330d83f7d-img_0736.jpg>)
+![](</media/IMG_0736_Fertig_2014-11-02.jpg>)
 
 *Nebelschwaden im Ried*
 
-![](</media/fbd6d5d55d-img_1782.jpg>)
+![](</media/IMG_1782_Fertig_2014-12-28.JPG>)
 
-![](</media/1ddcc69166-img_6987.jpg>)
+![](</media/IMG_6987_Fertig_2018-08-14.JPG>)
 
 *Ein Regenbogen im Robenhauser Ried, fotografiert vom Römerkastell*
 
-![](</media/a104382999-img_9801.jpg>)
+![](</media/IMG_9801_Fertig_2021-01-15.JPG>)
 
 *Der Seerundweg führt durch das Robenhauser Ried*
 

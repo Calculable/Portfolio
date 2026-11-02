@@ -10,11 +10,8 @@ entscheidet der Dateiname. Das Ersetzen eines Bildes verändert seinen Platz
 nicht; Git-erkennbare Umbenennungen behalten das Datum ebenfalls.
 Uncommittete Bilder verwenden in der lokalen Vorschau ihr Dateidatum.
 
-Sprechende Dateinamen verwenden, zum Beispiel `Sonnenaufgang-am-See.jpg`:
-Daraus entstehen automatisch Alternativtexte für Screenreader. Sichtbare
-Bildbeschreibungen werden nicht angezeigt. Bindestriche und Unterstriche werden zu Leerzeichen.
-
-Die 42 übernommenen Bilder haben Nummern, damit sie innerhalb ihres gemeinsamen
-Import-Commits die Reihenfolge der bisherigen Webseite behalten. Bei neuen
-Bildern sind Nummern nicht nötig. Zum Entfernen ein Bild aus diesem Ordner
-entfernen, committen und pushen.
+Für Exporte aus «Fertige Bilder» den exakten Katalogdateinamen einschliesslich
+Endung verwenden. Der Katalog verweist relativ zu diesem Webprojekt auf die Datei.
+Für umbenannte Fotos bewahrt `src/content/portfolio-photos.json` die bisherigen
+beschreibenden Galerienamen und Hinzufügedaten für Alternativtext und Sortierung.
+Für neue Fotos ohne Eintrag werden Dateiname und Git-Historie verwendet.

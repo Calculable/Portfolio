@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/c868ee8a90-img_0989.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0989_Fertig_2017-10-15.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/c868ee8a90-img_0989.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0989_Fertig_2017-10-15.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,39 +66,39 @@ Das ländliche Dorf Itzikon ist eines der beiden grösseren Dörfer der Gemeinde
 <iframe class="map-embed" title="Karte: Itzikon" src="https://www.openstreetmap.org/export/embed.html?bbox=8.7375629%2C47.253154800000004%2C8.8275629%2C47.3031548&amp;layer=mapnik&amp;marker=47.2781548%2C8.7825629" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.2781548&amp;mlon=8.7825629#map=13/47.2781548/8.7825629">Karte öffnen</a></p>
 
-![](</media/36b9d84d81-img_0970.jpg>)
+![](</media/IMG_0970_Fertig_2017-10-15.JPG>)
 
 *Ein Mann fotografiert die Sonnenstrahlen im Itziker Riet*
 
-![](</media/20c8c6883e-img_0989.jpg>)
+![](</media/IMG_0989_Fertig_2017-10-15.JPG>)
 
 *Der Giessenweiher liegt etwas versteckt im Wald*
 
-![](</media/db5d3b5ed7-img_0973.jpg>)
+![](</media/IMG_0973_Fertig_2017-10-15.JPG>)
 
 *Nebelschwaden im Riet*
 
-![](</media/d8e93e2862-img_0978.jpg>)
+![](</media/IMG_0978_Fertig_2017-10-15.JPG>)
 
-![](</media/74730b2af4-img_0977.jpg>)
+![](</media/IMG_0977_Fertig_2017-10-15.JPG>)
 
-![](</media/69a4b2dbcc-img_1029.jpg>)
+![](</media/IMG_1029_Fertig_2017-10-15.JPG>)
 
-![](</media/198023df33-img_1034.jpg>)
+![](</media/IMG_1034_Fertig_2017-10-15.JPG>)
 
-![](</media/f144e84b59-img_0975.jpg>)
+![](</media/IMG_0975_Fertig_2017-10-15.JPG>)
 
 *Die Drähte einer Hochspannungsleitung im Nebel*
 
 <div class="image-grid">
 
-![IMG\_0971.JPG](</media/826c407042-img_0971.jpg>)
+![IMG\_0971.JPG](</media/IMG_0971_Fertig_2017-10-15.JPG>)
 
-![IMG\_0972.JPG](</media/ce87ac8cfd-img_0972.jpg>)
+![IMG\_0972.JPG](</media/IMG_0972_Fertig_2017-10-15.JPG>)
 
-![IMG\_1004.JPG](</media/ac5956dbbd-img_1004.jpg>)
+![IMG\_1004.JPG](</media/IMG_1004_Fertig_2017-10-15.jpg>)
 
-![IMG\_1026.JPG](</media/6a8d8539c1-img_1026.jpg>)
+![IMG\_1026.JPG](</media/IMG_1026_Fertig_2017-10-15.JPG>)
 
 </div>
 

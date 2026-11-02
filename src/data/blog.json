@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "photos" : [
+      {
+        "alt" : "Segelboot und gelbe Bojen auf ruhigem See, herbstlicher Wald im Hintergrund, klare Spiegelung.",
+        "caption" : "Ein Segelboot liegt an Bojen auf spiegelglattem Wasser; der bewaldete Seeuferhang spiegelt sich ruhig im Greifensee.",
+        "captured" : "2026-10-28T15:58:10",
+        "image" : "/media/blog/greifensee/IMG_7498_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Laterne mit Schild «Greifensee» vor hellem Himmel, eine Möwe fliegt im Hintergrund.",
+        "caption" : "Eine Laterne trägt das Schild «Greifensee», im rechten Bildrand fliegt eine Möwe über den See.",
+        "captured" : "2026-10-28T16:02:42",
+        "image" : "/media/blog/greifensee/IMG_7507_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Zwei Segelboote vor buntem Herbstwald, Spiegelung der Bäume und Boote auf dem See.",
+        "caption" : "Zwei vertäute Segelboote vor einem farbigen, herbstlichen Laubwald; die Bäume und Boote bilden eine weiche Spiegelung auf dem Wasser.",
+        "captured" : "2026-10-28T16:03:40",
+        "image" : "/media/blog/greifensee/IMG_7512_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Allein stehender Angler auf einem Steg mit ruhigem Seespiegel und Gebäuden am fernen Ufer.",
+        "caption" : "Ein Angler steht allein auf einem Steg, in der Ferne liegen Siedlungsbauten am gegenüberliegenden Ufer.",
+        "captured" : "2026-10-28T16:07:35",
+        "image" : "/media/blog/greifensee/IMG_7524_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Schwarz-weisse Silhouette eines blattlosen Astwerks, ein Vogel verlässt die Äste im Flug.",
+        "caption" : "Kahle Zweige zeichnen sich als dunkle Silhouette vor dem hellen Himmel ab, ein kleiner Vogel fliegt gerade davon.",
+        "captured" : "2026-10-28T16:21:28",
+        "image" : "/media/blog/greifensee/IMG_7551_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Möwe sitzt auf gelber Boje, diffuse Herbstfarben als Spiegelung im Wasser.",
+        "caption" : "Auf einer gelben Boje ruht eine Möwe, dahinter breitet sich die warm gemusterte Spiegelung des herbstlichen Ufers aus.",
+        "captured" : "2026-10-28T16:34:47",
+        "image" : "/media/blog/greifensee/IMG_7579_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Graureiher auf hohem, kahlem Ast über ruhigem Wasser, minimalistische Himmelsfläche.",
+        "caption" : "Ein Graureiher thront auf einem abgestorbenen Ast über dem See und blickt in die Weite.",
+        "captured" : "2026-10-28T16:39:25",
+        "image" : "/media/blog/greifensee/IMG_7593_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Silberne Rohrleitungen und Ventile mit Handrädern vor roter Backsteinwand.",
+        "caption" : "Ein System aus Rohrleitungen, Ventilen und Handrädern steht vor einer Backsteinwand und bildet ein technisches Stillleben.",
+        "captured" : "2026-10-28T17:15:10",
+        "image" : "/media/blog/greifensee/IMG_7642_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Nahaufnahme eines Manometers vor roter Backsteinwand, Anzeige und Gehäuse deutlich sichtbar.",
+        "caption" : "Ein Manometer mit kreisförmigem Zifferblatt hebt sich vor einem Ziegelmauer-Hintergrund ab und zeigt die Druckskala.",
+        "captured" : "2026-10-28T17:17:14",
+        "image" : "/media/blog/greifensee/IMG_7646_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Schwan schwimmt im goldfarbenen Abendlicht, ruhige Wasserwellen und distant dunkle Uferlinie.",
+        "caption" : "Ein Höckerschwan gleitet durch das Abendlicht, die Wasseroberfläche färbt sich in warmen Orange- und Violetttönen.",
+        "captured" : "2026-10-28T17:30:44",
+        "image" : "/media/blog/greifensee/IMG_7689_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Starke, vertikal gezogene Lichterreflexe auf dunkler Wasserfläche, abstrakte Farbstreifen.",
+        "caption" : "Uferlichter verwandeln sich im dunklen Wasser zu abstrakten, senkrechten Leuchtstreifen und -flecken.",
+        "captured" : "2026-10-28T17:46:24",
+        "image" : "/media/blog/greifensee/IMG_7700_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Ort am Ufer mit hell erleuchteten Gebäuden und Kirchturm, reflektierende Lichter im See.",
+        "caption" : "Die Gemeinde Maur spiegelt sich in langen Lichtersäulen; oberhalb zieht eine Lichtspur am Hang vorbei.",
+        "captured" : "2026-10-28T17:54:14",
+        "image" : "/media/blog/greifensee/IMG_7706_Fertig_2026-10-28.jpg"
+      },
+      {
+        "alt" : "Beleuchteter Steg mit mehreren Ruderbooten bei Nacht, starkes Flutlicht erzeugt Kontraste.",
+        "caption" : "Der Bootssteg mit angelegten Ruderbooten wird von einem starken Flutlicht herausgeschnitten; der Rest der Uferkulisse liegt im Dunkeln.",
+        "captured" : "2026-10-28T18:15:14",
+        "image" : "/media/blog/greifensee/IMG_7715_Fertig_2026-10-28.jpg"
+      }
+    ],
+    "slug" : "greifensee",
+    "title" : "Greifensee"
+  }
+]

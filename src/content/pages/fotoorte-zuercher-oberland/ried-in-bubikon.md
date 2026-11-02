@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/9b0562dbf8-img_0967.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0967_Fertig_2017-10-15.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/9b0562dbf8-img_0967.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0967_Fertig_2017-10-15.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,39 +68,39 @@ In der Gemeinde Bubikon befinden sich zahlreiche Flachmoore von nationaler Bedeu
 
 Bubikon liegt im Bezirk Hinwil und ist stark durch die Landwirtschaft geprägt. Über 60% der Fläche ist bewirtschaftet. Die offene und kaum bewaldete Landschaft bietet dafür die idealen Voraussetzungen. Bubikon ist sogar die Gemeinde mit dem kleinsten Anteil Wald im ganzen Kanton Zürich.
 
-![](</media/ae7d70d185-img_0906.jpg>)
+![](</media/IMG_0906_Fertig_2017-10-15.JPG>)
 
 *Silhouette der reformierten Kirche Bubikon in der Morgendämmerung.*
 
-![](</media/1ed987ddf2-img_0967.jpg>)
+![](</media/IMG_0967_Fertig_2017-10-15.JPG>)
 
 *Morgennebel im Riet*
 
-![](</media/5bf98ff6d7-img_0924.jpg>)
+![](</media/IMG_0924_Fertig_2017-10-15_02.JPG>)
 
 *Eine neugierige Kuhherde im Gegenlicht*
 
-![](</media/a428cdc486-img_2260.jpg>)
+![](</media/IMG_2260_Fertig_2014-12-30.JPG>)
 
 *Ein einzelner Baum und im Vordergrund die Spuren eines Traktors*
 
-![](</media/b5a9be75ef-img_0901.jpg>)
+![](</media/IMG_0901_Fertig_2017-10-15.JPG>)
 
 *Morgendämmerung in Bubikon*
 
-![](</media/ec636cf815-img_0898.jpg>)
+![](</media/IMG_0898_Fertig_2017-10-15.JPG>)
 
 *Ein Holzschopf in der Dämmerung*
 
-![](</media/77796bd7c4-img_2366.jpg>)
+![](</media/IMG_2366_Fertig_2014-12-30.JPG>)
 
 *Und das gleiche Motiv im Winter*
 
-![](</media/34805e555d-img_8312.jpg>)
+![](</media/IMG_8312_Fertig_2017-01-02.JPG>)
 
 *Die Reformierte Kirche von Bubikon*
 
-![](</media/2396b1452b-img_8325.jpg>)
+![](</media/IMG_8325_Fertig_2017-01-02.JPG>)
 
 *Frost und verschneite Felder*
 

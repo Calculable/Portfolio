@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/8a6d36394b-img_3186.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_3186_Fertig_2014-02-01.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/8a6d36394b-img_3186.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_3186_Fertig_2014-02-01.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -70,11 +70,11 @@ Die Höhle trägt den Namen “Täuferhöhle“, da im 16. Jahrhundert Täufer d
 
 Oft reisen Besucher extra aus den USA an, um die Höhle zu besuchen.
 
-![](</media/97bef6ea18-img_3186.jpg>)
+![](</media/IMG_3186_Fertig_2014-02-01.JPG>)
 
 *In der Täuferhöhle gibt es eine Sitzgelegenheit mit Tisch und Feuerstelle.*
 
-![](</media/60e7fc8fda-img_3190.jpg>)
+![](</media/IMG_3190_Fertig_2014-02-01.JPG>)
 
 *Die Höhle liegt unter einer Nagelfluhwand wo auch ein Wasserfall fliesst.*
 

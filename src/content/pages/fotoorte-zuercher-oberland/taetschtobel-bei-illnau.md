@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/4b3bb1a14b-img_2694.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_2694_Fertig_2016-10-02.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/4b3bb1a14b-img_2694.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_2694_Fertig_2016-10-02.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,24 +68,24 @@ Das Tätschtobel, welches dem Verlauf des Dickibachs folgt, ist in wenigen Schri
 
 Im Gebiet des Tätschtobels befand sich früher ein Steinbruch. Das Tätschtobel wird seinem Namen gerecht: Etwas oberhalb befindet sich eine Sprengungsanlage für Schulungen und Versuche, wesshalb es immer wieder mal “tätscht“. Immer am 4. Dezember findet eine Explosion mit anschliessendem Feuerwerk zu Ehren der heiligen Barbara statt, die Schutzpatronin der Bergleute.
 
-![](</media/7faf129b1a-img_2673.jpg>)
+![](</media/IMG_2673_Fertig_2016-10-02.JPG>)
 
 *Rückseite des kleinen Wasserfalls*
 
-![](</media/0ff94d8900-img_2693.jpg>)
+![](</media/IMG_2693_Fertig_2016-10-02.JPG>)
 
 *Vorderseite des kleinen Wasserfalls ganz zu Beginn des Tobels. Durch das Wasser und das Kalk hat sich am Boden ein Teppich aus Moos gebildet.*
 
-![](</media/70c2347d23-img_5286.jpg>)
+![](</media/IMG_5286_Fertig_2016-10-02.JPG>)
 
-![](</media/340a7995b6-img_5307.jpg>)
+![](</media/IMG_5307_Fertig_2016-10-02.JPG>)
 
 *Beim Wasserfall führt der Weg über eine kleine Brücke*
 
-![](</media/f57ad17d2e-img_2694.jpg>)
+![](</media/IMG_2694_Fertig_2016-10-02.JPG>)
 
 *über schmale Fusswege und Treppen ist das Tobel erschlossen. Der dicht-bewaldete Weg führt dem Dickibach entlang.*
 
-![](</media/33fa121a6b-img_8563.jpg>)
+![](</media/IMG_8563_Fertig_2020-11-13.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/tobelweiher">Zurück: Tobelweiher</a><a href="/fotoorte-zuercher-oberland/tauferhoehle">Weiter: Täuferhöhle</a></nav>

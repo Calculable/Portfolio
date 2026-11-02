@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/4e13fbae8a-unbenanntes_panorama9.jpg"
+      "content": "/media/fotoorte-varianten/2/Unbenanntes_Panorama9_Fertig_2017-06-05.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/4e13fbae8a-unbenanntes_panorama9.jpg",
+      "image": "/media/fotoorte-varianten/2/Unbenanntes_Panorama9_Fertig_2017-06-05.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,19 +66,19 @@ Der Schreizen Giessen Wasserfall im Turbenthal hat imposante Ausmasse: eine Brei
 <iframe class="map-embed" title="Karte: Schreizer Giessen" src="https://www.openstreetmap.org/export/embed.html?bbox=8.8511389%2C47.4003849%2C8.9411389%2C47.450384899999996&amp;layer=mapnik&amp;marker=47.4253849%2C8.8961389" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.4253849&amp;mlon=8.8961389#map=13/47.4253849/8.8961389">Karte öffnen</a></p>
 
-![](</media/5b843f7058-unbenanntes_panorama9.jpg>)
+![](</media/Unbenanntes_Panorama9_Fertig_2017-06-05.JPG>)
 
 *Panoramabild von der Rückseite des Wasserfalls*
 
-![](</media/6552878b51-img_0018.jpg>)
+![](</media/IMG_0018_Fertig_2017-06-05.JPG>)
 
 *Ein schmaler Fussweg führt direkt hinter dem Wasserfall durch*
 
-![](</media/e26cde853d-img_9969.jpg>)
+![](</media/IMG_9969_Fertig_2021-02-18.JPG>)
 
-![](</media/dbe806048d-img_9971.jpg>)
+![](</media/IMG_9971_Fertig_2021-02-18.JPG>)
 
-![](</media/5cffe097a1-img_9897.jpg>)
+![](</media/IMG_9897_Fertig_2017-06-05.JPG>)
 
 *Ganz in der Nähe befindet sich auch ein kleinerer Wassefall*
 

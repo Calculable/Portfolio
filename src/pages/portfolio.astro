@@ -1,4 +1,5 @@
 ---
+import photoInfo from '../content/portfolio-photos.json';
 import { getImage } from 'astro:assets';
 import PhotoLightbox from '../components/PhotoLightbox.astro';
 import PortfolioLayout from '../layouts/PortfolioLayout.astro';
@@ -11,7 +12,9 @@ const photos = await Promise.all(Object.entries(imports).map(async ([path, sourc
   const variants = await Promise.all(widths.map(width => getImage({ src: source, width, format: 'webp', quality: 85 })));
   const thumbnail = variants[Math.min(1, variants.length - 1)].src;
   const srcset = variants.map((image, i) => `${image.src} ${widths[i]}w`).join(', ');
-  return { thumbnail, srcset, file, source, full: full.src, title: titleFromFilename(file), added: dateAdded(file) };
+  const info = photoInfo[file.slice('src/assets/portfolio/'.length) as keyof typeof photoInfo];
+  const galleryName = info?.galleryName ?? file.slice('src/assets/portfolio/'.length);
+  return { thumbnail, srcset, file: galleryName, source, full: full.src, title: titleFromFilename(galleryName), added: info?.added ?? dateAdded(file) };
 }));
 photos.sort(newestFirst);
 ---

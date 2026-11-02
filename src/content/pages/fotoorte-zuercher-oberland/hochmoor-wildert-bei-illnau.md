@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/1b086e351c-img_8232.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_8232_Fertig_2017-04-29.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/1b086e351c-img_8232.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_8232_Fertig_2017-04-29.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,33 +68,33 @@ Das Wildert Riet bei Illnau gehört zu den Hochmooren / Flachmooren von national
 
 Das Riet entstand im Laufe der letzten Eiszeit. Früher war das Gebiet ein Gletschersee, dieser ist anschliessend langsam verlandet. Später hat man damit begonnen, Torf im Riet abzubauen und dieses als Brennmaterial zu nutzen. Dazu wurde ein Teil der Flächen trockengelegt. Noch heute sieht man die Entwässerungsgräben, die während dem zweiten Weltkrieg angelegt wurden. Der Torfabbau war ein massiver Einschnitt in die Landschaft. Heute ist das Gebiet mehrheitlich im Besitz von Pro Natura. Die Organisation hat einige der Entwässerungsgräben wider verschlossen, um die Pflanzenwelt zu regenerieren.
 
-![](</media/4b7e6b6daf-img_1288.jpg>)
+![](</media/IMG_1288_Fertig_2020-07-09.JPG>)
 
 *Das Schilf im Riet ist ein wichtiger Lebensraum für Tiere*
 
-![](</media/5511bde222-img_1293.jpg>)
+![](</media/IMG_1293_Fertig_2020-07-09.JPG>)
 
 *Es gibt viele umgestürzte und abgestorbene Bäume. Daneben wachsen viele Pflanzen und Moose.*
 
-![](</media/c0aa9cb9e3-img_6739.jpg>)
+![](</media/IMG_6739_Fertig_2020-07-09.JPG>)
 
 *Ein Holzzsteg führt durch die Landschaft und zwischen den Birken und Föhren hindurch.*
 
-![](</media/c0a2ae9516-img_1326.jpg>)
+![](</media/IMG_1326_Fertig_2020-07-09.JPG>)
 
 *Störche haben es sich im Riet gemütlich gemacht.*
 
-![](</media/0e29cbed4a-img_1319.jpg>)
+![](</media/IMG_1319_Fertig_2020-07-09.JPG>)
 
-![](</media/df1a49e6d9-img_8232.jpg>)
+![](</media/IMG_8232_Fertig_2017-04-29.JPG>)
 
 *Mitten im Ried liegt ein schöner Weiher mit Seerosen.*
 
-![](</media/a282b6fff3-img_8251.jpg>)
+![](</media/IMG_8251_Fertig_2017-04-29.JPG>)
 
 *Seit einigen Jahren sind im Frühling Laubfrösche zu hören. Auch Ringelnattern leben in diesem Gebiet.*
 
-![](</media/20c3454a63-img_3001.jpg>)
+![](</media/IMG_3001_Fertig_2016-09-04.JPG>)
 
 *Panoramaaufnahme des Wildert Riet. Ganz in der Nähe findet man auch eine Feuerstelle.*
 

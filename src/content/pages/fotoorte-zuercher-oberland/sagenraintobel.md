@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/a0cc3cdef7-img_0531.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0531_Fertig_2021-02-06.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/a0cc3cdef7-img_0531.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0531_Fertig_2021-02-06.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -72,19 +72,19 @@ Ausgehend vom Tobel gibt es mehrere Möglichkeiten, um die Tour weiter auszudehn
 
 <a href="https://vimeo.com/509223876">Sagenraintobel und Schmittenbach-Wasserfälle</a> from <a href="https://vimeo.com/user114889731">Jan</a> on <a href="https://vimeo.com">Vimeo</a>.
 
-![](</media/b6d59f9bfb-img_0528.jpg>)
+![](</media/IMG_0528_Fertig_2021-02-06.JPG>)
 
 *Der erste von mehreren Schmittenbach-Wasserfällen*
 
-![](</media/4b22dbb101-img_0531.jpg>)
+![](</media/IMG_0531_Fertig_2021-02-06.JPG>)
 
-![](</media/bd6c0dd595-img_9293.jpg>)
+![](</media/IMG_9293_Fertig_2021-02-06.JPG>)
 
-![](</media/dc7281867c-img_0545.jpg>)
+![](</media/IMG_0545_Fertig_2021-02-06.JPG>)
 
 *Die Sicht vom Tobel auf die imposante Felswand*
 
-![](</media/78d749a740-img_9340.jpg>)
+![](</media/IMG_9340_Fertig_2021-02-06.JPG>)
 
 *Der Wanderweg führt direkt dem Wasser entlang*
 

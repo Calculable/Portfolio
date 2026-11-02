@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/5182f093ea-img_0352.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0352_Fertig_2021-02-02.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/5182f093ea-img_0352.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0352_Fertig_2021-02-02.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -70,18 +70,18 @@ Das Tannertobel ist ein Naturschutzgebiet in der Nähe von Rüti ZH und gut erre
 
 <a href="https://vimeo.com/507917174">Tannertobel bei Rüti/Tann-Dürnten</a> from <a href="https://vimeo.com/user114889731">Jan</a> on <a href="https://vimeo.com">Vimeo</a>.
 
-![](</media/d6f83daac8-img_0352.jpg>)
+![](</media/IMG_0352_Fertig_2021-02-02.JPG>)
 
 *Ein Wasserfall von oben.*
 
-![](</media/cc4c109896-img_0239.jpg>)
+![](</media/IMG_0239_Fertig_2021-02-02.JPG>)
 
 *Ein umgestürzter Baum am Bachufer*
 
-![](</media/1777f07fb0-img_0274.jpg>)
+![](</media/IMG_0274_Fertig_2021-02-02.JPG>)
 
-![](</media/cdf1b75c04-img_0278.jpg>)
+![](</media/IMG_0278_Fertig_2021-02-02.JPG>)
 
-![](</media/0423d11f71-img_0258.jpg>)
+![](</media/IMG_0258_Fertig_2021-02-02.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/sitzberg">Zurück: Sitzberg</a><a href="/fotoorte-zuercher-oberland/tobelweiher">Weiter: Tobelweiher</a></nav>

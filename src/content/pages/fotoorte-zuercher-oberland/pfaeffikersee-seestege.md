@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/7faa9d835f-gazje1828.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_7459_Fertig_2018-03-16.jpg"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/7faa9d835f-gazje1828.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_7459_Fertig_2018-03-16.jpg",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,16 +66,16 @@ Rund um den Pfäffikersee gibt es insgesamt 12 Fischerstege, die zum Fotografier
 <iframe class="map-embed" title="Karte: Pfäffikersee" src="https://www.openstreetmap.org/export/embed.html?bbox=8.7374042%2C47.325798500000005%2C8.8274042%2C47.3757985&amp;layer=mapnik&amp;marker=47.3507985%2C8.7824042" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.3507985&amp;mlon=8.7824042#map=13/47.3507985/8.7824042">Karte öffnen</a></p>
 
-![](</media/50e7ef446d-gazje1828.jpg>)
+![](</media/IMG_7459_Fertig_2018-03-16.jpg>)
 
-![](</media/1b6208a530-cfvie8766.jpg>)
+![](</media/IMG_7868_Fertig_2016-12-10.JPG>)
 
-![](</media/84b9bc5f22-img_1631-kopie.jpg>)
+![](</media/IMG_1631_Fertig_2013-01-18.jpg>)
 
-![](</media/c7cb1e1b15-img_8555.jpg>)
+![](</media/IMG_8555_Fertig_2020-12-19.JPG>)
 
-![](</media/0eedd9b892-img_8120_1.jpg>)
+![](</media/IMG_8120_Fertig_2019-08-31.JPG>)
 
-![](</media/23caebfac7-rwnje2790.jpg>)
+![](</media/IMG_2227_Fertig_2017-04-30.jpg>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/pfaeffikersee-seequai">Zurück: Seequai in Pfäffikon ZH</a><a href="/fotoorte-zuercher-oberland/sitzberg">Weiter: Sitzberg</a></nav>

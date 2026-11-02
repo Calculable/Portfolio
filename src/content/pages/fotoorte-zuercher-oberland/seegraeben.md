@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/ab497e1f55-img_2163.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_2163_Fertig_2020-10-30.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/ab497e1f55-img_2163.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_2163_Fertig_2020-10-30.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,19 +68,19 @@ Seegräben ist ein kleines Dorf im Bezirk Hinwil. Viele Besucher kennen den Ort 
 
 Neben der Juckerfarm kann in der Nähe von Seegräben auch das Sauriermuseum Aathal oder die Stein-Ausstellung Sieber+Sieber besucht werden.
 
-![](</media/150ad298be-img_2163.jpg>)
+![](</media/IMG_2163_Fertig_2020-10-30.JPG>)
 
 *Das malerische Seegräben im Morgenlicht. Im Vordergrund befindet sich der Schilfgürtel des Pfäffikersees. Seegräben liegt am Seeufer und bietet einen Blick auf die geschützten Riedgebite rund um den See.*
 
-![](</media/815f1a5b88-img_9232.jpg>)
+![](</media/IMG_9232_Fertig_2021-01-19.JPG>)
 
 *Seegräben im Winter*
 
-![](</media/672a187663-img_7932.jpg>)
+![](</media/IMG_7932_Fertig_2019-06-07.jpg>)
 
 *Blick von Seegräben auf den Pfäffikersee*
 
-![](</media/1caa489121-img_7947.jpg>)
+![](</media/IMG_7947_Fertig_2019-06-07_02.jpg>)
 
 *…und die Landschaft direkt dahinter*
 

@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/94e91085b8-img_7418.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_7418_Fertig_2017-03-11.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/94e91085b8-img_7418.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_7418_Fertig_2017-03-11.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,39 +68,39 @@ Das Dorf Kyburg gehört zu Illnau-Effretikon ganz in der Nähe von Winterthur. H
 
 Die Kyburg gehört zu den am besten erhaltenen Burgen der Nordostschweiz. Im Laufe der Geschichte wechselte das Schloss immer wieder die Besitzer: Von Kyburger Grafen über die Habsburger bis es schlussendlich im Jahre 1917 vom Kanton Zürich zurückgekauft wurde. Bereits zuvor, nämlich 1865, war das Schloss für Besucher geöffnet.
 
-![](</media/72eccb08eb-img_7418.jpg>)
+![](</media/IMG_7418_Fertig_2017-03-11.JPG>)
 
 *Hoch über der Töss liegt das Schloss Kyburg*
 
-![](</media/af7deeb58c-img_3909.jpg>)
+![](</media/IMG_3909_Fertig_2019-09-11.JPG>)
 
 *Panoramaaufnahme der Burg*
 
-![](</media/0e82e2bcf4-img_3905.jpg>)
+![](</media/IMG_3905_Fertig_2019-09-11.JPG>)
 
 *Aussenfassade der Burg*
 
-![](</media/6c03b8510a-img_3903.jpg>)
+![](</media/IMG_3903_Fertig_2019-09-11.JPG>)
 
 *Das malerische Dörfchen Kyburg*
 
-![](</media/601261d6d8-img_8304.jpg>)
+![](</media/IMG_8304_Fertig_2019-09-11.JPG>)
 
 *Über eine Holzbrücke im Wald kann die Kyburg zu Fuss erreicht werden*
 
-![](</media/93152f83d7-img_8293.jpg>)
+![](</media/IMG_8293_Fertig_2019-09-11.jpg>)
 
 *Das Dörfchen liegt inmitten von Wiesen und Wäldern.*
 
 <div class="image-grid">
 
-![IMG\_2797 als Smartobjekt-1.png](</media/22b3a1c9c4-img_2797-als-smartobjekt-1.png>)
+![IMG\_2797 als Smartobjekt-1.png](</media/IMG_2797_Fertig_2016-10-02.png>)
 
-![IMG\_5075.JPG](</media/8000e0f52c-img_5075.jpg>)
+![IMG\_5075.JPG](</media/IMG_5075_Fertig_2015-07-20.JPG>)
 
-![IMG\_5083.JPG](</media/e81c069808-img_5083.jpg>)
+![IMG\_5083.JPG](</media/IMG_5083_Fertig_2015-07-20.JPG>)
 
-![IMG\_7963.JPG](</media/20bb8184d7-img_7963.jpg>)
+![IMG\_7963.JPG](</media/IMG_7963_Fertig_2020-11-13.JPG>)
 
 </div>
 

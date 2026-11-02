@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/eef47edeb7-img_9695.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_9695_Fertig_2020-04-14.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/eef47edeb7-img_9695.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_9695_Fertig_2020-04-14.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -72,15 +72,15 @@ Die Anlage wurde damals gebaut, um die Germanen abzuwehren und sie sicherte eine
 
 Impressionen des Römerkastells
 
-![](</media/deb27a8b66-img_9695.jpg>)
+![](</media/IMG_9695_Fertig_2020-04-14.JPG>)
 
 *Das Römerkastell in Irgenhausen bei Pfäffikon ZH*
 
-![](</media/23bdaed57a-uvrse0825.jpg>)
+![](</media/IMG_9747_Fertig_2017-06-25.JPG>)
 
 *Römerkastell im Abendlicht*
 
-![](</media/a85547018b-img_1868.jpg>)
+![](</media/IMG_1868_Fertig_2020-10-25.JPG>)
 
 *Das Kastell Irgenhausen liegt direkt am Seerundweg um den Pfäffikersee*
 

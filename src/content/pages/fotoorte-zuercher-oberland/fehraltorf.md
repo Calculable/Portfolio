@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/533422014f-img_8164.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_8164_Fertig_2017-04-14.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/533422014f-img_8164.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_8164_Fertig_2017-04-14.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,24 +68,24 @@ Die Gemeinde Fehraltorf befindet sich im Bezirk Pfäffikon. Sehenswürdigkeiten 
 
 In seiner Geschichte hat das Dorf immer wieder andere Namen getragen, Rüeggisaltorf, Rüedegersaltorf, Altorf… Der Name Fehraltorf (also „fernes Altdorf“) entstand im Mittelalter. Fehraltorf gehörte damals zum Kloster Rüti - genau so wie auch das Mönchaltorf (also „das Dorf bei den Mönchen“). Mit dem neuen Namen konnten die beiden Dörfer also besser unterschieden werden.
 
-![](</media/97aeccb05f-img_8164.jpg>)
+![](</media/IMG_8164_Fertig_2017-04-14.JPG>)
 
 *Baumgruppe in der Nähe des Bahnhofs Fehraltorf*
 
-![](</media/7be84eef92-img_8218.jpg>)
+![](</media/IMG_8218_Fertig_2017-04-29.JPG>)
 
-![](</media/662c195e38-img_2090.jpg>)
+![](</media/IMG_2090_Fertig_2016-08-25.jpg>)
 
 *Fussballplatz des FC Fehraltorf*
 
-![](</media/2d6c90f5dd-img_0420.jpg>)
+![](</media/IMG_0420_Fertig_2017-09-21.jpg>)
 
 *Sonnenaufgang kurz vor dem Sportflughafen Speck*
 
-![](</media/1e92ec212a-img_2161.jpg>)
+![](</media/IMG_2161_Fertig_2017-04-29.JPG>)
 
 *Feldweg mit einsamem Baum an der Bahnstrecke zwischen Fehraltorf und Illnau*
 
-![](</media/328e82bef8-img_4365.jpg>)
+![](</media/IMG_4366_Fertig_2015-06-07.jpg>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/einzelner-baum-bei-adetswil">Zurück: Einzelner Baum bei Adetswil</a><a href="/fotoorte-zuercher-oberland/giessenfaelle-bei-neuthal">Weiter: Giessenfälle bei Neuthal (Wissenbach)</a></nav>

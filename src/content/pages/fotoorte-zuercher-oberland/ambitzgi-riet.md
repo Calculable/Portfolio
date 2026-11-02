@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/6c2826a37f-img_0440.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0440_Fertig_2018-10-13.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/6c2826a37f-img_0440.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0440_Fertig_2018-10-13.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,28 +68,28 @@ Das Riet mit seinen Wäldern und Mooren liegt zwischen den Gemeinden Wetzikon un
 
 Die Drumlin-Landschaften wurden während der letzten Eiszeit, die vor 10’000 Jahren zu Ende ging, durch den Gletscher geformt. Die kleinen zurückgebliebenen Seen sind mit der Zeit verlandet und das heutige Moor entstand.
 
-![](</media/fe2683599b-img_5742.jpg>)
+![](</media/IMG_5742_Fertig_2017-01-02.JPG>)
 
 Das Riet und die anliegenden Wälder wurden früher stark durch die Landwirschaft genutzt und auch übernutzt. Der Torf wurde als Ersatz für Brennholz abgebaut, was sichtbare Spuren in der Landschaft hinterlassen hat. Auch suchte man in diesem Gebiet nach Kohle, allerdings ohne grossen Erfolg. Der unterirdische Stollen unterhalb des Riets wurde aufgegeben. Noch heute sieht man deren Spuren bei einzelnen Absenkungen im Boden, die auf das Einstürzen der unterirdischen Stollen zurückzuführen sind. Heute steht das Gebiet unter Naturschutz.
 
-![](</media/83620435b4-img_0440.jpg>)
+![](</media/IMG_0440_Fertig_2018-10-13.JPG>)
 
 *Im Riet gibt es mehrere kleinere Gewässer - sie heissen Brüschgraben, Mostbach, Pfaffenholzbächli und Schöneichbach. Unterhalb des Oberhöflerriet befindet sich zudem ein kleiner Weiher.*
 
-![](</media/ff598a6977-img_0471.jpg>)
+![](</media/IMG_0471_Fertig_2018-10-13.JPG>)
 
 *Besonders im Herbst liegt häufig der Nebel im Ambitzgi-Riet*
 
-![](</media/94e8e198b7-img_5746.jpg>)
+![](</media/IMG_5746_Fertig_2017-01-02.JPG>)
 
 *Im Hintergrund zu sehen ist der Unterwetziker Wald im Norden des Gebiets.*
 
-![](</media/d4b6c8075e-img_8342.jpg>)
+![](</media/IMG_8342_Fertig_2017-01-02.JPG>)
 
 *Mehrere Wege machen das Riet zugänglich für Fussgänger*
 
-![](</media/5cc0d8acd7-img_8343.jpg>)
+![](</media/IMG_8343_Fertig_2017-01-02.JPG>)
 
-![](</media/f413318d3a-img_6260.jpg>)
+![](</media/IMG_6260_Fertig_2016-10-18.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/bachtel">Weiter: Bachtel</a></nav>

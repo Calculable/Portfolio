@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/a949a5e67e-img_0548.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0548_Fertig_2013-03-03.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/a949a5e67e-img_0548.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0548_Fertig_2013-03-03.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,29 +68,29 @@ Mit 1292 Meter über Meer ist das Schnebelhorn der höchste Gipfel im Kanton Zü
 
 Vom Schnebelhorn hat man auf alle Seiten einen schönen Ausblick, zum Beispiel auf den Säntis, die Mythen und über das Toggenburg und Zürcher Oberland. Möglichkeiten zum Einkehren gibt es zum Beispiel im Restaurant auf der Hulftegg Passhöhe oder bei der Alpwirtschaft Tierhag.
 
-![](</media/4829bac077-img_4117.jpg>)
+![](</media/IMG_4117_Fertig_2019-09-12.JPG>)
 
 *Kleiner Tisch auf dem Schnebelhorn als Verweilmöglichkeit*
 
-![](</media/8e6af55f3e-img_0548.jpg>)
+![](</media/IMG_0548_Fertig_2013-03-03.JPG>)
 
 *Das Schnebelhorn und die Hulftegg sind beliebte Ziele für Schneeschuh-Wanderungen.*
 
-![](</media/c39b28de36-img_0589.jpg>)
+![](</media/IMG_0589_Fertig_2013-03-03.JPG>)
 
 *Der Wanderweg verschwindet im dichten Nebel*
 
-![](</media/8ddeeaaeef-img_0609.jpg>)
+![](</media/IMG_0609_Fertig_2013-03-03.jpg>)
 
 *Die Morgensonne scheint durch die Bäume und den Nebel*
 
-![](</media/c4b793bfab-img_1325.jpg>)
+![](</media/IMG_1325_Fertig_2013-01-06.JPG>)
 
 *Ein Wegweiser zeigt den Weg weiter zur Scheidegg*
 
-![](</media/6a47bb6dea-img_1341.jpg>)
+![](</media/IMG_1341_Fertig_2013-01-06.JPG>)
 
-![](</media/7232a99bad-img_5330.jpg>)
+![](</media/IMG_5330_Fertig_2016-12-18.JPG>)
 
 *Ausblick vom Schnebelhorn*
 

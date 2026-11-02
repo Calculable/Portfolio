@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/3a4f371d65-img_1012.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_1012_Fertig_2021-02-14.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/3a4f371d65-img_1012.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_1012_Fertig_2021-02-14.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,20 +68,20 @@ Mit 1243 Meter über Meer ist die Brandegg die höchste Erhebung, die komplett i
 
 Die Brandegg liegt zwischen Gibswil im Westen und der Vorder Töss im Osten und kann über mehrere Grate erreicht werden. Die Brandegg ist zudem die Wasserscheide zwischen Töss und Jona.
 
-![](</media/d0769f4ded-img_1012.jpg>)
+![](</media/IMG_1012_Fertig_2021-02-14.JPG>)
 
 *Auf dem Gipfel lichtet sich der Wald, was einen Rundumblick auf die umliegende Landschaft ermöglicht.*
 
-![](</media/617b78f3c5-img_1013.jpg>)
+![](</media/IMG_1013_Fertig_2021-02-14.JPG>)
 
 *Panorama-Aufnahme der Aussicht auf der Brandegg*
 
-![](</media/3f9eb96fdb-img_0995.jpg>)
+![](</media/IMG_0995_Fertig_2021-02-14.JPG>)
 
 *Ein Weg durch den Wald führt direkt zur Brandegg*
 
-![](</media/53b5e3e383-img_0984.jpg>)
+![](</media/IMG_0984_Fertig_2021-02-14.JPG>)
 
-![](</media/1ff477fe6a-img_9798.jpg>)
+![](</media/IMG_9798_Fertig_2021-02-14.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/bachtel">Zurück: Bachtel</a><a href="/fotoorte-zuercher-oberland/einzelner-baum-bei-adetswil">Weiter: Einzelner Baum bei Adetswil</a></nav>

@@ -30,7 +30,7 @@ Dieses Verzeichnis dient der allgemeinen Information und der Entdeckung von Orte
 
 Vor einem Besuch musst du Zugänglichkeit, Wetter, Wasserstand, Wegzustand und örtliche Warnungen selbst prüfen. Halte dich an markierte und freigegebene Wege. Respektiere Sperrungen, Privatgrundstücke, Naturschutzgebiete und Anweisungen vor Ort. Rutschige Felsen, Absturz, Steinschlag und unvermittelt steigendes Wasser – etwa nach Regen oder durch Kraftwerksbetrieb – können lebensgefährlich sein. Verzichte bei Unsicherheit auf den Zugang. Auch ein extern erzeugter Routenvorschlag bestätigt keinen sicheren Weg.
 
-Die Daten stammen aus öffentlich bearbeiteten Quellen. Vollständigkeit, Richtigkeit, Aktualität und dauerhafte Wasserführung werden nicht zugesichert. Angaben wie eine fehlende Zugangsbeschränkung sind keine Erlaubnis zum Betreten. Besuche und die Nutzung der Informationen erfolgen eigenverantwortlich. **Soweit gesetzlich zulässig, wird eine Haftung für Schäden aus der Nutzung dieses Verzeichnisses ausgeschlossen. Zwingende gesetzliche Haftung, insbesondere für rechtswidrige Absicht oder grobe Fahrlässigkeit, bleibt unberührt.**
+Die Daten stammen aus öffentlich bearbeiteten Quellen. Vollständigkeit, Richtigkeit, Aktualität und dauerhafte Wasserführung werden nicht zugesichert. Angaben wie eine fehlende Zugangsbeschränkung sind keine Erlaubnis zum Betreten. Besuche und die Nutzung der Informationen erfolgen eigenverantwortlich. **Soweit gesetzlich zulässig, wird eine Haftung für Schäden aus der Nutzung dieses Verzeichnisses ausgeschlossen.**
 
 <h2 id="wasserfall-daten">Daten, Quellen und Lizenzen</h2>
 

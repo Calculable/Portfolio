@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/5c72f488c2-img_7377.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_7377_Fertig_2017-03-10.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/5c72f488c2-img_7377.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_7377_Fertig_2017-03-10.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,17 +66,17 @@ Nur ein paar Schritte vom Bahnhof in Illnau entfernt befindet sich ein schöner 
 <iframe class="map-embed" title="Karte: 47.42539, 8.89805" src="https://www.openstreetmap.org/export/embed.html?bbox=8.686696099999999%2C47.371084300000014%2C8.776696099999999%2C47.42108430000001&amp;layer=mapnik&amp;marker=47.39608430000001%2C8.731696099999999" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.39608430000001&amp;mlon=8.731696099999999#map=13/47.39608430000001/8.731696099999999">Karte öffnen</a></p>
 
-![](</media/4acc303f44-img_7389.jpg>)
+![](</media/IMG_7389_Fertig_2017-03-10.JPG>)
 
-![](</media/dc0d16f5fc-img_9948.jpg>)
+![](</media/IMG_9948_Fertig_2017-03-10.JPG>)
 
-![](</media/973aabdc1c-img_7361.jpg>)
+![](</media/IMG_7361_Fertig_2017-03-10.JPG>)
 
-![](</media/bf51ca2354-img_7359.jpg>)
+![](</media/IMG_7359_Fertig_2017-03-10.JPG>)
 
 *Der Fussweg verläuft direkt neben der Bahnstrecke*
 
-![](</media/55a07703b7-img_7377.jpg>)
+![](</media/IMG_7377_Fertig_2017-03-10.JPG>)
 
 *Gegenlicht im Nebel*
 

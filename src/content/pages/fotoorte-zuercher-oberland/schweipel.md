@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/11072116e9-img_7939.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_7939_Fertig_2015-11-08.jpg"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/11072116e9-img_7939.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_7939_Fertig_2015-11-08.jpg",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,18 +66,18 @@ Schweipel ist ein Naturerholungsgebiet bei Hinwil. Es führen Wanderwege durch d
 <iframe class="map-embed" title="Karte: Schweipel" src="https://www.openstreetmap.org/export/embed.html?bbox=8.7977233%2C47.2743227%2C8.8877233%2C47.324322699999996&amp;layer=mapnik&amp;marker=47.2993227%2C8.8427233" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.2993227&amp;mlon=8.8427233#map=13/47.2993227/8.8427233">Karte öffnen</a></p>
 
-![](</media/ce280ce16f-img_7939.jpg>)
+![](</media/IMG_7939_Fertig_2015-11-08.jpg>)
 
 *Herbst bei Schweipel*
 
-![](</media/3d34329fbc-img_7944.jpg>)
+![](</media/IMG_7944_Fertig_2015-11-08.JPG>)
 
-![](</media/c9c0336613-img_7950.jpg>)
+![](</media/IMG_7950_Fertig_2015-11-08.JPG>)
 
-![](</media/33b9875f8a-img_7951.jpg>)
+![](</media/IMG_7951_Fertig_2015-11-08.JPG>)
 
 *Ried-Landschaft bei Schweipel*
 
-![](</media/a5a422b23c-img_7879.jpg>)
+![](</media/IMG_7879_Fertig_2015-11-08.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/schreizen-giessen-wasserfall">Zurück: Schreizen Giessen Wasserfall</a><a href="/fotoorte-zuercher-oberland/schwerzenbach-am-greifensee">Weiter: Greifensee bei Schwerzenbach</a></nav>

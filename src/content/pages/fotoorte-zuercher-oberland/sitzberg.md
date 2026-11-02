@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/b0c2db3ea7-img_9928.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_9928_Fertig_2021-02-18.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/b0c2db3ea7-img_9928.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_9928_Fertig_2021-02-18.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,13 +66,13 @@ Sitzberg ist ein schöner Ausgangspunkt für Wanderungen in der Region Tösstal.
 <iframe class="map-embed" title="Karte: Schweipel" src="https://www.openstreetmap.org/export/embed.html?bbox=8.7977233%2C47.2743227%2C8.8877233%2C47.324322699999996&amp;layer=mapnik&amp;marker=47.2993227%2C8.8427233" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.2993227&amp;mlon=8.8427233#map=13/47.2993227/8.8427233">Karte öffnen</a></p>
 
-![](</media/623a46a807-img_9931.jpg>)
+![](</media/IMG_9931_Fertig_2021-02-18.JPG>)
 
-![](</media/6f5eec032a-img_9928.jpg>)
+![](</media/IMG_9928_Fertig_2021-02-18.JPG>)
 
 *Aussicht in Richtung Sitzberg*
 
-![](</media/37396e165d-img_9942.jpg>)
+![](</media/IMG_9942_Fertig_2021-02-18.JPG>)
 
 *Die Reformierte Kirche Sitzberg mit einer bekannten Orgel.*
 

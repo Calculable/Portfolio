@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/5ede410fab-img_8762.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_8762_Fertig_2020-02-08.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/5ede410fab-img_8762.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_8762_Fertig_2020-02-08.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,29 +68,29 @@ Die Gemeinde Schwerzenbach liegt im Bezirk Uster am Greifensee. Der Chimlibach f
 
 Bei Schwerzenbach am Seeufer gibt es mehrere Ried-Landschaften wie das Weidriet, Suelen, Böschen… Das Ried ist sehr artenreich und steht deshalb unter strengem Naturschutz. Zuvor wurde das Ried über lange Zeit bewirtschaftet, heute wird es nur noch gezielt unterhalten, um seltene Pflanzen und Tiere zu erhalten und vor der Verdrängung zu schützen.
 
-![](</media/dcf79ec5af-img_5593.jpg>)
+![](</media/IMG_5593_Fertig_2020-02-08.JPG>)
 
 *Seesteg am Greifensee*
 
-![](</media/d14dfefa8e-img_0815.jpg>)
+![](</media/IMG_0815_Fertig_2017-03-30.JPG>)
 
 *Regulierung und Ausfluss der Glatt beim Greifensee*
 
-![](</media/4b07eb7559-img_0825.jpg>)
+![](</media/IMG_0825_Fertig_2017-03-30.JPG>)
 
 *Rund um den Greifensee befindet sich das grösste Naturschutzgebiet im Kanton Zürich*
 
-![](</media/30ac512a3b-img_7784.jpg>)
+![](</media/IMG_7784_Fertig_2017-03-30.JPG>)
 
-![](</media/8584d884be-img_8760.jpg>)
+![](</media/IMG_8760_Fertig_2020-02-08.JPG>)
 
 *Morgenstimmung im Weidriet*
 
-![](</media/d92ba61c29-img_8762.jpg>)
+![](</media/IMG_8762_Fertig_2020-02-08.JPG>)
 
 *Im Hintergrund zeichnet sich das Städchen Greifensee ab*
 
-![](</media/652eca8436-img_8779.jpg>)
+![](</media/IMG_8779_Fertig_2020-02-08.JPG>)
 
 *Die Region Greifensee stellt ein wichtiger Lebensraum für die unterschiedlichsten Vogelarten dar. In der Naturstation Silberweide können die Tiere gut beobachtet werden.*
 

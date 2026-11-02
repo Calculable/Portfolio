@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/76c1311e1d-img_7713.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_7713_Fertig_2017-03-30.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/76c1311e1d-img_7713.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_7713_Fertig_2017-03-30.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,27 +68,27 @@ Das Städtchen Greifensee liegt im Bezirk Uster. Der See lässt sich vom Bahnhof
 
 Neben dem See ist auch der historische Dorfkern ein Besuch wert, unter anderem auch die gotische Galluskapelle, die seit ihrer Erbauung im 14. Jahrhundert zu grossen Teilen unverändert blieb. Der Dorfkern ist geschützt und konnte deshalb seinen historischen Charakter behalten. Rund 5000 Personen leben heute in der Gemeinde Greifensee.
 
-![](</media/c3143a2f63-img_7713.jpg>)
+![](</media/IMG_7713_Fertig_2017-03-30.JPG>)
 
 *Fischerboote in den frühen Morgenstunden*
 
-![](</media/666f40e918-img_0753.jpg>)
+![](</media/IMG_0753_Fertig_2017-03-30.JPG>)
 
 *Panoramaaufnahme vom Seesteg*
 
-![](</media/f4246cd8a3-img_7733.jpg>)
+![](</media/IMG_7733_Fertig_2017-03-30.JPG>)
 
 *Einzelnes Fischerboot in der Morgendämmerung*
 
-![](</media/98c2cfa010-img_7721.jpg>)
+![](</media/IMG_7721_Fertig_2017-03-30.JPG>)
 
 *Seesteg im Wasser*
 
-![](</media/6c6be450f3-img_5756.jpg>)
+![](</media/IMG_5756_Fertig_2014-05-29.JPG>)
 
 Eine weitere Attraktion ist das Schloss Greifensee aus dem 13. Jahrhundert - ursprünglich eine kleine Burganlage, die später zu einem Schloss umgebaut wurde:
 
-![](</media/32fe3a7ac0-img_5852.jpg>)
+![](</media/IMG_5852_Fertig_2014-05-29.JPG>)
 
 *Das Schloss Greifensee in unmittelbarer Nähe zum Seeufer*
 

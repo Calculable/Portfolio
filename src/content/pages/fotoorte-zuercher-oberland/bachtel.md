@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/0361f8cd2f-img_5367-als-smartobjekt-2.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_5367%20als%20Smartobjekt-2_Fertig_2016-12-27.jpg"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/0361f8cd2f-img_5367-als-smartobjekt-2.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_5367%20als%20Smartobjekt-2_Fertig_2016-12-27.jpg",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,34 +68,34 @@ Der Bachtel liegt 1115 Meter über Meer. Der Berg ist von Wäldern umgeben - doc
 
 Unter der Woche ist eine Fahrt zum Gipfel mit dem Auto möglich, sofern die Strasse nicht für den Schlittelbetrieb gesperrt ist (Ausnahmen: Sonntage und Feiertage). Der Aufstieg zu Fuss ist steil und kann von mehreren Orten gestartet werden: Der kürzeste Aufstieg beginnt in der Gemeinde Wernetshausen und dauert eine knappe Stunde.
 
-![](</media/d793a6a5d0-img_9607.jpg>)
+![](</media/IMG_9607_Fertig_2016-05-04.JPG>)
 
 *Aufstieg durch den Wald in der Gemeinde Wernetshausen*
 
-![](</media/311fd32a01-img_4627.jpg>)
+![](</media/IMG_4627_Fertig_2015-07-14.JPG>)
 
 *Aussicht vom Bachtelturm*
 
-![](</media/8db8ce58fb-img_4626.jpg>)
+![](</media/IMG_4626_Fertig_2015-07-14.JPG>)
 
 *Im Hintergrund erkennt man den Pfäffikersee und die Gemeinde Wetzikon*
 
-![](</media/a8b8e500c6-img_5367-als-smartobjekt-2.jpg>)
+![](</media/IMG_5367%20als%20Smartobjekt-2_Fertig_2016-12-27.jpg>)
 
 *In der Nacht lassen sich auf dem Bachtel-Turm die Sterne und die Lichter der Stadt beobachten.*
 
-![](</media/43510c4afd-img_5464.jpg>)
+![](</media/IMG_5464_Fertig_2016-12-27.JPG>)
 
 *Sicht auf den Zürichsee und den Seesteg von Rapperswil*
 
-![](</media/f09f1fbaba-unbenanntes_panorama1_neu.jpg>)
+![](</media/Unbenanntes_Panorama1_Fertig_2016-12-27_02.JPG>)
 
 *Nacht-Panorama*
 
-![](</media/2ee4d46c63-img_4594.jpg>)
+![](</media/IMG_4594_Fertig_2015-07-14.JPG>)
 
 *Der Abstieg in Richtung Wald ZH*
 
-![](</media/c683ae879d-img_4601.jpg>)
+![](</media/IMG_4601_Fertig_2015-07-14.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/ambitzgi-riet">Zurück: Ambitzgi-Riet (Wetzikon)</a><a href="/fotoorte-zuercher-oberland/brandegg">Weiter: Brandegg</a></nav>

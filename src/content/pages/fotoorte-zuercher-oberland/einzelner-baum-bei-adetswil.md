@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/87ff8725d3-img_0503.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_0503_Fertig_2013-03-02.jpg"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/87ff8725d3-img_0503.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_0503_Fertig_2013-03-02.jpg",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -66,12 +66,12 @@ Der einsame Baum nördlich der Gemeinde Kempten ist ein beliebtes Fotomotiv. Der
 <iframe class="map-embed" title="Karte: 	47.33844, 8.83180" src="https://www.openstreetmap.org/export/embed.html?bbox=8.784457999999999%2C47.3170902%2C8.874457999999999%2C47.3670902&amp;layer=mapnik&amp;marker=47.3420902%2C8.829457999999999" loading="lazy"></iframe>
 <p><a href="https://www.openstreetmap.org/?mlat=47.3420902&amp;mlon=8.829457999999999#map=13/47.3420902/8.829457999999999">Karte öffnen</a></p>
 
-![](</media/d4dc5c31a5-img_0503.jpg>)
+![](</media/IMG_0503_Fertig_2013-03-02.jpg>)
 
-![](</media/2a5ceb9836-img_1547.jpg>)
+![](</media/IMG_1547_Fertig_2012-07-08.JPG>)
 
-![](</media/3b83ea3742-img_8544.jpg>)
+![](</media/IMG_8544_Fertig_2014-08-11.JPG>)
 
-![](</media/450fe99a57-img_1538.jpg>)
+![](</media/IMG_1538_Fertig_2012-07-08.JPG>)
 
 <nav class="page-pagination"><a href="/fotoorte-zuercher-oberland/brandegg">Zurück: Brandegg</a><a href="/fotoorte-zuercher-oberland/fehraltorf">Weiter: Fehraltorf</a></nav>

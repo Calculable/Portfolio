@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/eede1b4a26-img_9749.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_9749_Fertig_2016-06-10.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/eede1b4a26-img_9749.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_9749_Fertig_2016-06-10.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,31 +68,31 @@ Der Wissenbach fliesst über mehrere schöne Wasserfälle entlang des Jakob-Kell
 
 Über einen brückenreichen Weg kann zum Beispiel bis zur Wissengubel-Höhle gewandert werden.
 
-![](</media/5dfa913c55-img_9749.jpg>)
+![](</media/IMG_9749_Fertig_2016-06-10.JPG>)
 
 *Ein Giessen bei Neuthal*
 
-![](</media/6fa6cb138d-img_3472.jpg>)
+![](</media/IMG_3472_Fertig_2014-03-09.JPG>)
 
 *Der Wissenbach stürzt den Geissen-Wasserfall herunter*
 
-![](</media/47d96da6a5-img_9744.jpg>)
+![](</media/IMG_9744_Fertig_2016-06-10.jpg>)
 
 *Ein weiterer, etwas kleinerer Wasserfall des Giessbachs*
 
-![](</media/675bb638de-img_3477.jpg>)
+![](</media/IMG_3477_Fertig_2014-03-09.JPG>)
 
 *Blick in die Ferne von Neuthal*
 
 <div class="image-grid">
 
-![IMG\_3465.JPG](</media/cfc219ef7c-img_3465.jpg>)
+![IMG\_3465.JPG](</media/IMG_3465_Fertig_2014-03-09.JPG>)
 
-![IMG\_9688.JPG](</media/3f1c6cce14-img_9688.jpg>)
+![IMG\_9688.JPG](</media/IMG_9688_Fertig_2016-06-10.JPG>)
 
-![IMG\_9696.JPG](</media/db37acac57-img_9696.jpg>)
+![IMG\_9696.JPG](</media/IMG_9696_Fertig_2016-06-10.jpg>)
 
-![IMG\_9701.JPG](</media/1c47e1124f-img_9701.jpg>)
+![IMG\_9701.JPG](</media/IMG_9701_Fertig_2016-06-10.JPG>)
 
 </div>
 

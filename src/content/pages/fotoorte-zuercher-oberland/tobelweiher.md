@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/bd9a8cbbf8-img_5023.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_5023_Fertig_2018-04-01.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/bd9a8cbbf8-img_5023.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_5023_Fertig_2018-04-01.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -70,27 +70,27 @@ Etwas abseits der Grillstelle befindet sich eine steile Nagelfluhwand und eine k
 
 Das Bächlein Luppen fliesst durch den Tobelweiher.
 
-![](</media/d2eeada17b-img_5023.jpg>)
+![](</media/IMG_5023_Fertig_2018-04-01.JPG>)
 
 *Ein kleiner Wasserfall beim Tobelweiher*
 
-![](</media/e316c33f56-img_1213.jpg>)
+![](</media/IMG_1213_Fertig_2020-04-27.JPG>)
 
 *Ein Wanderweg führt direkt um den Weiher*
 
-![](</media/8fcec8567a-img_1207.jpg>)
+![](</media/IMG_1207_Fertig_2020-04-27.JPG>)
 
-![](</media/cddf50e1e5-img_4970.jpg>)
+![](</media/IMG_4970_Fertig_2018-04-01.JPG>)
 
-![](</media/04e4648b02-img_0979.jpg>)
+![](</media/IMG_0979_Fertig_2014-11-15.JPG>)
 
 *Der Tobelweiher im Herbst*
 
-![](</media/4c3d55ae61-img_2413.jpg>)
+![](</media/IMG_2413_Fertig_2015-01-29.JPG>)
 
 *Der Tobelweiher im Winter*
 
-![](</media/e0fc5ac8b7-img_1202.jpg>)
+![](</media/IMG_1202_Fertig_2020-04-27.JPG>)
 
 *Ein Mann spaziert in Richtung des Tobelweihers*
 

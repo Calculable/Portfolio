@@ -18,7 +18,7 @@
     },
     {
       "property": "og:image",
-      "content": "/media/9453a2bca6-img_8373.jpg"
+      "content": "/media/fotoorte-varianten/2/IMG_8373_Fertig_2015-12-20.JPG"
     },
     {
       "property": "og:image:width",
@@ -49,7 +49,7 @@
         "@context": "http://schema.org",
         "@type": "Organization"
       },
-      "image": "/media/9453a2bca6-img_8373.jpg",
+      "image": "/media/fotoorte-varianten/2/IMG_8373_Fertig_2015-12-20.JPG",
       "@context": "http://schema.org",
       "@type": "Article"
     }
@@ -68,31 +68,31 @@ Der Pfannenstiel (auch: Pfannenstil) liegt zwischen dem Greifensee und dem Züri
 
 Der gesamte Pfannenstil ist dicht bewaldet doch dank dem Aussichtsturm ist der Blick auf den Zürichsee möglich. Der Turm stand früher auf dem Bachtel. Als der Turm auf dem Bachtel ersetzt wurde, da dieser nicht geeignet ist um eine Antenne zu tragen, hat man den Stahlturm schliesslich während sieben Jahren auf den Pfannenstil transportiert und dort aufgebaut.
 
-![](</media/f3e6654a70-img_5218.jpg>)
+![](</media/IMG_5218_Fertig_2019-12-31.JPG>)
 
 *Gleich unterhalb des Turm liegt das Gasthaus Hochwacht.*
 
-![](</media/7beed89d76-img_8373.jpg>)
+![](</media/IMG_8373_Fertig_2015-12-20.JPG>)
 
 *Aussicht vom Turm bei Sonnenaufgang.*
 
-![](</media/8e13ccb4da-img_8358.jpg>)
+![](</media/IMG_8358_Fertig_2015-12-20.JPG>)
 
 *Die Sonne kommt langsam hinter der Bergkette hervor.*
 
-![](</media/d273228f42-img_8375.jpg>)
+![](</media/IMG_8375_Fertig_2015-12-20.JPG>)
 
 *Blick auf das Nebelmeer vom Pfannenstil-Turm.*
 
-![](</media/aecebc6796-img_8551.jpg>)
+![](</media/IMG_8551_Fertig_2019-12-31.JPG>)
 
 *Die umliegenden Wälder des Pfannenstils im Nebel.*
 
-![](</media/e1f0825029-img_1402.jpg>)
+![](</media/IMG_1402_Fertig_2013-05-20.JPG>)
 
 *Der Fussweg unterhalb des Pfannenstil-Turms.*
 
-![](</media/1a45b3b659-img_1412.jpg>)
+![](</media/IMG_1412_Fertig_2013-01-09.JPG>)
 
 *Blick auf den Zürichsee*
 
