@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/OpticOwlLayout.astro';
+---
+<Layout title="OpticOwl — Support" description="Questions or feedback about OpticOwl? Contact support." path="/opticowl/contact">
+<section class="owl-document owl-wrap"><p class="owl-kicker">OpticOwl</p><h1>LET’S FIX<br /><em>YOUR SHOT.</em></h1><p>Questions, bugs or feedback? Tell us what happened. For a bug, include your device and OS version.</p>
+<form action="https://usebasin.com/f/ff509d632e80" method="POST">
+<input type="hidden" name="form_source" value="/opticowl/contact" /><input type="hidden" name="site_source" value="jan-huber-astro" />
+<label>Your name<input name="name" autocomplete="name" maxlength="200" required /></label>
+<label>Email<input name="email" type="email" autocomplete="email" maxlength="254" required /></label>
+<label>Message<textarea name="message" rows="6" maxlength="10000" required></textarea></label>
+<label class="owl-honeypot" aria-hidden="true">Leave empty<input name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+<p class="owl-form-note">Your message is sent through Basin so we can reply. See the <a href="/opticowl/privacy-policy#support">privacy policy</a>.</p><button class="owl-button" type="submit">SEND MESSAGE <span aria-hidden="true">↗</span></button>
+</form></section></Layout>

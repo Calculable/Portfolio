@@ -1,0 +1,20 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import '../styles/portfolio.css';
+import '../styles/opticowl.css';
+const {title = 'OpticOwl', description = 'Long exposure settings for iPhone and Apple Watch.', path = '/opticowl'} = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = new URL(`${base}${path}`, Astro.site).href;
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title} — Jan Huber</title><meta name="description" content={description} /><meta name="theme-color" content="#0d1012" />
+<link rel="canonical" href={canonical} /><link rel="icon" href={`${base}/media/opticowl/icon.png`} />
+<meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:url" content={canonical} /><meta property="og:type" content="website" /><meta property="og:image" content={new URL(`${base}/media/opticowl/icon.png`, Astro.site).href} />
+</head>
+<body class="owl-site"><a class="owl-skip" href="#main">Skip to content</a><SiteHeader />
+<main id="main"><slot /></main>
+<footer class="owl-footer owl-wrap"><span class="owl-brand">Optic<span>Owl</span></span><nav aria-label="OpticOwl"><a href={`${base}/opticowl/contact`}>Support</a><a href={`${base}/opticowl/privacy-policy`}>Privacy</a><a href={`${base}/kontakt`}>Impressum</a></nav><small>© {new Date().getFullYear()} Jan Huber</small></footer>
+</body></html>
