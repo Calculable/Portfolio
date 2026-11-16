@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/OpticOwlLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const shots = [
+  {file:'duo-landscape.png',label:'iPhone Duo',alt:'OpticOwl layout for unfolded iPhone Duo with the preview beside the exposure controls'},
+  {file:'iphone-dark.png',label:'iPhone',alt:'OpticOwl on iPhone with a long exposure and locked aperture'},
+  {file:'watch-dark.png',label:'Apple Watch',alt:'OpticOwl on Apple Watch with reference settings and exposure controls'},
+  {file:'iphone-red.png',label:'Red light',alt:'OpticOwl on iPhone in red-light mode'},
+];
+---
+<Layout description="Use a test photo to find equivalent shutter speed, aperture and ISO settings. For iPhone and Apple Watch.">
+<section class="owl-hero owl-wrap">
+  <div class="owl-hero-copy"><div class="owl-eyebrow"><img src={`${base}/media/opticowl/icon.png`} alt="OpticOwl owl icon" width="64" height="64" /><span>OpticOwl<br /><small>iPhone + Apple Watch</small></span></div>
+  <h1>Find the best settings <em>for your photo.</em></h1>
+  <p>Use a quick test shot to find the shutter speed, aperture and ISO for your long exposure.</p>
+  <a class="owl-button" href="https://apps.apple.com/ch/app/opticowl/id6833114397">Download on the App Store <span aria-hidden="true">↗</span></a>
+  <span class="owl-release">Free for iPhone and Apple Watch.</span></div>
+  <div class="owl-device"><img class="owl-hero-screen" src={`${base}/media/opticowl/iphone-dark.png`} alt="OpticOwl balancing shutter speed, aperture and ISO" width="1179" height="2556" fetchpriority="high" /></div>
+</section>
+<section class="owl-equation owl-wrap" aria-label="Example of equivalent exposures">
+<div class="owl-exposure"><span>1/4 s<small>Shutter</small></span><span>f/2<small>Aperture</small></span><span>6400<small>ISO</small></span></div>
+<b class="owl-exposure-arrow" aria-label="becomes">→</b>
+<div class="owl-exposure"><span>256 s<small>Shutter</small></span><span>f/8<small>Aperture</small></span><span>100<small>ISO</small></span></div>
+<p>Same brightness</p>
+</section>
+<section id="how" class="owl-how owl-wrap"><h2>How to use OpticOwl</h2>
+<div class="owl-steps">
+<article><span>01</span><h3>Take a test photo</h3><p>Take a well-exposed photo with your camera. A high ISO and an open aperture keep the exposure short.</p></article>
+<article><span>02</span><h3>Set a reference</h3><p>Enter the shutter speed, aperture and ISO in OpticOwl. Use these settings as your brightness reference.</p></article>
+<article><span>03</span><h3>Adjust the settings</h3><p>Change ISO or aperture and see the shutter speed adjust. Lock settings you want to keep, then enter the result on your camera.</p></article>
+</div></section>
+<section class="owl-film owl-wrap" aria-label="How OpticOwl works"><video controls playsinline preload="metadata" poster={`${base}/media/opticowl/poster.jpg`} aria-label="An explanation of OpticOwl with music"><source src={`${base}/media/opticowl/opticowl-intro.mp4`} type="video/mp4" /><a href={`${base}/media/opticowl/opticowl-intro.mp4`}>Watch the OpticOwl introduction</a></video></section>
+<section class="owl-gallery owl-wrap" aria-label="OpticOwl screenshots">
+  <a class="owl-gallery-image" href={`${base}/media/opticowl/${shots[0].file}`} target="_blank" aria-label="Open selected screenshot at full size"><img src={`${base}/media/opticowl/${shots[0].file}`} alt={shots[0].alt} loading="lazy" /></a>
+  <div class="owl-gallery-options" role="group" aria-label="Choose a screenshot">{shots.map((shot,i)=><button type="button" aria-pressed={i===0?'true':'false'} data-src={`${base}/media/opticowl/${shot.file}`} data-alt={shot.alt}><img src={`${base}/media/opticowl/${shot.file}`} alt="" loading="lazy" /><span>{shot.label}</span></button>)}</div>
+</section>
+<script>
+for (const gallery of document.querySelectorAll<HTMLElement>('.owl-gallery')) {
+  const image = gallery.querySelector<HTMLImageElement>('.owl-gallery-image img')!;
+  const link = gallery.querySelector<HTMLAnchorElement>('.owl-gallery-image')!;
+  const buttons = gallery.querySelectorAll<HTMLButtonElement>('button[data-src]');
+  for (const button of buttons) button.addEventListener('click', () => {
+    image.src = button.dataset.src!;
+    image.alt = button.dataset.alt!;
+    link.href = button.dataset.src!;
+    for (const other of buttons) other.setAttribute('aria-pressed', String(other === button));
+  });
+}
+</script>
+</Layout>
