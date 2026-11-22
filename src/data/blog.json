@@ -160,5 +160,65 @@
     ],
     "slug" : "uster-abend-bauten-baume",
     "title" : "Uster"
+  },
+  {
+    "photos" : [
+      {
+        "alt" : "Roter Turmhelm der Stadtkirche St. Nikolaus hinter sonnenbeschienenen Ziegeldächern in Bremgarten.",
+        "caption" : "Der rote Spitzhelm der Stadtkirche St. Nikolaus ragt hinter den gestaffelten Altstadtdächern von Bremgarten auf. Auf den hellen Giebeln liegen scharf umrissene Kaminschatten. ([kath-bremgarten-reusstal.ch](https://kath-bremgarten-reusstal.ch/wp-content/uploads/2021/01/Kirchenfuehrer2011.pdf))",
+        "captured" : "2026-11-21T15:46:51",
+        "image" : "/media/blog/bremgarten/IMG_8012_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Schwarzweissansicht des Muri-Amthofs und der Reussfront unter einem dunklen Brückenbogen.",
+        "caption" : "Ein Bogen der Eisenbahnbrücke rahmt den Muri-Amthof und die Häuser der Antonigasse in Bremgarten. Der markante Aussichtsturm des Amthofs wurde erst um 1900 ergänzt. ([bremgarten.ch](https://www.bremgarten.ch/rundgaenge/8))",
+        "captured" : "2026-11-21T15:52:38",
+        "image" : "/media/blog/bremgarten/IMG_8042_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Baukran mit Kabine, Gittermast und frei hängendem Haken vor hellen Wolken.",
+        "caption" : "Ein Baukran hebt sich als dunkle Silhouette von den hellen Wolken ab.",
+        "captured" : "2026-11-21T16:05:56",
+        "image" : "/media/blog/bremgarten/IMG_8051_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Waagrechter Kranausleger mit herabhängendem Haken vor blauem Himmel und Wolken.",
+        "caption" : "Der Gitterausleger eines Baukrans zieht sich waagrecht durch den Wolkenhimmel.",
+        "captured" : "2026-11-21T16:06:43",
+        "image" : "/media/blog/bremgarten/IMG_8058_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Kormoran mit ausgebreiteten Flügeln auf einem hohen Ast, in Schwarzweiss.",
+        "caption" : "Ein Kormoran sitzt mit ausgebreiteten Flügeln auf einem kahlen Ast über den lichten Baumkronen.",
+        "captured" : "2026-11-21T16:08:38",
+        "image" : "/media/blog/bremgarten/IMG_8070_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Kabeltrommeln vor verglasten Garagentoren und einer türkisfarbenen Betriebsfassade.",
+        "caption" : "Kabeltrommeln stehen vor den verglasten Garagentoren des AEW-Regional-Centers Bremgarten. Darüber gliedern weisse Fensterrahmen die türkisfarbene Fassade. ([swissmade.pro](https://www.swissmade.pro/projekte/2301-betriebsgebaude-aew-bremgarten))",
+        "captured" : "2026-11-21T16:11:43",
+        "image" : "/media/blog/bremgarten/IMG_8082_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Helle Kirche St. Mauritius in Berikon über Wiesen und Bäumen vor dunklen Wolken, in Schwarzweiss.",
+        "caption" : "Die Pfarrkirche St. Mauritius in Berikon hebt sich mit heller Fassade und schlankem Spitzhelm vom dunklen Himmel ab. Links unterhalb steht ein Wegkreuz zwischen einzelnen Bäumen. ([kathmutschellen.ch](https://kathmutschellen.ch/berikon-friedlisberg/))",
+        "captured" : "2026-11-21T16:34:03",
+        "image" : "/media/blog/bremgarten/IMG_8089_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Kirche St. Mauritius und Häuser in Berikon im Abendlicht unter ausgedehnten rosa und grauvioletten Wolken.",
+        "caption" : "Die Kirche St. Mauritius in Berikon und die benachbarten Häuser liegen im Abendlicht.([kathmutschellen.ch](https://kathmutschellen.ch/berikon-friedlisberg/))",
+        "captured" : "2026-11-21T16:37:14",
+        "image" : "/media/blog/bremgarten/IMG_8105_Fertig_2026-11-21.jpg"
+      },
+      {
+        "alt" : "Bremgarter Reussfront mit Muri-Amthof, farbigen Häusern und ihrer Spiegelung im Wasser.",
+        "caption" : "Die Reuss spiegelt die farbigen Häuser der Antonigasse und den Turm des Muri-Amthofs. Einzelne Uferlichter erscheinen als orange Striche zwischen den gespiegelten Fassaden. ([bremgarten.ch](https://www.bremgarten.ch/rundgaenge/8))",
+        "captured" : "2026-11-21T16:54:01",
+        "image" : "/media/blog/bremgarten/IMG_8109_Fertig_2026-11-21.jpg"
+      }
+    ],
+    "slug" : "bremgarten",
+    "title" : "Bremgarten"
   }
 ]

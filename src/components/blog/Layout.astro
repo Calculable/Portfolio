@@ -10,6 +10,18 @@ const { title } = Astro.props;
 <link rel="stylesheet" href="/blog-assets/style.css"/>
 </head><body>
 <a class="skip" href="#inhalt">Zum Inhalt</a>
-<div class="page"><header><a class="brand" href="/blog/">Jan Huber <span>Fotografie</span></a></header><main id="inhalt"><slot/></main></div>
+<div class="page">
+  <header>
+    <a class="brand" href="/blog/">Jan Huber <span>Fotografie</span></a>
+    <a class="home-link" href="/">Zur Hauptwebseite</a>
+  </header>
+  <main id="inhalt"><slot/></main>
+</div>
 <slot name="viewer"/>
 </body></html>
+
+<style>
+  header { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; }
+  .home-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; line-height: 1.4; white-space: nowrap; }
+  .home-link:hover { background: #f5f5f5; border-color: #aaa; }
+</style>

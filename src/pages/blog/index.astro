@@ -1,6 +1,6 @@
 ---
 import Layout from '../../components/blog/Layout.astro';
-import { articles, day, displayDay } from '../../components/blog/articles';
+import { articles, day, displayDay, overviewPhotos } from '../../components/blog/articles';
 ---
 <Layout title="Ausflüge">
   <h1 class="sr-only">Fotografien von Jan Huber</h1>
@@ -12,7 +12,7 @@ import { articles, day, displayDay } from '../../components/blog/articles';
         <span class="story-action">Artikel ansehen <span aria-hidden="true">→</span></span>
       </div>
       <div class="story-images" data-count={Math.min(article.photos.length, 3)}>
-        {article.photos.slice(0,3).map(photo => <img src={photo.image} alt={photo.alt}/>)}
+        {overviewPhotos(article).map(photo => <img src={photo.image} alt={photo.alt}/>)}
       </div>
     </a>
   </article>)}
