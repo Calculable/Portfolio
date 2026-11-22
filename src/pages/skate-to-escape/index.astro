@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/SkateToEscapeLayout.astro';
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const media=`${base}/media/skate-to-escape`;
+---
+<Layout>
+  <section class="escape-hero">
+    <img class="escape-hero-art" src={`${media}/hero.jpg`} alt="A rainbow-haired punk skater escapes a crowd of grey businesspeople" width="1672" height="941" fetchpriority="high" />
+    <div class="escape-wrap escape-hero-inner">
+      <p class="escape-eyebrow">Coming Soon <span class="escape-platforms">iPhone · iPad · Mac</span></p>
+      <div class="escape-title"><h1>SKATE TO<br /><span>ESCAPE.</span></h1><span class="escape-stamp">AI SLOP</span></div>
+      <p class="escape-hero-copy">Ride a skateboard or eScooter through a grey business world. Don’t get caught.</p>
+    </div>
+  </section>
+  <section id="trailer" class="escape-film escape-wrap" aria-label="Trailer">
+    <div class="escape-video-shell">
+      <video controls playsinline preload="none" poster={`${media}/trailer-poster.jpg`} aria-label="Skate to Escape cinematic trailer">
+        <source src={`${media}/trailer.mp4`} type="video/mp4" />
+        <a href={`${media}/trailer.mp4`}>Watch the trailer</a>
+      </video>
+    </div>
+  </section>
+  <section class="escape-playground escape-wrap" aria-labelledby="playground-title">
+    <div class="escape-playground-heading"><h2 id="playground-title">THE CITY IS<br />YOUR <em>SKATEPARK.</em></h2></div>
+    <div class="escape-sign" aria-hidden="true"><span>NO FUN<br />ALLOWED</span><i></i></div>
+  </section>
+  <section class="escape-danger">
+    <div class="escape-wrap escape-danger-inner">
+      <div class="escape-corporate" aria-hidden="true"><svg viewBox="0 0 240 330" fill="none"><path d="M70 294V191H116V294M128 294V191H174V294" fill="#363941"/><path d="M57 99H183V206H57Z" fill="#666a72"/><path d="M57 102L29 109V204H54M183 102L211 109V204H186" fill="#4a4e56"/><rect x="85" y="32" width="70" height="65" rx="25" fill="#a0a3aa"/><path d="M78 30H162V48H78Z" fill="#444750"/><path d="M110 109H130L137 169L120 184L103 169Z" fill="#eee"/><path d="M67 294H117V313H61ZM127 294H177L184 313H127Z" fill="#22252b"/></svg><span class="escape-bubble">Your free time looks<br />underutilized.</span></div>
+      <div class="escape-danger-copy"><p class="escape-kicker">THEY WANT YOUR SOUL.</p><h2>DON’T GET<br /><em>CAUGHT.</em></h2><p>The suits are after you. Don't let them catch you</p></div>
+    </div>
+  </section>
+  <section class="escape-shots escape-wrap" aria-label="Gameplay screenshots">
+    <div class="escape-gallery">
+      <figure class="escape-mac"><a href={`${media}/mac.jpg`} target="_blank" aria-label="View Mac gameplay screenshot"><img src={`${media}/mac.jpg`} alt="Skate to Escape on Mac: the punk rider on a colourful ramp surrounded by grey city buildings" width="1800" height="1350" loading="lazy" /></a><figcaption>Mac <span>Keyboard controls.</span></figcaption></figure>
+      <figure class="escape-phone"><a href={`${media}/iphone.jpg`} target="_blank" aria-label="View iPhone gameplay screenshot"><img src={`${media}/iphone.jpg`} alt="Skate to Escape on iPhone with touch steering and jump, boost and trick buttons" width="1600" height="736" loading="lazy" /></a><figcaption>iPhone & iPad <span>Touch controls.</span></figcaption></figure>
+    </div>
+  </section>
+  <section class="escape-closing escape-wrap"><img src={`${media}/icon.png`} alt="Skate to Escape icon" width="96" height="96" loading="lazy" /><p class="escape-kicker">iPHONE / iPAD / MAC</p><h2>COMING <em>SOON.</em></h2></section>
+  <details class="escape-credits escape-wrap"><summary>Trailer credits</summary><p>Thanks to the artists who made the trailer sound this good.</p><a href={`${media}/TRAILER-CREDITS.txt`}>Music, sound effects and licenses ↗</a></details>
+</Layout>
