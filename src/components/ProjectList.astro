@@ -8,6 +8,7 @@ const local = (url) => url?.startsWith('/') ? `${base}${url}` : url;
     <article class="project-card">
       <div class="project-artwork">
       {project.url ? <a class="project-image" href={local(project.url)} aria-label={project.title}><img src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" /></a> : <img class="project-image" src={local(project.image)} alt="" width={project.width} height={project.height} loading="lazy" decoding="async" />}
+      {project.badge && <span class="project-ai-stamp">{project.badge}</span>}
       </div>
       <div class="project-description">
         <h2>{project.url ? <a href={local(project.url)}>{project.title}</a> : project.title}</h2>
@@ -17,3 +18,7 @@ const local = (url) => url?.startsWith('/') ? `${base}${url}` : url;
     </article>
   ))}
 </section>
+
+<style>
+.project-artwork{position:relative}.project-ai-stamp{position:absolute;right:10px;top:20px;transform:rotate(9deg);background:#ff167b;color:#071021;border:3px solid white;box-shadow:4px 4px 0 #071021;padding:10px 18px;font:900 23px/1 Impact,Arial,sans-serif;text-transform:uppercase;pointer-events:none}
+</style>

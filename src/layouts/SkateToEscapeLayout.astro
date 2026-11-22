@@ -1,0 +1,25 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import '../styles/portfolio.css';
+import '../styles/skate-to-escape.css';
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const description='Skate, boost and break your way out of the business world. An over-the-top arcade playground for iPhone, iPad and Mac. Coming soon.';
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skate to Escape — Coming Soon</title>
+  <meta name="description" content={description} /><meta name="theme-color" content="#080a12" />
+  <link rel="canonical" href={new URL(`${base}/skate-to-escape/`,Astro.site).href} />
+  <link rel="icon" href={`${base}/media/skate-to-escape/icon.png`} />
+  <meta property="og:title" content="Skate to Escape — Coming Soon" /><meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL(`${base}/media/skate-to-escape/hero.jpg`,Astro.site).href} />
+  <meta property="og:type" content="website" />
+</head>
+<body class="escape-site">
+  <a class="escape-skip" href="#main">Skip to content</a><SiteHeader />
+  <main id="main"><slot /></main>
+  <footer class="escape-footer escape-wrap"><a href={`${base}/#page-section-625aab9ff90d7a4b52b57ace`}>← All projects</a><span>Skate to Escape · By Jan Huber</span><a href={`${base}/kontakt`}>Contact</a></footer>
+</body>
+</html>

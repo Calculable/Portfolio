@@ -1,0 +1,42 @@
+SKATE TO ESCAPE — NEON LULLABY TRAILER
+
+Music: Neon Lullaby.m4a, supplied by the project owner. No license metadata was provided. Main track used from 0:00 to 0:42; no music after 0:42. The death gong sounds at 0:43 and fades by 0:46. The final card (0:46–0:54) is silent.
+
+Game scenes staged from the current game build. Cameras and impossible stunts scripted for this cinematic trailer; no gameplay HUD.
+
+Sound effects:
+
+Electricity Game Sound Pack — Jump Charge — faxcorp
+https://opengameart.org/content/electricity-game-sound-pack
+CC0 · https://creativecommons.org/publicdomain/zero/1.0/
+Charge and chargestart by faxcorp, published on OpenGameArt under CC0.
+Edits: excerpts, timing, fades and volume adjusted for this trailer.
+
+Free Cinematic Sound Effects — Gregor Quendel
+https://opengameart.org/content/free-cinematic-sound-effects
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+Designed Fire: Impacts - Complex 04; Short - Swoosh Burst Sizzling 01. https://www.gregorquendel.com
+Edits: excerpts, timing, fades and volume adjusted for this trailer.
+
+35 wooden cracks/hits/destructions — Independent.nu (submitted by qubodup)
+https://opengameart.org/content/35-wooden-crackshitsdestructions
+CC0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Edits: excerpts, timing, fades and volume adjusted for this trailer.
+
+Rumble FX — cinameng
+https://opengameart.org/content/rumble-fx
+CC0 · https://creativecommons.org/publicdomain/zero/1.0/
+
+Edits: excerpts, timing, fades and volume adjusted for this trailer.
+
+Particle Pack — Kenney / Kenney.nl
+https://opengameart.org/content/particle-pack-80-sprites
+CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Sprites tinted and animated in the game.
+
+Day 1 Cinematic transition sound — copyc4t (Paolo D’Emilio)
+https://opengameart.org/content/day-1-cinematic-transition-sound
+CC BY 3.0 · https://creativecommons.org/licenses/by/3.0/
+Day_1_v2.ogg · https://opengameart.org/users/copyc4t
+Edits: shortened, filtered, level and fades adjusted. Used as the final capture gong.
