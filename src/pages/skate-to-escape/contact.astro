@@ -1,0 +1,23 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+const page = {
+  title: 'Skate to Escape: Contact and Support — Jan Huber',
+  path: '/skate-to-escape/contact',
+  lang: 'en',
+  seo: [{ name: 'description', content: 'Contact and support for Skate to Escape.' }],
+};
+---
+<PageLayout page={page}>
+  <h1>Skate to Escape:<br />Contact and Support</h1>
+  <p>Need a hand escaping? Tell us your device, system version and what happened. Please avoid including personal information in screenshots.</p>
+  <p><a href="/skate-to-escape/privacy-policy">Privacy Policy</a></p>
+  <form action="https://usebasin.com/f/ff509d632e80" method="POST" class="contact-form">
+    <input type="hidden" name="form_source" value="/skate-to-escape/contact" />
+    <input type="hidden" name="site_source" value="jan-huber-astro" />
+    <label>Your Name (required)<input name="name" type="text" autocomplete="name" maxlength="200" required /></label>
+    <label>E-Mail (required)<input name="email" type="email" autocomplete="email" maxlength="254" required /></label>
+    <p>Please provide an E-Mail so that we can get in contact with you</p>
+    <label>Your message (required)<textarea name="message" rows="7" maxlength="10000" required></textarea></label>
+    <button type="submit">Send</button>
+  </form>
+</PageLayout>
