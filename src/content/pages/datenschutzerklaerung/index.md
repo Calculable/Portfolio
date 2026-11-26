@@ -105,4 +105,4 @@ Wenn Sie einen externen Link öffnen, verlassen Sie diese Website. Für die Ziel
 - [Pixly](/pixly/privacy-policy)
 - [NoteFinder AI](/note-finder/privacy-policy)
 - [Last Directory](/last-directory-app/privacy-policy)
-- [Endless Peaks](/endless-peaks/privacy-policy)
+- [Endless Peaks Animations](/endless-peaks-animations/privacy-policy)

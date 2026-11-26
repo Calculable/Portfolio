@@ -1,8 +1,8 @@
 ---
 {
   "title": "Contact — Jan Huber",
-  "source": "https://www.jan-huber.ch/endless-peaks/contact",
-  "path": "/endless-peaks/contact",
+  "source": "https://www.jan-huber.ch/endless-peaks-animations/contact",
+  "path": "/endless-peaks-animations/contact",
   "seo": [
     {
       "property": "og:title",
@@ -18,14 +18,14 @@
     }
   ],
   "lang": "en",
-  "canonicalPath": "/endless-peaks/contact"
+  "canonicalPath": "/endless-peaks-animations/contact"
 }
 ---
 
-# Endless Peaks:<br>Contact and Support
+# Endless Peaks Animations:<br>Contact and Support
 
 <form action="https://usebasin.com/f/ff509d632e80" method="POST" class="contact-form">
-<input type="hidden" name="form_source" value="/endless-peaks/contact">
+<input type="hidden" name="form_source" value="/endless-peaks-animations/contact">
 <input type="hidden" name="site_source" value="jan-huber-astro">
 <label>Your Name (required)<input name="name" type="text" autocomplete="name" required></label>
 <label>E-Mail (required)<input name="email" type="email" autocomplete="email" required></label>

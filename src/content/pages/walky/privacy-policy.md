@@ -34,4 +34,4 @@ Apple provides certain usage and device data automatically through App Store Con
 
 <strong>Contact</strong>
 
-If you have any questions about this Privacy Policy, reach out by <a href="/endless-peaks/contact">using the contact form</a>.
+If you have any questions about this Privacy Policy, reach out by <a href="/endless-peaks-animations/contact">using the contact form</a>.

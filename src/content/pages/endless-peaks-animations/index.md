@@ -1,12 +1,12 @@
 ---
 {
-  "title": "Endless Peaks App — Jan Huber",
-  "source": "https://www.jan-huber.ch/endless-peaks-app",
-  "path": "/endless-peaks-app",
+  "title": "Endless Peaks Animations App — Jan Huber",
+  "source": "https://www.jan-huber.ch/endless-peaks-animations",
+  "path": "/endless-peaks-animations",
   "seo": [
     {
       "property": "og:title",
-      "content": "Endless Peaks App — Jan Huber"
+      "content": "Endless Peaks Animations App — Jan Huber"
     },
     {
       "property": "og:type",
@@ -30,8 +30,8 @@
     }
   ],
   "lang": "de-CH",
-  "canonicalPath": "/endless-peaks-app",
-  "heading": "Endless Peaks",
+  "canonicalPath": "/endless-peaks-animations",
+  "heading": "Endless Peaks Animations",
   "heroIcon": "/media/a4b05636f7-endless-peaks-icon-ios-default-1024x1024-1x.png"
 }
 ---
@@ -40,13 +40,13 @@
 
 <video controls playsinline preload="metadata" src="/media/endless-peaks-demo.mp4" aria-label="Video"></video>
 
-<strong>Endless Peaks</strong> ist eine App, die ruhige, abstrakte Berglandschaften erzeugt. Sanfte Kameraflüge und leise Musik schaffen eine entspannte Atmosphäre zum Abschalten, Beobachten oder im Hintergrund laufen lassen.
+<strong>Endless Peaks Animations</strong> ist eine App, die ruhige, abstrakte Berglandschaften erzeugt. Sanfte Kameraflüge und leise Musik schaffen eine entspannte Atmosphäre zum Abschalten, Beobachten oder im Hintergrund laufen lassen.
 
 Wähle eine Umgebung, starte den Flug und lass die Berge langsam an dir vorbeiziehen…
 
-<p class="button-link"><a href="https://github.com/Calculable/Endless-Peaks"> Auf GitHub anzeigen </a></p>
+<p class="button-link"><a href="https://github.com/Calculable/Endless-Peaks-Animations"> Auf GitHub anzeigen </a></p>
 
-<p class="button-link"><a href="https://apps.apple.com/ch/app/endless-peaks/id6758106997?l=de-DE Endless Peaks"> Im App Store anzeigen </a></p>
+<p class="button-link"><a href="https://apps.apple.com/ch/app/id6758106997"> Im App Store anzeigen </a></p>
 
 ## Wähle zwischen 8 Landschaftstypen
 
@@ -96,4 +96,4 @@ Wähle eine Umgebung, starte den Flug und lass die Berge langsam an dir vorbeizi
 
 ## Kontaktformular
 
-<p class="button-link"><a href="/endless-peaks/contact"> Kontakt und Support </a></p>
+<p class="button-link"><a href="/endless-peaks-animations/contact"> Kontakt und Support </a></p>

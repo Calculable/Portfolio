@@ -1,8 +1,8 @@
 ---
 {
   "title": "Privacy Policy — Jan Huber",
-  "source": "https://www.jan-huber.ch/endless-peaks/privacy-policy",
-  "path": "/endless-peaks/privacy-policy",
+  "source": "https://www.jan-huber.ch/endless-peaks-animations/privacy-policy",
+  "path": "/endless-peaks-animations/privacy-policy",
   "seo": [
     {
       "property": "og:title",
@@ -18,15 +18,15 @@
     }
   ],
   "lang": "en",
-  "canonicalPath": "/endless-peaks/privacy-policy"
+  "canonicalPath": "/endless-peaks-animations/privacy-policy"
 }
 ---
 
-# Endless Peaks - App: <br>Privacy Policy
+# Endless Peaks Animations - App: <br>Privacy Policy
 
 <strong>We do not collect personal information using the app.</strong>
 
-We do not collect or have access to your personal data recoded in the app “Endless Peaks“ for iOS, iPad OS, visionOS and macOS.
+We do not collect or have access to your personal data recoded in the app “Endless Peaks Animations“ for iOS, iPad OS, visionOS and macOS.
 
 <strong>Data Provided by Apple</strong>
 
@@ -34,4 +34,4 @@ Apple provides certain usage and device data automatically through App Store Con
 
 <strong>Contact</strong>
 
-If you have any questions about this Privacy Policy, reach out by <a href="/endless-peaks/contact">using the contact form</a>.
+If you have any questions about this Privacy Policy, reach out by <a href="/endless-peaks-animations/contact">using the contact form</a>.
